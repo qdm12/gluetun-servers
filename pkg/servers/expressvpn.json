@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "timestamp": 1777610163,
+  "timestamp": 1780303373,
   "servers": [
     {
       "vpn": "openvpn",
@@ -29,8 +29,8 @@
       "hostname": "andorra-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "85.203.22.21",
-        "85.203.22.25"
+        "173.239.217.204",
+        "173.239.217.236"
       ]
     },
     {
@@ -40,7 +40,9 @@
       "udp": true,
       "ips": [
         "185.64.78.41",
-        "185.64.78.191"
+        "185.64.78.66",
+        "185.64.78.191",
+        "185.64.78.226"
       ]
     },
     {
@@ -49,8 +51,8 @@
       "hostname": "armenia-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "85.203.22.54",
-        "85.203.22.58"
+        "200.162.145.65",
+        "200.162.145.144"
       ]
     },
     {
@@ -84,10 +86,8 @@
       "udp": true,
       "ips": [
         "140.99.0.109",
-        "140.99.0.139",
-        "140.99.0.185",
-        "140.99.0.206",
-        "140.99.0.211"
+        "140.99.0.211",
+        "140.99.0.248"
       ]
     },
     {
@@ -148,6 +148,15 @@
     },
     {
       "vpn": "openvpn",
+      "country": "Azerbaijan",
+      "hostname": "azerbaijan-ca-version-2.expressnetw.com",
+      "udp": true,
+      "ips": [
+        "94.20.154.4"
+      ]
+    },
+    {
+      "vpn": "openvpn",
       "country": "Bahamas",
       "hostname": "bahamas-ca-version-2.expressnetw.com",
       "udp": true,
@@ -172,9 +181,8 @@
       "hostname": "belarus-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "85.203.22.65",
-        "85.203.22.74",
-        "85.203.22.76"
+        "200.162.146.43",
+        "200.162.146.158"
       ]
     },
     {
@@ -226,8 +234,8 @@
       "hostname": "bosniaandherzegovina-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "85.203.22.105",
-        "85.203.22.106"
+        "200.162.147.124",
+        "200.162.147.172"
       ]
     },
     {
@@ -248,10 +256,7 @@
       "udp": true,
       "ips": [
         "2.57.171.30",
-        "2.57.171.45",
         "2.57.171.121",
-        "2.57.171.125",
-        "2.57.171.181",
         "2.57.171.228"
       ]
     },
@@ -317,6 +322,8 @@
       "hostname": "canada-toronto-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
+        "50.118.143.66",
+        "50.118.143.80",
         "50.118.143.120",
         "50.118.143.207"
       ]
@@ -337,8 +344,10 @@
       "hostname": "chile-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "45.91.49.41",
-        "45.91.49.46"
+        "50.118.222.27",
+        "50.118.222.94",
+        "50.118.222.187",
+        "50.118.222.215"
       ]
     },
     {
@@ -447,8 +456,9 @@
       "hostname": "estonia-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "37.77.56.148",
-        "37.77.56.156"
+        "37.77.56.132",
+        "37.77.56.164",
+        "95.153.31.4"
       ]
     },
     {
@@ -629,7 +639,8 @@
       "udp": true,
       "ips": [
         "193.176.211.18",
-        "193.176.211.89"
+        "193.176.211.89",
+        "193.176.211.244"
       ]
     },
     {
@@ -679,8 +690,8 @@
       "hostname": "indonesia-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "45.8.25.180",
-        "45.8.25.226"
+        "45.8.25.112",
+        "45.8.25.124"
       ]
     },
     {
@@ -701,8 +712,8 @@
       "hostname": "isleofman-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "85.203.22.150",
-        "85.203.22.152"
+        "200.162.148.183",
+        "200.162.148.249"
       ]
     },
     {
@@ -815,8 +826,8 @@
       "hostname": "jersey-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "85.203.22.161",
-        "85.203.22.166"
+        "200.162.149.27",
+        "200.162.149.163"
       ]
     },
     {
@@ -875,8 +886,8 @@
       "hostname": "liechtenstein-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "85.203.22.179",
-        "85.203.22.181"
+        "200.162.150.144",
+        "200.162.150.234"
       ]
     },
     {
@@ -885,8 +896,8 @@
       "hostname": "lithuania-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "85.206.169.8",
-        "85.206.169.151",
+        "82.197.202.123",
+        "82.197.202.245",
         "85.206.241.168"
       ]
     },
@@ -927,8 +938,8 @@
       "hostname": "malta-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "85.203.22.6",
-        "85.203.22.8"
+        "200.162.144.21",
+        "200.162.144.181"
       ]
     },
     {
@@ -957,8 +968,8 @@
       "hostname": "monaco-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "85.203.22.213",
-        "85.203.22.223"
+        "200.162.151.84",
+        "200.162.151.106"
       ]
     },
     {
@@ -977,8 +988,8 @@
       "hostname": "montenegro-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "85.203.22.229",
-        "85.203.22.233"
+        "200.162.153.16",
+        "200.162.153.163"
       ]
     },
     {
@@ -1057,21 +1068,13 @@
     },
     {
       "vpn": "openvpn",
-      "country": "North Macedonia",
-      "hostname": "macedonia-ca-version-2.expressnetw.com",
-      "udp": true,
-      "ips": [
-        "85.203.22.197",
-        "85.203.22.206"
-      ]
-    },
-    {
-      "vpn": "openvpn",
       "country": "Norway",
       "hostname": "norway-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
+        "45.13.191.124",
         "45.13.191.137",
+        "45.13.191.143",
         "45.13.191.233"
       ]
     },
@@ -1210,8 +1213,8 @@
       "hostname": "slovenia-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "85.203.22.136",
-        "85.203.22.138"
+        "195.80.150.115",
+        "195.80.150.119"
       ]
     },
     {
@@ -1316,8 +1319,10 @@
       "hostname": "switzerland-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "45.132.226.42",
-        "45.132.226.183"
+        "45.132.226.134",
+        "45.132.226.140",
+        "45.132.226.183",
+        "45.132.226.246"
       ]
     },
     {
@@ -1389,6 +1394,7 @@
       "hostname": "uk-london-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
+        "5.157.128.142",
         "5.157.128.149"
       ]
     },
@@ -1434,7 +1440,7 @@
       "hostname": "usa-albuquerque-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "98.159.233.117",
+        "98.159.33.19",
         "98.159.233.196",
         "98.159.233.214"
       ]
@@ -1505,11 +1511,8 @@
       "hostname": "usa-houston-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "142.111.152.2",
         "142.111.152.153",
         "142.111.152.230",
-        "142.111.152.237",
-        "142.111.152.243",
         "142.111.152.245"
       ]
     },
@@ -1577,8 +1580,7 @@
       "udp": true,
       "ips": [
         "45.38.57.20",
-        "45.38.57.77",
-        "45.38.57.244"
+        "45.38.57.77"
       ]
     },
     {
@@ -1599,10 +1601,11 @@
       "hostname": "usa-miami-2-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "45.84.213.59",
-        "45.84.213.170",
-        "45.84.213.211",
-        "45.84.213.245"
+        "45.84.213.51",
+        "45.84.213.101",
+        "45.84.213.194",
+        "45.84.213.212",
+        "45.84.213.232"
       ]
     },
     {
@@ -1694,6 +1697,18 @@
       "ips": [
         "216.24.212.69",
         "216.24.212.87"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "USA",
+      "city": "Salt Lake City",
+      "hostname": "usa-saltlakecity-ca-version-2.expressnetw.com",
+      "udp": true,
+      "ips": [
+        "93.114.192.2",
+        "93.114.192.61",
+        "93.114.192.163"
       ]
     },
     {
@@ -1791,8 +1806,8 @@
       "hostname": "uzbekistan-ca-version-2.expressnetw.com",
       "udp": true,
       "ips": [
-        "85.203.22.86",
-        "85.203.22.87"
+        "200.162.152.72",
+        "200.162.152.224"
       ]
     },
     {

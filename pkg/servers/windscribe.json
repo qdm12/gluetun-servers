@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "timestamp": 1777610241,
+  "timestamp": 1780303474,
   "servers": [
     {
       "vpn": "openvpn",
@@ -1315,29 +1315,6 @@
     },
     {
       "vpn": "openvpn",
-      "region": "Cyprus",
-      "city": "Nicosia",
-      "hostname": "cy-003.whiskergalaxy.com",
-      "tcp": true,
-      "udp": true,
-      "x509": "lca-320.windscribe.com",
-      "ips": [
-        "46.199.75.100",
-        "46.199.75.101"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "region": "Cyprus",
-      "city": "Nicosia",
-      "hostname": "cy-003.whiskergalaxy.com",
-      "wgpubkey": "90fjr1sq0Hgv2l+DgMaaGQ009SDw7VxmzJwaYmclaFs=",
-      "ips": [
-        "46.199.75.102"
-      ]
-    },
-    {
-      "vpn": "openvpn",
       "region": "Czech Republic",
       "city": "Prague",
       "hostname": "cz-007.whiskergalaxy.com",
@@ -1524,92 +1501,46 @@
       "vpn": "openvpn",
       "region": "Estonia",
       "city": "Tallinn",
-      "hostname": "ee-006.whiskergalaxy.com",
+      "hostname": "ee-010.whiskergalaxy.com",
       "tcp": true,
       "udp": true,
       "x509": "tll-299.windscribe.com",
       "ips": [
-        "165.231.141.122",
-        "165.231.141.123"
+        "95.153.31.66",
+        "95.153.31.67"
       ]
     },
     {
       "vpn": "wireguard",
       "region": "Estonia",
       "city": "Tallinn",
-      "hostname": "ee-006.whiskergalaxy.com",
+      "hostname": "ee-010.whiskergalaxy.com",
       "wgpubkey": "FoZuoiJqIy/0h7Jv+7Jli4E49KFv0riLg1eVaI7j6X8=",
       "ips": [
-        "165.231.141.124"
+        "95.153.31.68"
       ]
     },
     {
       "vpn": "openvpn",
       "region": "Estonia",
       "city": "Tallinn",
-      "hostname": "ee-007.whiskergalaxy.com",
+      "hostname": "ee-011.whiskergalaxy.com",
       "tcp": true,
       "udp": true,
       "x509": "tll-299.windscribe.com",
       "ips": [
-        "165.231.141.130",
-        "165.231.141.131"
+        "95.153.32.2",
+        "95.153.32.3"
       ]
     },
     {
       "vpn": "wireguard",
       "region": "Estonia",
       "city": "Tallinn",
-      "hostname": "ee-007.whiskergalaxy.com",
+      "hostname": "ee-011.whiskergalaxy.com",
       "wgpubkey": "FoZuoiJqIy/0h7Jv+7Jli4E49KFv0riLg1eVaI7j6X8=",
       "ips": [
-        "165.231.141.132"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "region": "Estonia",
-      "city": "Tallinn",
-      "hostname": "ee-008.whiskergalaxy.com",
-      "tcp": true,
-      "udp": true,
-      "x509": "tll-299.windscribe.com",
-      "ips": [
-        "165.231.141.138",
-        "165.231.141.139"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "region": "Estonia",
-      "city": "Tallinn",
-      "hostname": "ee-008.whiskergalaxy.com",
-      "wgpubkey": "FoZuoiJqIy/0h7Jv+7Jli4E49KFv0riLg1eVaI7j6X8=",
-      "ips": [
-        "165.231.141.140"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "region": "Estonia",
-      "city": "Tallinn",
-      "hostname": "ee-009.whiskergalaxy.com",
-      "tcp": true,
-      "udp": true,
-      "x509": "tll-299.windscribe.com",
-      "ips": [
-        "165.231.141.74",
-        "196.196.122.227"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "region": "Estonia",
-      "city": "Tallinn",
-      "hostname": "ee-009.whiskergalaxy.com",
-      "wgpubkey": "FoZuoiJqIy/0h7Jv+7Jli4E49KFv0riLg1eVaI7j6X8=",
-      "ips": [
-        "196.196.122.228"
+        "95.153.32.4"
       ]
     },
     {
@@ -1679,52 +1610,6 @@
       "wgpubkey": "vwimooPysZvNdJULeFQVovYfqhsLG5gVdzgoTnfm+iE=",
       "ips": [
         "181.215.52.194"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "region": "Finland",
-      "city": "Helsinki",
-      "hostname": "fi-006.whiskergalaxy.com",
-      "tcp": true,
-      "udp": true,
-      "x509": "hel-98.windscribe.com",
-      "ips": [
-        "196.244.192.202",
-        "196.244.192.203"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "region": "Finland",
-      "city": "Helsinki",
-      "hostname": "fi-006.whiskergalaxy.com",
-      "wgpubkey": "2LiGGjfWP64d7uVNpgV8n/lIg2iM62iz8ZXRHFd1Qw0=",
-      "ips": [
-        "196.244.192.204"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "region": "Finland",
-      "city": "Helsinki",
-      "hostname": "fi-009.whiskergalaxy.com",
-      "tcp": true,
-      "udp": true,
-      "x509": "hel-98.windscribe.com",
-      "ips": [
-        "196.244.194.2",
-        "196.244.194.3"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "region": "Finland",
-      "city": "Helsinki",
-      "hostname": "fi-009.whiskergalaxy.com",
-      "wgpubkey": "2LiGGjfWP64d7uVNpgV8n/lIg2iM62iz8ZXRHFd1Qw0=",
-      "ips": [
-        "196.244.194.4"
       ]
     },
     {
@@ -1909,6 +1794,29 @@
       "wgpubkey": "3si2nD1DKbbkeZkdg3hLMfOYw1gdKbVFtTOj2NOA+nM=",
       "ips": [
         "146.70.253.164"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "region": "France",
+      "city": "Paris",
+      "hostname": "fr-035.whiskergalaxy.com",
+      "tcp": true,
+      "udp": true,
+      "x509": "cdg-342.windscribe.com",
+      "ips": [
+        "213.139.9.174",
+        "213.139.9.162"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "region": "France",
+      "city": "Paris",
+      "hostname": "fr-035.whiskergalaxy.com",
+      "wgpubkey": "cmaT8JIehfRf5PWWDkcBRwLWDb3jrIkk/SDbw4JmUAc=",
+      "ips": [
+        "213.139.9.163"
       ]
     },
     {
@@ -2582,46 +2490,23 @@
       "vpn": "openvpn",
       "region": "Indonesia",
       "city": "Bali",
-      "hostname": "id-013.whiskergalaxy.com",
+      "hostname": "id-015.whiskergalaxy.com",
       "tcp": true,
       "udp": true,
       "x509": "dps-464.windscribe.com",
       "ips": [
-        "103.83.192.2",
-        "103.83.192.3"
+        "2.27.116.2",
+        "2.27.116.3"
       ]
     },
     {
       "vpn": "wireguard",
       "region": "Indonesia",
       "city": "Bali",
-      "hostname": "id-013.whiskergalaxy.com",
+      "hostname": "id-015.whiskergalaxy.com",
       "wgpubkey": "ouS9LyddSOpJKZKyOhx8XHiwTfAd8alUIrz27eEzJyY=",
       "ips": [
-        "103.83.192.4"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "region": "Indonesia",
-      "city": "Bali",
-      "hostname": "id-014.whiskergalaxy.com",
-      "tcp": true,
-      "udp": true,
-      "x509": "dps-464.windscribe.com",
-      "ips": [
-        "103.83.192.18",
-        "103.83.192.19"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "region": "Indonesia",
-      "city": "Bali",
-      "hostname": "id-014.whiskergalaxy.com",
-      "wgpubkey": "ouS9LyddSOpJKZKyOhx8XHiwTfAd8alUIrz27eEzJyY=",
-      "ips": [
-        "103.83.192.20"
+        "2.27.116.4"
       ]
     },
     {
@@ -2720,52 +2605,6 @@
       "vpn": "openvpn",
       "region": "Ireland",
       "city": "Dublin",
-      "hostname": "ie-003.whiskergalaxy.com",
-      "tcp": true,
-      "udp": true,
-      "x509": "dub-370.windscribe.com",
-      "ips": [
-        "23.92.127.34",
-        "23.92.127.35"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "region": "Ireland",
-      "city": "Dublin",
-      "hostname": "ie-003.whiskergalaxy.com",
-      "wgpubkey": "VgzE+XeQUxX54wMZdhRBU4Qxqba95iVpXi197ZbBBgA=",
-      "ips": [
-        "23.92.127.36"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "region": "Ireland",
-      "city": "Dublin",
-      "hostname": "ie-004.whiskergalaxy.com",
-      "tcp": true,
-      "udp": true,
-      "x509": "dub-370.windscribe.com",
-      "ips": [
-        "5.157.13.146",
-        "5.157.13.147"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "region": "Ireland",
-      "city": "Dublin",
-      "hostname": "ie-004.whiskergalaxy.com",
-      "wgpubkey": "VgzE+XeQUxX54wMZdhRBU4Qxqba95iVpXi197ZbBBgA=",
-      "ips": [
-        "5.157.13.148"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "region": "Ireland",
-      "city": "Dublin",
       "hostname": "ie-010.whiskergalaxy.com",
       "tcp": true,
       "udp": true,
@@ -2806,6 +2645,29 @@
       "wgpubkey": "yRHO50Kvdoa4Xkf9qRxHZQGwiTbqYPzLHQVbLmKS2SE=",
       "ips": [
         "149.88.96.3"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "region": "Ireland",
+      "city": "Dublin",
+      "hostname": "ie-012.whiskergalaxy.com",
+      "tcp": true,
+      "udp": true,
+      "x509": "dub-370.windscribe.com",
+      "ips": [
+        "130.195.213.114",
+        "130.195.213.115"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "region": "Ireland",
+      "city": "Dublin",
+      "hostname": "ie-012.whiskergalaxy.com",
+      "wgpubkey": "VgzE+XeQUxX54wMZdhRBU4Qxqba95iVpXi197ZbBBgA=",
+      "ips": [
+        "130.195.213.116"
       ]
     },
     {
@@ -3082,6 +2944,29 @@
       "wgpubkey": "S/qPJPWnfwfb1pWIcKN8FH71j5dFt9eH2KbEeU1+QlE=",
       "ips": [
         "45.138.86.228"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "region": "Kenya",
+      "city": "Nairobi",
+      "hostname": "ke-002.whiskergalaxy.com",
+      "tcp": true,
+      "udp": true,
+      "x509": "nbo-474.windscribe.com",
+      "ips": [
+        "62.12.117.241",
+        "62.12.117.242"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "region": "Kenya",
+      "city": "Nairobi",
+      "hostname": "ke-002.whiskergalaxy.com",
+      "wgpubkey": "TR+HBwIk9z9tIiNHcqaGgwmblYgf9AXxRWYTyRkV020=",
+      "ips": [
+        "62.12.117.243"
       ]
     },
     {
@@ -5365,46 +5250,46 @@
       "vpn": "openvpn",
       "region": "US Central",
       "city": "Atlanta",
-      "hostname": "us-central-133.whiskergalaxy.com",
+      "hostname": "us-central-150.whiskergalaxy.com",
       "tcp": true,
       "udp": true,
       "x509": "atl-156.windscribe.com",
       "ips": [
-        "67.213.215.9",
-        "67.213.208.17"
+        "194.0.213.133",
+        "194.0.213.96"
       ]
     },
     {
       "vpn": "wireguard",
       "region": "US Central",
       "city": "Atlanta",
-      "hostname": "us-central-133.whiskergalaxy.com",
+      "hostname": "us-central-150.whiskergalaxy.com",
       "wgpubkey": "ciOW8sri5RR+ulCmENWpg5TVUFPz1URqHRk9zEYrYHg=",
       "ips": [
-        "67.213.208.18"
+        "194.0.213.97"
       ]
     },
     {
       "vpn": "openvpn",
       "region": "US Central",
       "city": "Atlanta",
-      "hostname": "us-central-134.whiskergalaxy.com",
+      "hostname": "us-central-151.whiskergalaxy.com",
       "tcp": true,
       "udp": true,
       "x509": "atl-156.windscribe.com",
       "ips": [
-        "67.213.215.15",
-        "67.213.208.49"
+        "194.0.213.153",
+        "194.0.213.112"
       ]
     },
     {
       "vpn": "wireguard",
       "region": "US Central",
       "city": "Atlanta",
-      "hostname": "us-central-134.whiskergalaxy.com",
+      "hostname": "us-central-151.whiskergalaxy.com",
       "wgpubkey": "ciOW8sri5RR+ulCmENWpg5TVUFPz1URqHRk9zEYrYHg=",
       "ips": [
-        "67.213.208.50"
+        "194.0.213.113"
       ]
     },
     {
@@ -5549,46 +5434,46 @@
       "vpn": "openvpn",
       "region": "US Central",
       "city": "Dallas",
-      "hostname": "us-central-135.whiskergalaxy.com",
+      "hostname": "us-central-158.whiskergalaxy.com",
       "tcp": true,
       "udp": true,
       "x509": "dfw-192.windscribe.com",
       "ips": [
-        "206.223.227.201",
-        "162.43.191.18"
+        "2.56.188.243",
+        "2.56.189.240"
       ]
     },
     {
       "vpn": "wireguard",
       "region": "US Central",
       "city": "Dallas",
-      "hostname": "us-central-135.whiskergalaxy.com",
+      "hostname": "us-central-158.whiskergalaxy.com",
       "wgpubkey": "47tLjymDPpTIBerb+wn02/XNFABF4YDAGwOnijSoZmQ=",
       "ips": [
-        "162.43.191.19"
+        "2.56.189.241"
       ]
     },
     {
       "vpn": "openvpn",
       "region": "US Central",
       "city": "Dallas",
-      "hostname": "us-central-136.whiskergalaxy.com",
+      "hostname": "us-central-162.whiskergalaxy.com",
       "tcp": true,
       "udp": true,
       "x509": "dfw-192.windscribe.com",
       "ips": [
-        "206.223.227.199",
-        "162.43.191.34"
+        "2.56.188.244",
+        "2.56.189.224"
       ]
     },
     {
       "vpn": "wireguard",
       "region": "US Central",
       "city": "Dallas",
-      "hostname": "us-central-136.whiskergalaxy.com",
+      "hostname": "us-central-162.whiskergalaxy.com",
       "wgpubkey": "47tLjymDPpTIBerb+wn02/XNFABF4YDAGwOnijSoZmQ=",
       "ips": [
-        "162.43.191.35"
+        "2.56.189.225"
       ]
     },
     {
@@ -6077,6 +5962,29 @@
     {
       "vpn": "openvpn",
       "region": "US East",
+      "city": "Chicago",
+      "hostname": "us-east-179.whiskergalaxy.com",
+      "tcp": true,
+      "udp": true,
+      "x509": "ord-472.windscribe.com",
+      "ips": [
+        "193.239.236.134",
+        "103.103.98.80"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "region": "US East",
+      "city": "Chicago",
+      "hostname": "us-east-179.whiskergalaxy.com",
+      "wgpubkey": "6/wtzO8aTmFxKthkosvvM9baBSxjEqpYYRC3VVJSKUE=",
+      "ips": [
+        "103.103.98.81"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "region": "US East",
       "city": "Cleveland",
       "hostname": "us-east-175.whiskergalaxy.com",
       "tcp": true,
@@ -6279,6 +6187,29 @@
       "wgpubkey": "7LiZu9B4qzVwl3jKRVs7ivx/BHi/jnSS/GWSuxEClgk=",
       "ips": [
         "162.43.188.67"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "region": "US East",
+      "city": "Miami",
+      "hostname": "us-east-181.whiskergalaxy.com",
+      "tcp": true,
+      "udp": true,
+      "x509": "mia-326.windscribe.com",
+      "ips": [
+        "84.233.159.193",
+        "84.233.159.194"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "region": "US East",
+      "city": "Miami",
+      "hostname": "us-east-181.whiskergalaxy.com",
+      "wgpubkey": "makkxzTeghSw9LGaFifz0C251aBeDCKhMmtJ8p0E6Uw=",
+      "ips": [
+        "84.233.159.195"
       ]
     },
     {
@@ -6676,46 +6607,23 @@
       "vpn": "openvpn",
       "region": "US East",
       "city": "Tampa",
-      "hostname": "us-east-177.whiskergalaxy.com",
+      "hostname": "us-east-180.whiskergalaxy.com",
       "tcp": true,
       "udp": true,
       "x509": "tpa-468.windscribe.com",
       "ips": [
-        "199.231.166.202",
-        "107.155.89.146"
+        "38.57.2.162",
+        "38.57.2.163"
       ]
     },
     {
       "vpn": "wireguard",
       "region": "US East",
       "city": "Tampa",
-      "hostname": "us-east-177.whiskergalaxy.com",
+      "hostname": "us-east-180.whiskergalaxy.com",
       "wgpubkey": "JgjO+fPdzAvOSQ6TfYcFa0tSlVDdeyi35EqkIPzRjQw=",
       "ips": [
-        "107.155.89.147"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "region": "US East",
-      "city": "Tampa",
-      "hostname": "us-east-178.whiskergalaxy.com",
-      "tcp": true,
-      "udp": true,
-      "x509": "tpa-468.windscribe.com",
-      "ips": [
-        "206.51.226.162",
-        "206.51.226.163"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "region": "US East",
-      "city": "Tampa",
-      "hostname": "us-east-178.whiskergalaxy.com",
-      "wgpubkey": "JgjO+fPdzAvOSQ6TfYcFa0tSlVDdeyi35EqkIPzRjQw=",
-      "ips": [
-        "206.51.226.164"
+        "38.57.2.164"
       ]
     },
     {
@@ -7406,29 +7314,6 @@
       "wgpubkey": "xd+b0SNB38ILyN8mfY3d7w7zLggbq4CkkxqPavP2OUk=",
       "ips": [
         "149.102.240.131"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "region": "United Arab Emirates",
-      "city": "Dubai",
-      "hostname": "ae-002.whiskergalaxy.com",
-      "tcp": true,
-      "udp": true,
-      "x509": "dxb-304.windscribe.com",
-      "ips": [
-        "146.70.191.98",
-        "146.70.191.99"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "region": "United Arab Emirates",
-      "city": "Dubai",
-      "hostname": "ae-002.whiskergalaxy.com",
-      "wgpubkey": "TKpGTxyjCr7+CiVhaYulaLZ7pnXEsg4135ZIlz99qwc=",
-      "ips": [
-        "146.70.191.100"
       ]
     },
     {

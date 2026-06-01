@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "timestamp": 1777610215,
+  "timestamp": 1780303445,
   "servers": [
     {
       "vpn": "openvpn",
@@ -33,17 +33,6 @@
       "udp": true,
       "ips": [
         "143.244.63.96"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Austria",
-      "city": "Wien",
-      "hostname": "at-wie.pvdata.host",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "185.9.19.91"
       ]
     },
     {
@@ -94,19 +83,6 @@
     {
       "vpn": "openvpn",
       "country": "Canada",
-      "city": "Toronto1",
-      "hostname": "ca-tor.pvdata.host",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "45.148.7.3",
-        "45.148.7.6",
-        "45.148.7.8"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Canada",
       "city": "Vancouver",
       "hostname": "ca-van.pvdata.host",
       "tcp": true,
@@ -124,6 +100,19 @@
       "udp": true,
       "ips": [
         "216.241.14.227"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Colombia",
+      "city": "Bogota",
+      "hostname": "ca-tor.pvdata.host",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "45.148.7.3",
+        "45.148.7.6",
+        "45.148.7.8"
       ]
     },
     {
@@ -217,17 +206,6 @@
       "ips": [
         "45.148.5.4",
         "45.148.5.5"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Germany",
-      "city": "Nuremberg",
-      "hostname": "de-nur.pvdata.host",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "185.89.36.3"
       ]
     },
     {
@@ -461,17 +439,6 @@
     },
     {
       "vpn": "openvpn",
-      "country": "Panama",
-      "city": "PanamaCity",
-      "hostname": "pa-pan.pvdata.host",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "200.110.155.235"
-      ]
-    },
-    {
-      "vpn": "openvpn",
       "country": "Peru",
       "city": "Lima",
       "hostname": "pe-lim.pvdata.host",
@@ -541,39 +508,13 @@
     },
     {
       "vpn": "openvpn",
-      "country": "Singapore",
-      "city": "Singapore",
+      "country": "Slovakia",
+      "city": "Bratislava",
       "hostname": "sg-sin.pvdata.host",
       "tcp": true,
       "udp": true,
       "ips": [
         "143.244.33.81"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Slovakia",
-      "city": "Bratislava",
-      "hostname": "sk-bra.pvdata.host",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "46.29.2.168"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "South Africa",
-      "city": "Johannesburg",
-      "hostname": "us-nyc.pvdata.host",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "45.130.86.3",
-        "45.130.86.5",
-        "45.130.86.8",
-        "45.130.86.10",
-        "45.130.86.12"
       ]
     },
     {
@@ -694,17 +635,6 @@
       "udp": true,
       "ips": [
         "103.27.203.234"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Turkey",
-      "city": "Istanbul",
-      "hostname": "tr-ist.pvdata.host",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "92.38.180.30"
       ]
     },
     {
@@ -869,6 +799,21 @@
       "udp": true,
       "ips": [
         "195.181.163.139"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "NewYork1",
+      "hostname": "us-nyc.pvdata.host",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "45.130.86.3",
+        "45.130.86.5",
+        "45.130.86.8",
+        "45.130.86.10",
+        "45.130.86.12"
       ]
     },
     {

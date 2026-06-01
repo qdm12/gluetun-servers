@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "timestamp": 1777610165,
+  "timestamp": 1780303376,
   "servers": [
     {
       "vpn": "openvpn",
@@ -110,6 +110,7 @@
     {
       "vpn": "openvpn",
       "country": "Brazil",
+      "city": "Sao Paulo",
       "hostname": "br-cf.jumptoserver.com",
       "tcp": true,
       "udp": true,
@@ -123,6 +124,7 @@
     {
       "vpn": "wireguard",
       "country": "Brazil",
+      "city": "Sao Paulo",
       "hostname": "br-cf.jumptoserver.com",
       "wgpubkey": "658QxufMbjOTmB61Z7f+c7Rjg7oqWLnepTalqBERjF0=",
       "ips": [
@@ -408,25 +410,6 @@
     {
       "vpn": "openvpn",
       "country": "Germany",
-      "hostname": "es-dbl.jumptoserver.com",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "45.128.39.117"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Germany",
-      "hostname": "es-dbl.jumptoserver.com",
-      "wgpubkey": "658QxufMbjOTmB61Z7f+c7Rjg7oqWLnepTalqBERjF0=",
-      "ips": [
-        "45.128.39.117"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Germany",
       "city": "Dusseldorf",
       "hostname": "de-dus2.jumptoserver.com",
       "tcp": true,
@@ -464,6 +447,27 @@
       "wgpubkey": "658QxufMbjOTmB61Z7f+c7Rjg7oqWLnepTalqBERjF0=",
       "ips": [
         "146.70.139.154"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "hostname": "es-dbl.jumptoserver.com",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "45.128.39.117"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "hostname": "es-dbl.jumptoserver.com",
+      "wgpubkey": "658QxufMbjOTmB61Z7f+c7Rjg7oqWLnepTalqBERjF0=",
+      "ips": [
+        "45.128.39.117"
       ]
     },
     {
@@ -700,6 +704,7 @@
     {
       "vpn": "openvpn",
       "country": "Luxembourg",
+      "city": "Luxembourg",
       "hostname": "lux1.jumptoserver.com",
       "tcp": true,
       "udp": true,
@@ -710,6 +715,7 @@
     {
       "vpn": "wireguard",
       "country": "Luxembourg",
+      "city": "Luxembourg",
       "hostname": "lux1.jumptoserver.com",
       "wgpubkey": "658QxufMbjOTmB61Z7f+c7Rjg7oqWLnepTalqBERjF0=",
       "ips": [
@@ -719,24 +725,29 @@
     {
       "vpn": "openvpn",
       "country": "Malaysia",
+      "city": "Kuala Lumpur",
       "hostname": "my-cf.jumptoserver.com",
       "udp": true,
       "ips": [
-        "103.75.116.27"
+        "103.75.116.27",
+        "103.75.116.141"
       ]
     },
     {
       "vpn": "wireguard",
       "country": "Malaysia",
+      "city": "Kuala Lumpur",
       "hostname": "my-cf.jumptoserver.com",
       "wgpubkey": "658QxufMbjOTmB61Z7f+c7Rjg7oqWLnepTalqBERjF0=",
       "ips": [
-        "103.75.116.27"
+        "103.75.116.27",
+        "103.75.116.141"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Malaysia",
+      "city": "Kuala Lumpur",
       "hostname": "my2.jumptoserver.com",
       "tcp": true,
       "ips": [
@@ -746,6 +757,7 @@
     {
       "vpn": "wireguard",
       "country": "Malaysia",
+      "city": "Kuala Lumpur",
       "hostname": "my2.jumptoserver.com",
       "wgpubkey": "658QxufMbjOTmB61Z7f+c7Rjg7oqWLnepTalqBERjF0=",
       "ips": [
@@ -755,6 +767,7 @@
     {
       "vpn": "openvpn",
       "country": "Mexico",
+      "city": "Estado de Mexico",
       "hostname": "mx-cf.jumptoserver.com",
       "tcp": true,
       "udp": true,
@@ -767,6 +780,7 @@
     {
       "vpn": "wireguard",
       "country": "Mexico",
+      "city": "Estado de Mexico",
       "hostname": "mx-cf.jumptoserver.com",
       "wgpubkey": "658QxufMbjOTmB61Z7f+c7Rjg7oqWLnepTalqBERjF0=",
       "ips": [
@@ -1240,27 +1254,6 @@
     {
       "vpn": "openvpn",
       "country": "USA",
-      "city": "Ashburn",
-      "hostname": "us-ash.jumptoserver.com",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "140.174.186.98"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "USA",
-      "city": "Ashburn",
-      "hostname": "us-ash.jumptoserver.com",
-      "wgpubkey": "658QxufMbjOTmB61Z7f+c7Rjg7oqWLnepTalqBERjF0=",
-      "ips": [
-        "140.174.186.98"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "USA",
       "city": "Atlanta",
       "hostname": "us-at.jumptoserver.com",
       "tcp": true,
@@ -1422,27 +1415,6 @@
       "wgpubkey": "658QxufMbjOTmB61Z7f+c7Rjg7oqWLnepTalqBERjF0=",
       "ips": [
         "23.95.75.25"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "USA",
-      "city": "Seattle",
-      "hostname": "us-se.jumptoserver.com",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "64.42.176.74"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "USA",
-      "city": "Seattle",
-      "hostname": "us-se.jumptoserver.com",
-      "wgpubkey": "658QxufMbjOTmB61Z7f+c7Rjg7oqWLnepTalqBERjF0=",
-      "ips": [
-        "64.42.176.74"
       ]
     },
     {
