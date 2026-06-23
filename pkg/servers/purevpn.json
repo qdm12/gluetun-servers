@@ -1,84 +1,320 @@
 {
   "version": 3,
-  "timestamp": 1777610222,
+  "timestamp": 1782229410,
   "servers": [
     {
       "vpn": "openvpn",
       "country": "Afghanistan",
-      "city": "Los Angeles",
-      "hostname": "af2-auto-tcp-qr.ptoserver.com",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "af2-auto-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Afghanistan",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "af2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.111.238.11",
+        "172.111.238.13"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Afghanistan",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "af2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
+        "172.111.238.8",
         "172.111.238.9"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Afghanistan",
-      "city": "Los Angeles",
-      "hostname": "af2-auto-udp-qr.ptoserver.com",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "af2-auto-udp.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "172.111.238.9",
-        "172.111.238.10"
+        "82.102.29.155"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Albania",
-      "region": "Tirana",
-      "city": "Tirana",
-      "hostname": "al2-auto-tcp-qr.ptoserver.com",
+      "country": "Afghanistan",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "af2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "31.171.153.72",
-        "31.171.153.73",
-        "31.171.154.135",
-        "31.171.154.137"
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Afghanistan",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "af2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "82.102.29.155"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Albania",
-      "region": "Tirana",
-      "city": "Tirana",
+      "hostname": "al2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "79.171.52.18"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Albania",
+      "hostname": "al2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "31.171.153.77",
+        "31.171.154.139"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Albania",
       "hostname": "al2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "31.171.153.72",
         "31.171.153.73",
+        "31.171.154.135",
         "31.171.154.136"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Algeria",
-      "city": "Frankfurt am Main",
-      "hostname": "dz2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "country": "Albania",
+      "hostname": "al2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "172.111.243.6",
-        "172.111.243.8"
+        "79.171.52.18"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Albania",
+      "hostname": "al2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "79.171.52.18"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Albania",
+      "hostname": "al2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "79.171.52.18"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Algeria",
-      "city": "Frankfurt am Main",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "dz2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Algeria",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "dz2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.111.243.9",
+        "172.111.243.11"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Algeria",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "dz2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "172.111.243.6",
-        "172.111.243.7",
-        "172.111.243.8"
+        "172.111.243.7"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Algeria",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "dz2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Algeria",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "dz2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Algeria",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "dz2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "82.102.29.155"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Angola",
-      "city": "Los Angeles",
-      "hostname": "ao2-auto-tcp-qr.ptoserver.com",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ao2-auto-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Angola",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ao2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.111.242.15",
+        "172.111.242.16"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Angola",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ao2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "172.111.242.11",
         "172.111.242.12"
@@ -87,58 +323,497 @@
     {
       "vpn": "openvpn",
       "country": "Angola",
-      "city": "Los Angeles",
-      "hostname": "ao2-auto-udp-qr.ptoserver.com",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ao2-auto-udp.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "172.111.242.12",
-        "172.111.242.13"
+        "82.102.29.155"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Argentina",
-      "region": "Buenos Aires F.D.",
-      "city": "Buenos Aires",
-      "hostname": "ar2-auto-tcp-qr.ptoserver.com",
+      "country": "Angola",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ao2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "84.233.234.54",
-        "84.233.234.55",
-        "84.233.234.81"
+        "172.94.84.132",
+        "172.94.84.134"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Angola",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ao2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "82.102.29.155"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Argentina",
-      "region": "Buenos Aires F.D.",
-      "city": "Buenos Aires",
+      "hostname": "ar2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "146.70.41.34"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Argentina",
+      "hostname": "ar2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "84.233.234.58",
+        "84.233.234.86"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Argentina",
       "hostname": "ar2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "84.233.234.81",
-        "84.233.234.83"
+        "84.233.234.55",
+        "84.233.234.82"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Aruba",
-      "city": "Los Angeles",
-      "hostname": "aw2-auto-tcp-qr.ptoserver.com",
+      "country": "Argentina",
+      "hostname": "ar2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "146.70.41.34"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Argentina",
+      "hostname": "ar2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "172.94.26.136"
+        "146.70.41.34"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Argentina",
+      "hostname": "ar2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "146.70.41.34"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Aruba",
-      "city": "Los Angeles",
+      "hostname": "aw2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "146.70.41.34"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Aruba",
+      "hostname": "aw2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.26.139",
+        "172.94.26.140"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Aruba",
       "hostname": "aw2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "172.94.26.135",
-        "172.94.26.136"
+        "172.94.26.137"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Aruba",
+      "hostname": "aw2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "146.70.41.34"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Aruba",
+      "hostname": "aw2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "146.70.41.34"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Aruba",
+      "hostname": "aw2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "146.70.41.34"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "hostname": "au2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "146.70.141.26",
+        "87.117.212.41",
+        "27.50.76.1",
+        "118.127.59.83",
+        "203.209.209.167",
+        "91.242.215.101",
+        "63.218.156.70",
+        "168.1.1.212",
+        "43.250.205.18",
+        "118.127.62.85"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "hostname": "au2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "103.91.194.44",
+        "103.91.194.45",
+        "217.79.116.219"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "hostname": "au2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "146.70.141.26",
+        "87.117.212.41",
+        "27.50.76.1",
+        "118.127.59.83",
+        "203.209.209.167",
+        "91.242.215.101",
+        "63.218.156.70",
+        "168.1.1.212",
+        "43.250.205.18",
+        "118.127.62.85"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "hostname": "au2-obf-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "103.107.197.170",
+        "217.79.116.217"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "hostname": "au2-tcp-pf.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "port_forward": true,
+      "ips": [
+        "104.37.5.243"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "hostname": "au2-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565
+      ],
+      "obfuscated": true,
+      "ips": [
+        "104.37.5.245",
+        "104.37.5.246"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "hostname": "au2-udp-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "ips": [
+        "104.37.5.243"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "hostname": "au2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "104.37.5.251"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "city": "Brisbane",
+      "hostname": "aubb2-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.100.244"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "city": "Brisbane",
+      "hostname": "aubn2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
+        "144.48.39.73"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "city": "Brisbane",
+      "hostname": "aubn2-obf-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "104.37.5.247"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "city": "Brisbane",
+      "hostname": "aubn2-tcp-pf.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "port_forward": true,
+      "ips": [
+        "104.37.5.243"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "city": "Brisbane",
+      "hostname": "aubn2-udp-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "ips": [
+        "104.37.5.243"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "city": "Brisbane",
+      "hostname": "aubn2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "104.37.5.251"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "city": "Melbourne",
+      "hostname": "aume2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "79.127.155.233"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "city": "Melbourne",
+      "hostname": "aume2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
+        "79.127.155.232",
+        "79.127.155.233"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "city": "Melbourne",
+      "hostname": "aume2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "79.127.155.232",
+        "79.127.155.233"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "city": "Melbourne",
+      "hostname": "aume2-obf-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "104.37.5.245",
+        "104.37.5.246",
+        "104.37.5.247"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "city": "Melbourne",
+      "hostname": "aume2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "79.127.155.233"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "city": "Melbourne",
+      "hostname": "aume2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "79.127.155.232",
+        "79.127.155.233"
       ]
     },
     {
@@ -146,11 +821,15 @@
       "country": "Australia",
       "region": "New South Wales",
       "city": "Sydney",
-      "hostname": "ausd2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "hostname": "ausd2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
       "ips": [
-        "217.79.116.198",
-        "217.79.116.199"
+        "217.79.116.202",
+        "217.79.116.219"
       ]
     },
     {
@@ -160,34 +839,29 @@
       "city": "Sydney",
       "hostname": "ausd2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "217.79.116.199",
-        "217.79.116.215",
+        "217.79.116.200",
         "217.79.116.216"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Australia",
-      "region": "Western Australia",
-      "city": "Perth",
-      "hostname": "au2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
-      "ips": [
-        "103.107.197.169",
-        "217.79.116.200"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Australia",
-      "region": "Western Australia",
-      "city": "Perth",
-      "hostname": "au2-auto-udp-qr.ptoserver.com",
+      "region": "New South Wales",
+      "city": "Sydney",
+      "hostname": "ausd2-obf-udp.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
       "ips": [
-        "103.107.197.167",
-        "103.107.197.169"
+        "104.37.5.246",
+        "104.37.5.247"
       ]
     },
     {
@@ -195,10 +869,16 @@
       "country": "Australia",
       "region": "Western Australia",
       "city": "Perth",
-      "hostname": "aupe2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "hostname": "aupe2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
       "ips": [
-        "103.107.197.169"
+        "103.107.197.170",
+        "103.107.197.171",
+        "103.107.197.172"
       ]
     },
     {
@@ -208,48 +888,144 @@
       "city": "Perth",
       "hostname": "aupe2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "103.107.197.167",
-        "103.107.197.168",
+        "103.91.194.41",
+        "103.91.194.42",
         "103.107.197.169"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Austria",
-      "region": "Vienna",
-      "city": "Vienna",
-      "hostname": "at2-auto-tcp-qr.ptoserver.com",
+      "hostname": "at2-auto-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "135.136.11.40",
-        "135.136.11.41",
-        "135.136.11.42",
-        "135.136.11.71",
-        "135.136.11.72",
-        "135.136.11.73",
-        "149.40.52.200"
+        "80.120.176.110",
+        "154.47.19.17"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Austria",
-      "region": "Vienna",
-      "city": "Vienna",
+      "hostname": "at2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "135.136.11.75",
+        "149.40.52.205"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Austria",
       "hostname": "at2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "135.136.11.40",
-        "135.136.11.42",
-        "149.40.52.200"
+        "135.136.11.72",
+        "135.136.11.73",
+        "149.40.52.198"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Austria",
+      "hostname": "at2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "80.120.176.110",
+        "154.47.19.17"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Austria",
+      "hostname": "at2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "80.120.176.110",
+        "154.47.19.17"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Austria",
+      "hostname": "at2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "80.120.176.110",
+        "154.47.19.17"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Bahamas",
-      "city": "Houston",
-      "hostname": "bs2-auto-tcp-qr.ptoserver.com",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bs2-auto-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bahamas",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bs2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.28.138",
+        "172.94.28.139",
+        "172.94.28.140"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bahamas",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bs2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "172.94.28.136"
       ]
@@ -257,31 +1033,93 @@
     {
       "vpn": "openvpn",
       "country": "Bahamas",
-      "city": "Houston",
-      "hostname": "bs2-auto-udp-qr.ptoserver.com",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bs2-auto-udp.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "172.94.28.136",
-        "172.94.28.137"
+        "82.102.29.155"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Bahrain",
-      "city": "Amsterdam",
-      "hostname": "bh2-auto-tcp-qr.ptoserver.com",
+      "country": "Bahamas",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bs2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "172.94.72.8",
-        "172.94.72.9"
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bahamas",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bs2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "82.102.29.155"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Bahrain",
-      "city": "Amsterdam",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bh2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bahrain",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bh2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.72.11",
+        "172.94.72.12"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bahrain",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "bh2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "172.94.72.7",
         "172.94.72.9"
@@ -289,43 +1127,188 @@
     },
     {
       "vpn": "openvpn",
-      "country": "Bangladesh",
-      "city": "Amsterdam",
-      "hostname": "bd2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "country": "Bahrain",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bh2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "172.94.73.9",
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bahrain",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bh2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bahrain",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bh2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bangladesh",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bd2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bangladesh",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bd2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.73.11",
+        "172.94.73.13"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bangladesh",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bd2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
         "172.94.73.10"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Bangladesh",
-      "city": "Amsterdam",
-      "hostname": "bd2-auto-udp-qr.ptoserver.com",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bd2-auto-udp.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "172.94.73.8",
-        "172.94.73.9"
+        "82.102.29.155"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Barbados",
-      "city": "Los Angeles",
-      "hostname": "bb2-auto-tcp-qr.ptoserver.com",
+      "country": "Bangladesh",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bd2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "172.94.37.136",
-        "172.94.37.137"
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bangladesh",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bd2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "82.102.29.155"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Barbados",
-      "city": "Los Angeles",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bb2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Barbados",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bb2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.37.139",
+        "172.94.37.141"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Barbados",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "bb2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "172.94.37.136",
         "172.94.37.137"
@@ -333,141 +1316,590 @@
     },
     {
       "vpn": "openvpn",
-      "country": "Belgium",
-      "region": "Flanders",
-      "city": "Zaventem",
-      "hostname": "be2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "country": "Barbados",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bb2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "89.249.73.38",
-        "89.249.73.39",
-        "89.249.73.40",
-        "89.249.73.105",
-        "89.249.73.106",
-        "89.249.73.107",
-        "154.47.27.97",
-        "154.47.27.98",
-        "154.47.27.99"
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Barbados",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bb2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Barbados",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bb2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "82.102.29.155"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Belgium",
-      "region": "Flanders",
-      "city": "Zaventem",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "be2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "80.239.151.98",
+        "62.115.146.17"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Belgium",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "be2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "89.249.73.44",
+        "154.47.27.100"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Belgium",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "be2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "89.249.73.40"
+        "89.249.73.40",
+        "89.249.73.105",
+        "154.47.27.97",
+        "154.47.27.98"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Bermuda",
-      "city": "Los Angeles",
-      "hostname": "bm2-auto-tcp-qr.ptoserver.com",
+      "country": "Belgium",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "be2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021,
+        1210
+      ],
+      "ips": [
+        "80.239.151.98",
+        "62.115.146.17"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Belgium",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "be2-tcp-pf.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "port_forward": true,
       "ips": [
-        "172.94.49.135",
-        "172.94.49.136"
+        "80.239.151.98",
+        "62.115.146.17"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Belgium",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "be2-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "146.70.123.77"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Belgium",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "be2-udp-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "ips": [
+        "80.239.151.98",
+        "62.115.146.17"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Bermuda",
-      "city": "Los Angeles",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bm2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bermuda",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bm2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.49.137"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bermuda",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "bm2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "172.94.49.134",
         "172.94.49.135",
         "172.94.49.136"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Bolivia",
-      "city": "Dallas",
-      "hostname": "bo2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "country": "Bermuda",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bm2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "172.94.51.135",
-        "172.94.51.137"
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bermuda",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bm2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "82.102.29.155"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bermuda",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bm2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "82.102.29.155"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Bolivia",
-      "city": "Dallas",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bo2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "146.70.41.34"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bolivia",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bo2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.51.138",
+        "172.94.51.140"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bolivia",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "bo2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "172.94.51.136",
-        "172.94.51.137"
+        "172.94.51.135",
+        "172.94.51.136"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Brazil",
-      "region": "São Paulo",
-      "city": "São Paulo",
-      "hostname": "br2-auto-tcp-qr.ptoserver.com",
+      "country": "Bolivia",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bo2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "146.70.41.34"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bolivia",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bo2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "64.69.119.73"
+        "146.70.41.34"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bolivia",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bo2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "146.70.41.34"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Brazil",
-      "region": "São Paulo",
-      "city": "São Paulo",
+      "hostname": "br2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "154.54.28.50",
+        "146.19.95.2",
+        "8.243.152.22",
+        "5.53.7.176"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Brazil",
+      "hostname": "br2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "64.69.119.45",
+        "64.69.119.110"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Brazil",
       "hostname": "br2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "64.69.119.42",
-        "64.69.119.43"
+        "64.69.119.106",
+        "64.69.119.108",
+        "152.233.44.143"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "British Virgin Islands",
-      "city": "Dallas",
-      "hostname": "vg2-auto-tcp-qr.ptoserver.com",
+      "country": "Brazil",
+      "hostname": "br2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "154.54.28.50",
+        "146.19.95.2",
+        "8.243.152.22",
+        "5.53.7.176"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Brazil",
+      "hostname": "br2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "172.94.55.6",
-        "172.94.55.8"
+        "154.54.28.50",
+        "146.19.95.2",
+        "8.243.152.22",
+        "5.53.7.176"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Brazil",
+      "hostname": "br2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "154.54.28.50",
+        "146.19.95.2",
+        "8.243.152.22",
+        "5.53.7.176"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "British Virgin Islands",
-      "city": "Dallas",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "vg2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "British Virgin Islands",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "vg2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.55.9",
+        "172.94.55.10"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "British Virgin Islands",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "vg2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
+        "172.94.55.6",
         "172.94.55.7",
         "172.94.55.8"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Brunei Darussalam",
-      "city": "Banting",
-      "hostname": "bn2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "country": "British Virgin Islands",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "vg2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "172.94.82.6",
-        "172.94.82.8"
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "British Virgin Islands",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "vg2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "British Virgin Islands",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "vg2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "2.58.44.162"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Brunei Darussalam",
-      "city": "Banting",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bn2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "138.199.60.118"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Brunei Darussalam",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bn2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.82.10",
+        "172.94.82.11"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Brunei Darussalam",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "bn2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "172.94.82.6",
         "172.94.82.7",
@@ -476,24 +1908,331 @@
     },
     {
       "vpn": "openvpn",
-      "country": "Bulgaria",
-      "region": "Sofia-Capital",
-      "city": "Sofia",
-      "hostname": "bg2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "country": "Brunei Darussalam",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bn2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "149.102.241.167"
+        "138.199.60.118"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Brunei Darussalam",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bn2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "138.199.60.118"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Brunei Darussalam",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bn2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "138.199.60.118"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Bulgaria",
-      "region": "Sofia-Capital",
-      "city": "Sofia",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bg2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "194.182.177.178",
+        "185.94.192.130"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bulgaria",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bg2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "37.46.114.149",
+        "37.46.114.150",
+        "149.102.241.169",
+        "149.102.241.171"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bulgaria",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "bg2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "37.46.114.147"
+        "37.46.114.146",
+        "149.102.241.165",
+        "149.102.241.166"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bulgaria",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bg2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "194.182.177.178",
+        "185.94.192.130"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bulgaria",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bg2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "194.182.177.178",
+        "185.94.192.130"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Bulgaria",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "bg2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "194.182.177.178",
+        "185.94.192.130"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "hostname": "ca2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "158.85.65.212",
+        "154.54.27.162",
+        "184.75.221.218",
+        "38.88.240.26",
+        "74.199.144.74",
+        "199.167.17.229",
+        "104.200.132.137",
+        "38.32.1.42"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "hostname": "ca2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "95.173.219.105",
+        "149.88.98.232"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "hostname": "ca2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
+        "95.173.219.102",
+        "149.88.98.242"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "hostname": "ca2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021,
+        1210
+      ],
+      "ips": [
+        "158.85.65.212",
+        "154.54.27.162",
+        "184.75.221.218",
+        "38.88.240.26",
+        "74.199.144.74",
+        "199.167.17.229",
+        "104.200.132.137",
+        "38.32.1.42"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "hostname": "ca2-tcp-pf.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "port_forward": true,
+      "ips": [
+        "198.144.155.69"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "hostname": "ca2-udp-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "ips": [
+        "198.144.155.69"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "hostname": "ca2-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
+        "95.173.219.102",
+        "149.50.222.9"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "city": "Montreal",
+      "hostname": "caq2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "195.86.1.106"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "city": "Montreal",
+      "hostname": "caq2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
+        "195.86.1.103"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "city": "Montreal",
+      "hostname": "caq2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "199.167.17.229",
+        "158.85.65.212",
+        "184.75.221.218",
+        "212.103.51.81",
+        "104.200.132.137",
+        "209.127.27.58",
+        "62.115.9.210",
+        "38.32.1.42",
+        "38.88.240.26",
+        "154.54.27.162",
+        "74.199.144.74"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "city": "Montreal",
+      "hostname": "caq2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "199.167.17.229",
+        "158.85.65.212",
+        "184.75.221.218",
+        "212.103.51.81",
+        "104.200.132.137",
+        "209.127.27.58",
+        "62.115.9.210",
+        "38.32.1.42",
+        "38.88.240.26",
+        "154.54.27.162",
+        "74.199.144.74"
       ]
     },
     {
@@ -501,8 +2240,28 @@
       "country": "Canada",
       "region": "British Columbia",
       "city": "Vancouver",
-      "hostname": "ca2-auto-udp-qr.ptoserver.com",
+      "hostname": "cav2-auto-udp-obf.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "95.173.219.105",
+        "149.88.98.233"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "region": "British Columbia",
+      "city": "Vancouver",
+      "hostname": "cav2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "95.173.219.102"
       ]
@@ -512,19 +2271,110 @@
       "country": "Canada",
       "region": "Ontario",
       "city": "Toronto",
-      "hostname": "ca2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "hostname": "cato2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
       "ips": [
-        "149.50.222.9",
-        "149.88.98.242"
+        "149.50.222.11",
+        "149.88.98.232",
+        "149.88.98.233"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "region": "Ontario",
+      "city": "Toronto",
+      "hostname": "cato2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
+        "149.50.222.7",
+        "149.50.222.8"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "region": "Ontario",
+      "city": "Toronto",
+      "hostname": "cato2-obf-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.111.135.245"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "region": "Ontario",
+      "city": "Toronto",
+      "hostname": "cato2-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.111.135.245"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Cayman Islands",
-      "city": "Dallas",
-      "hostname": "ky2-auto-tcp-qr.ptoserver.com",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ky2-auto-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Cayman Islands",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ky2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.56.10",
+        "172.94.56.11"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Cayman Islands",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ky2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "172.94.56.6",
         "172.94.56.7"
@@ -533,71 +2383,233 @@
     {
       "vpn": "openvpn",
       "country": "Cayman Islands",
-      "city": "Dallas",
-      "hostname": "ky2-auto-udp-qr.ptoserver.com",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ky2-auto-udp.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "172.94.56.6",
-        "172.94.56.8"
+        "2.58.44.162"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Chile",
-      "region": "Santiago Metropolitan",
-      "city": "Santiago",
-      "hostname": "cl2-auto-tcp-qr.ptoserver.com",
+      "country": "Cayman Islands",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ky2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "66.203.113.244",
-        "195.86.38.7"
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Cayman Islands",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ky2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "2.58.44.162"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Chile",
-      "region": "Santiago Metropolitan",
-      "city": "Santiago",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "cl2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "104.250.176.2"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Chile",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "cl2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "66.203.113.247",
+        "66.203.113.248",
+        "195.86.38.10"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Chile",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "cl2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "66.203.113.245",
-        "66.203.113.246",
-        "195.86.38.8"
+        "66.203.113.244",
+        "66.203.113.246"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "China",
-      "city": "Banting",
-      "hostname": "cn2-auto-tcp-qr.ptoserver.com",
+      "country": "Chile",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "cl2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "104.250.176.2"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Chile",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "cl2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "172.94.86.7",
-        "172.94.86.8"
+        "104.250.176.2"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Chile",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "cl2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "104.250.176.2"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "China",
-      "city": "Banting",
+      "hostname": "cn2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "149.34.253.65",
+        "43.245.63.154"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "China",
+      "hostname": "cn2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.86.11"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "China",
       "hostname": "cn2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "172.94.86.6",
-        "172.94.86.7",
         "172.94.86.8"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "China",
+      "hostname": "cn2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "149.34.253.65",
+        "43.245.63.154"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Czech Republic",
-      "region": "Prague",
-      "city": "Prague",
-      "hostname": "cz2-auto-tcp-qr.ptoserver.com",
+      "hostname": "cz2-auto-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "79.127.154.40",
+        "149.6.25.2"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Czech Republic",
+      "hostname": "cz2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "79.127.154.44",
+        "135.136.13.10"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Czech Republic",
+      "hostname": "cz2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
         "135.136.13.7",
         "135.136.13.9"
       ]
@@ -605,53 +2617,171 @@
     {
       "vpn": "openvpn",
       "country": "Czech Republic",
-      "region": "Prague",
-      "city": "Prague",
-      "hostname": "cz2-auto-udp-qr.ptoserver.com",
+      "hostname": "cz2-auto-udp.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "135.136.13.8"
+        "149.6.25.2"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Denmark",
-      "region": "Capital Region",
-      "city": "Copenhagen",
-      "hostname": "dk2-auto-tcp-qr.ptoserver.com",
+      "country": "Czech Republic",
+      "hostname": "cz2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "149.50.217.135"
+        "149.6.25.2"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Czech Republic",
+      "hostname": "cz2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "149.6.25.2"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Denmark",
-      "region": "Capital Region",
-      "city": "Copenhagen",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "dk2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "80.239.151.74"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Denmark",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "dk2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "149.50.217.136",
+        "149.50.217.138",
+        "149.50.217.139"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Denmark",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "dk2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "149.50.217.134",
         "149.50.217.135"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Egypt",
-      "city": "New York City",
-      "hostname": "eg2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "country": "Denmark",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "dk2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021,
+        1210
+      ],
       "ips": [
-        "172.94.57.7"
+        "80.239.151.74"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Denmark",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "dk2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "80.239.151.74"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Denmark",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "dk2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "80.239.151.74"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Egypt",
-      "city": "New York City",
+      "hostname": "eg2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Egypt",
+      "hostname": "eg2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.57.10",
+        "172.94.57.11"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Egypt",
       "hostname": "eg2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "172.94.57.6",
         "172.94.57.8"
@@ -659,22 +2789,86 @@
     },
     {
       "vpn": "openvpn",
-      "country": "Estonia",
-      "region": "Harjumaa",
-      "city": "Tallinn",
-      "hostname": "ee2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "country": "Egypt",
+      "hostname": "eg2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "95.153.32.104"
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Egypt",
+      "hostname": "eg2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Egypt",
+      "hostname": "eg2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "2.58.44.162"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Estonia",
-      "region": "Harjumaa",
-      "city": "Tallinn",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ee2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "185.174.159.190"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Estonia",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ee2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "95.153.32.107",
+        "95.153.32.108",
+        "95.153.32.109"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Estonia",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "ee2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "95.153.32.103",
         "95.153.32.104",
@@ -683,375 +2877,1616 @@
     },
     {
       "vpn": "openvpn",
-      "country": "Finland",
-      "region": "Uusimaa",
-      "city": "Helsinki",
-      "hostname": "fi2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "country": "Estonia",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ee2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "85.208.3.105"
+        "185.174.159.190"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Estonia",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ee2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "185.174.159.190"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Estonia",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ee2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "185.174.159.190"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Finland",
-      "region": "Uusimaa",
-      "city": "Helsinki",
+      "hostname": "fi2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "94.237.10.248",
+        "217.64.32.253"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Finland",
+      "hostname": "fi2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "85.208.3.107"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Finland",
       "hostname": "fi2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "85.208.3.103",
-        "85.208.3.104"
+        "66.234.150.199",
+        "66.234.150.200"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "France",
-      "region": "Île-de-France",
-      "city": "Paris",
-      "hostname": "fr2-auto-tcp-qr.ptoserver.com",
+      "country": "Finland",
+      "hostname": "fi2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "94.237.10.248",
+        "217.64.32.253"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Finland",
+      "hostname": "fi2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "149.34.245.232"
+        "94.237.10.248",
+        "217.64.32.253"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Finland",
+      "hostname": "fi2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "94.237.10.248",
+        "217.64.32.253"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "France",
-      "region": "Île-de-France",
-      "city": "Paris",
+      "hostname": "fr2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "156.146.63.65",
+        "212.103.51.121",
+        "62.115.48.201"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "France",
+      "hostname": "fr2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "149.34.245.236"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "France",
       "hostname": "fr2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "37.19.217.87",
-        "149.34.245.232"
+        "149.34.245.232",
+        "149.34.245.233"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Germany",
-      "region": "Hesse",
-      "city": "Frankfurt am Main",
-      "hostname": "de2-auto-tcp-qr.ptoserver.com",
+      "country": "France",
+      "hostname": "fr2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021,
+        1210
+      ],
+      "ips": [
+        "156.146.63.65",
+        "212.103.51.121",
+        "62.115.48.201"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "France",
+      "hostname": "fr2-tcp-pf.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "port_forward": true,
       "ips": [
-        "37.120.146.43",
-        "203.23.179.26"
+        "156.146.63.65",
+        "212.103.51.121",
+        "62.115.48.201"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "France",
+      "hostname": "fr2-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "146.70.220.135"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "France",
+      "hostname": "fr2-udp-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "ips": [
+        "156.146.63.65",
+        "212.103.51.121",
+        "62.115.48.201"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "France",
+      "hostname": "fr2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "146.70.220.136"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Germany",
-      "region": "Hesse",
-      "city": "Frankfurt am Main",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "de2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "82.178.32.238",
+        "82.102.29.155",
+        "5.254.23.66",
+        "154.47.24.244"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Germany",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "de2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "5.254.23.75",
+        "5.254.23.78",
+        "5.254.23.79",
+        "203.23.179.43"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Germany",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "de2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "37.120.146.42",
-        "37.120.146.43",
-        "149.88.19.6",
-        "203.23.179.41"
+        "79.127.156.7",
+        "193.124.20.201",
+        "203.23.179.42"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Greece",
-      "region": "Attica",
-      "city": "Athens",
-      "hostname": "gr2-auto-tcp-qr.ptoserver.com",
+      "country": "Germany",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "de2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021,
+        1210
+      ],
+      "ips": [
+        "82.178.32.238",
+        "82.102.29.155",
+        "5.254.23.66",
+        "154.47.24.244"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Germany",
+      "hostname": "de2-obf-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "185.232.23.102",
+        "185.232.23.103"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Germany",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "de2-tcp-pf.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "port_forward": true,
       "ips": [
-        "79.127.181.241"
+        "82.178.32.238",
+        "82.102.29.155",
+        "5.254.23.66",
+        "154.47.24.244"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Germany",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "de2-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565
+      ],
+      "obfuscated": true,
+      "ips": [
+        "185.232.23.102",
+        "185.232.23.103"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Germany",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "de2-udp-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "ips": [
+        "82.178.32.238",
+        "82.102.29.155",
+        "5.254.23.66",
+        "154.47.24.244"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Germany",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "de2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "185.232.23.109"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Greece",
-      "region": "Attica",
-      "city": "Athens",
+      "hostname": "gr2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "62.233.127.182",
+        "194.150.167.140"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Greece",
+      "hostname": "gr2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "79.127.181.233",
+        "149.22.85.161"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Greece",
       "hostname": "gr2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "79.127.181.230",
-        "79.127.181.232",
-        "149.22.85.133"
+        "149.22.85.134"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Greece",
+      "hostname": "gr2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "62.233.127.182",
+        "194.150.167.140"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Greece",
+      "hostname": "gr2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "62.233.127.182",
+        "194.150.167.140"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Greece",
+      "hostname": "gr2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "62.233.127.182",
+        "194.150.167.140"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Hong Kong",
-      "region": "Hong Kong",
-      "city": "Hong Kong",
-      "hostname": "hk2-auto-tcp-qr.ptoserver.com",
+      "hostname": "hk2-auto-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
+        "103.109.103.52"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Hong Kong",
+      "hostname": "hk2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "103.55.10.11",
+        "103.55.10.12"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Hong Kong",
+      "hostname": "hk2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
+        "103.55.10.4",
         "103.55.10.5"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Hong Kong",
-      "region": "Islands",
-      "city": "Tung Chung",
-      "hostname": "hk2-auto-udp-qr.ptoserver.com",
+      "hostname": "hk2-auto-udp.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021,
+        1210
+      ],
       "ips": [
-        "103.55.10.3"
+        "103.109.103.52"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Hungary",
-      "region": "Budapest",
-      "city": "Budapest",
-      "hostname": "hu2-auto-tcp-qr.ptoserver.com",
+      "country": "Hong Kong",
+      "hostname": "hk2-tcp-pf.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "port_forward": true,
       "ips": [
-        "152.233.4.240",
-        "152.233.4.241"
+        "103.109.103.52"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Hong Kong",
+      "hostname": "hk2-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "45.115.25.10",
+        "45.115.25.11"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Hong Kong",
+      "hostname": "hk2-udp-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "ips": [
+        "103.109.103.52"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Hong Kong",
+      "hostname": "hk2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "45.115.25.6"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Hungary",
-      "region": "Budapest",
-      "city": "Budapest",
+      "hostname": "hu2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "134.0.219.214"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Hungary",
+      "hostname": "hu2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "152.233.4.233",
+        "212.11.29.19",
+        "212.11.29.21"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Hungary",
       "hostname": "hu2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "152.233.4.242"
+        "212.11.29.18"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Hungary",
+      "hostname": "hu2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "134.0.219.214"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Hungary",
+      "hostname": "hu2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "134.0.219.214"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Hungary",
+      "hostname": "hu2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "134.0.219.214"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "India",
-      "city": "New York City",
-      "hostname": "in2-auto-tcp-qr.ptoserver.com",
+      "hostname": "in2-auto-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "172.94.22.7",
+        "146.70.41.34",
+        "149.34.253.65",
+        "82.102.29.155",
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "India",
+      "hostname": "in2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.22.9",
+        "172.94.22.10"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "India",
+      "hostname": "in2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
+        "172.94.22.6",
         "172.94.22.8"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "India",
-      "city": "New York City",
-      "hostname": "in2-auto-udp-qr.ptoserver.com",
+      "hostname": "in2-auto-udp.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021,
+        1210
+      ],
       "ips": [
-        "172.94.22.7",
-        "172.94.22.8",
-        "172.111.170.12"
+        "146.70.41.34",
+        "149.34.253.65",
+        "82.102.29.155",
+        "2.58.44.162"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Ireland",
-      "region": "Leinster",
-      "city": "Dublin",
-      "hostname": "ie2-auto-tcp-qr.ptoserver.com",
+      "country": "India",
+      "hostname": "in2-tcp-pf.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "port_forward": true,
       "ips": [
-        "130.195.213.72"
+        "149.34.253.95"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "India",
+      "hostname": "in2-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "149.34.253.104"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "India",
+      "hostname": "in2-udp-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "ips": [
+        "149.34.253.96"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "India",
+      "hostname": "in2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "149.34.253.102"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "India",
+      "hostname": "in2-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
+        "146.70.41.34",
+        "149.34.253.65",
+        "82.102.29.155",
+        "2.58.44.162"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Ireland",
-      "region": "Leinster",
-      "city": "Dublin",
-      "hostname": "ie2-auto-udp-qr.ptoserver.com",
-      "udp": true,
+      "hostname": "ie2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "130.195.213.72",
-        "130.195.213.73",
-        "149.34.243.6",
-        "149.34.243.7",
-        "149.34.243.8"
+        "149.14.149.154",
+        "149.11.36.90"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Ireland",
+      "hostname": "ie2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "149.34.243.10"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Ireland",
+      "hostname": "ie2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021,
+        1210
+      ],
+      "ips": [
+        "149.14.149.154",
+        "149.11.36.90"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Ireland",
+      "hostname": "ie2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "149.14.149.154",
+        "149.11.36.90"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Ireland",
+      "hostname": "ie2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "149.14.149.154",
+        "149.11.36.90"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Italy",
-      "region": "Lombardy",
-      "city": "Figino",
-      "hostname": "it2-auto-tcp-qr.ptoserver.com",
+      "hostname": "it2-auto-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "135.136.2.10",
+        "62.115.166.253",
+        "149.50.215.65"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Italy",
+      "hostname": "it2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "109.61.82.75",
+        "109.61.82.76"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Italy",
+      "hostname": "it2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
+        "109.61.82.73",
         "172.111.153.7"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Italy",
-      "region": "Lombardy",
-      "city": "Milan",
-      "hostname": "it2-auto-udp-qr.ptoserver.com",
+      "hostname": "it2-auto-udp.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021,
+        1210
+      ],
       "ips": [
-        "109.61.82.72",
-        "135.136.2.10",
-        "172.111.153.8",
-        "172.111.153.9"
+        "62.115.166.253",
+        "149.50.215.65"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Japan",
-      "region": "Tokyo",
-      "city": "Tokyo",
-      "hostname": "jp2-auto-tcp-qr.ptoserver.com",
+      "country": "Italy",
+      "hostname": "it2-tcp-pf.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "port_forward": true,
       "ips": [
-        "45.250.255.11",
-        "135.136.27.6",
-        "135.136.27.8",
-        "135.136.27.41",
-        "135.136.27.42",
-        "135.136.27.43"
+        "62.115.166.253",
+        "149.50.215.65"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Italy",
+      "hostname": "it2-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "146.70.109.172",
+        "146.70.109.173"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Italy",
+      "hostname": "it2-udp-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "ips": [
+        "62.115.166.253",
+        "149.50.215.65"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Italy",
+      "hostname": "it2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "146.70.109.171"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Japan",
-      "region": "Tokyo",
-      "city": "Tokyo",
+      "hostname": "jp2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "45.250.255.4",
+        "202.84.148.70"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Japan",
+      "hostname": "jp2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "45.250.255.16",
+        "45.250.255.17"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Japan",
       "hostname": "jp2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "45.250.255.9"
+        "135.136.27.8",
+        "135.136.27.42"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Korea",
-      "region": "Seoul",
-      "city": "Seoul",
-      "hostname": "kr2-auto-tcp-qr.ptoserver.com",
+      "country": "Japan",
+      "hostname": "jp2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021,
+        1210
+      ],
+      "ips": [
+        "45.250.255.4",
+        "202.84.148.70"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Japan",
+      "hostname": "jp2-tcp-pf.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "port_forward": true,
       "ips": [
-        "45.80.212.46",
-        "45.80.212.76"
+        "45.250.255.4",
+        "202.84.148.70"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Japan",
+      "hostname": "jp2-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.79.244",
+        "172.94.79.245"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Japan",
+      "hostname": "jp2-udp-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "ips": [
+        "45.250.255.4",
+        "202.84.148.70"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Japan",
+      "hostname": "jp2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "172.111.189.7"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Korea",
-      "region": "Seoul",
-      "city": "Seoul",
+      "hostname": "kr2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "141.164.48.186",
+        "113.29.48.54",
+        "62.233.127.182",
+        "34.64.47.179"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Korea",
+      "hostname": "kr2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "45.80.212.48",
+        "45.80.212.49",
+        "45.80.212.79"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Korea",
       "hostname": "kr2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "45.80.212.44",
-        "45.80.212.76"
+        "45.80.212.75"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Latvia",
-      "region": "Riga",
-      "city": "Riga",
-      "hostname": "lv2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "country": "Korea",
+      "hostname": "kr2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "185.135.87.38",
-        "185.135.87.106"
+        "141.164.48.186",
+        "113.29.48.54",
+        "62.233.127.182",
+        "34.64.47.179"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Korea",
+      "hostname": "kr2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "141.164.48.186",
+        "113.29.48.54",
+        "62.233.127.182",
+        "34.64.47.179"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Korea",
+      "hostname": "kr2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "141.164.48.186",
+        "113.29.48.54",
+        "62.233.127.182",
+        "34.64.47.179"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Latvia",
-      "region": "Riga",
-      "city": "Riga",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "lv2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "62.233.127.182",
+        "193.68.78.69"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Latvia",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "lv2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "185.135.87.43",
+        "185.135.87.107"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Latvia",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "lv2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "185.135.87.37",
         "185.135.87.38",
-        "185.135.87.104"
+        "185.135.87.39",
+        "185.135.87.105"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Lithuania",
-      "region": "Vilnius",
-      "city": "Vilnius",
-      "hostname": "lt2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "country": "Latvia",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "lv2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "195.238.124.181",
-        "195.238.124.182"
+        "62.233.127.182",
+        "193.68.78.69"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Latvia",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "lv2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "62.233.127.182",
+        "193.68.78.69"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Latvia",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "lv2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "62.233.127.182",
+        "193.68.78.69"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Lithuania",
-      "region": "Vilnius",
-      "city": "Vilnius",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "lt2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "213.226.128.131",
+        "184.104.192.78"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Lithuania",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "lt2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565
+      ],
+      "obfuscated": true,
+      "ips": [
+        "195.238.124.169",
+        "195.238.124.170"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Lithuania",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "lt2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "195.238.124.165",
-        "195.238.124.183"
+        "195.238.124.167"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Luxembourg",
-      "region": "Luxembourg",
-      "city": "Luxembourg",
-      "hostname": "lu2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "country": "Lithuania",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "lt2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021,
+        1210
+      ],
       "ips": [
-        "85.90.194.11",
-        "85.90.194.12"
+        "213.226.128.131",
+        "184.104.192.78"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Lithuania",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "lt2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "213.226.128.131",
+        "184.104.192.78"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Lithuania",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "lt2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "213.226.128.131",
+        "184.104.192.78"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Luxembourg",
-      "region": "Luxembourg",
-      "city": "Luxembourg",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "lu2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "185.153.151.1"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Luxembourg",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "lu2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "85.90.194.14",
+        "95.85.66.239"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Luxembourg",
       "hostname": "lu2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "85.90.194.11",
-        "85.90.194.13",
-        "95.85.66.237"
+        "95.85.66.236"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Moldova",
-      "region": "Chișinău Municipality",
-      "city": "Chisinau",
-      "hostname": "md2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "country": "Luxembourg",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "lu2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "178.175.143.232",
-        "178.175.143.233"
+        "185.153.151.1"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Luxembourg",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "lu2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "185.153.151.1"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Luxembourg",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "lu2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "185.153.151.1"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Moldova",
-      "region": "Chișinău Municipality",
-      "city": "Chisinau",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "md2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "178.175.130.26"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Moldova",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "md2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "178.175.143.234",
+        "178.175.143.236"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Moldova",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "md2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "178.175.143.232",
         "178.175.143.233"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Moldova",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "md2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "178.175.130.26"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Moldova",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "md2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "178.175.130.26"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Moldova",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "md2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "178.175.130.26"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Monaco",
-      "city": "Frankfurt am Main",
-      "hostname": "mc2-auto-tcp-qr.ptoserver.com",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "mc2-auto-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Monaco",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "mc2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.95.10",
+        "172.94.95.12"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Monaco",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "mc2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "172.94.95.7"
       ]
@@ -1059,50 +4494,326 @@
     {
       "vpn": "openvpn",
       "country": "Monaco",
-      "city": "Frankfurt am Main",
-      "hostname": "mc2-auto-udp-qr.ptoserver.com",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "mc2-auto-udp.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "172.94.95.8",
-        "172.94.95.9"
+        "2.58.44.162"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Netherlands",
-      "region": "Flevoland",
-      "city": "Lelystad",
-      "hostname": "nl2-auto-tcp-qr.ptoserver.com",
+      "country": "Monaco",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "mc2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "5.254.26.33",
-        "149.40.59.72",
-        "203.17.245.201"
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Monaco",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "mc2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "2.58.44.162"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Netherlands",
-      "region": "North Holland",
-      "city": "Amsterdam",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "nl2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "37.46.122.79",
+        "149.14.143.114",
+        "185.254.68.29",
+        "5.254.70.210",
+        "213.19.196.242",
+        "31.220.40.21"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "nl2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "203.17.245.204"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "nl2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "5.254.70.212",
-        "149.40.59.70",
-        "149.40.59.71",
-        "203.17.245.199"
+        "77.243.180.200"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "nl2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "37.46.122.79",
+        "149.14.143.114",
+        "185.254.68.29",
+        "5.254.70.210",
+        "213.19.196.242",
+        "31.220.40.21"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "nl2-obf-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "5.254.15.99",
+        "5.254.15.100",
+        "5.254.15.101"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "nl2-tcp-pf.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "port_forward": true,
+      "ips": [
+        "37.46.122.79",
+        "149.14.143.114",
+        "185.254.68.29",
+        "5.254.70.210",
+        "213.19.196.242",
+        "31.220.40.21"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "nl2-udp-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "ips": [
+        "37.46.122.79",
+        "149.14.143.114",
+        "185.254.68.29",
+        "5.254.70.210",
+        "213.19.196.242",
+        "31.220.40.21"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "nl2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "5.254.15.115"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "New Zealand",
+      "hostname": "nz2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "221.121.135.230",
+        "103.97.53.51"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "New Zealand",
+      "hostname": "nz2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "89.222.126.203",
+        "89.222.126.238"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "New Zealand",
+      "hostname": "nz2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
+        "89.222.126.200",
+        "89.222.126.233",
+        "89.222.126.235"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "New Zealand",
+      "hostname": "nz2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021,
+        1210
+      ],
+      "ips": [
+        "221.121.135.230",
+        "103.97.53.51"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "New Zealand",
+      "hostname": "nz2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "221.121.135.230",
+        "103.97.53.51"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "New Zealand",
+      "hostname": "nz2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "221.121.135.230",
+        "103.97.53.51"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Nigeria",
-      "region": "Lagos",
-      "city": "Lagos",
-      "hostname": "ng2-auto-tcp-qr.ptoserver.com",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ng2-auto-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "195.86.48.5",
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Nigeria",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ng2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "195.86.48.8"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Nigeria",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ng2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
         "195.86.48.6",
         "195.86.48.7"
       ]
@@ -1110,453 +4821,2243 @@
     {
       "vpn": "openvpn",
       "country": "Nigeria",
-      "region": "Lagos",
-      "city": "Lagos",
-      "hostname": "ng2-auto-udp-qr.ptoserver.com",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ng2-auto-udp.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "195.86.48.7"
+        "2.58.44.162"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Norway",
-      "region": "Oslo",
-      "city": "Oslo",
-      "hostname": "no2-auto-tcp-qr.ptoserver.com",
+      "country": "Nigeria",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ng2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "135.136.14.9",
-        "135.136.14.10",
-        "135.136.14.11",
-        "146.70.170.41"
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Nigeria",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ng2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "2.58.44.162"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Norway",
-      "region": "Oslo",
-      "city": "Oslo",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "no2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "154.54.58.226",
+        "185.125.170.119"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Norway",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "no2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "135.136.14.14",
+        "146.70.170.44"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Norway",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "no2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "135.136.14.9",
-        "135.136.14.10",
+        "146.70.170.39",
         "146.70.170.40"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Oman",
-      "city": "Frankfurt am Main",
-      "hostname": "om2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "country": "Norway",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "no2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "172.94.96.7",
+        "154.54.58.226",
+        "185.125.170.119"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Norway",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "no2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "154.54.58.226",
+        "185.125.170.119"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Norway",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "no2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "154.54.58.226",
+        "185.125.170.119"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Oman",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "om2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Oman",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "om2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.96.11",
+        "172.94.96.12"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Oman",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "om2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
         "172.94.96.8"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Oman",
-      "city": "Frankfurt am Main",
-      "hostname": "om2-auto-udp-qr.ptoserver.com",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "om2-auto-udp.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "172.94.96.8",
-        "172.94.96.9"
+        "2.58.44.162"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Panama",
-      "city": "Dallas",
-      "hostname": "pa2-auto-tcp-qr.ptoserver.com",
+      "country": "Oman",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "om2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "172.111.173.8",
-        "172.111.173.133",
-        "172.111.173.134"
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Oman",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "om2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "2.58.44.162"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Panama",
-      "city": "Dallas",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "pa2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Panama",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "pa2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.111.173.11",
+        "172.111.173.12"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Panama",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "pa2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "172.111.173.9",
-        "172.111.173.10"
+        "172.111.173.9"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Philippines",
-      "city": "Singapore",
-      "hostname": "ph2-auto-tcp-qr.ptoserver.com",
+      "country": "Panama",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "pa2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Panama",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "pa2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "172.94.119.8"
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Panama",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "pa2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "2.58.44.162"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Philippines",
-      "city": "Singapore",
+      "hostname": "ph2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "172.111.175.2",
+        "149.34.253.65"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Philippines",
+      "hostname": "ph2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.119.9",
+        "172.94.119.11"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Philippines",
       "hostname": "ph2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "172.94.119.7",
-        "172.94.119.8"
+        "172.94.119.6",
+        "172.94.119.7"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Poland",
-      "region": "Mazovia",
-      "city": "Włochy",
-      "hostname": "pl2-auto-tcp-qr.ptoserver.com",
+      "country": "Philippines",
+      "hostname": "ph2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "172.111.175.2",
+        "149.34.253.65"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Philippines",
+      "hostname": "ph2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "146.70.232.231",
-        "146.70.232.232",
-        "149.102.244.40"
+        "172.111.175.2",
+        "149.34.253.65"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Philippines",
+      "hostname": "ph2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "172.111.175.2",
+        "149.34.253.65"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Poland",
-      "region": "Mazovia",
-      "city": "Włochy",
+      "hostname": "pl2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "82.102.29.245",
+        "149.102.244.33",
+        "70.34.251.47"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Poland",
+      "hostname": "pl2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "66.234.151.139",
+        "149.102.244.43"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Poland",
       "hostname": "pl2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "146.70.232.232"
+        "149.102.244.38"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Portugal",
-      "city": "Madrid",
-      "hostname": "pt2-auto-tcp-qr.ptoserver.com",
+      "country": "Poland",
+      "hostname": "pl2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "82.102.29.245",
+        "149.102.244.33",
+        "70.34.251.47"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Poland",
+      "hostname": "pl2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "185.174.156.37"
+        "82.102.29.245",
+        "149.102.244.33",
+        "70.34.251.47"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Poland",
+      "hostname": "pl2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "82.102.29.245",
+        "149.102.244.33",
+        "70.34.251.47"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Portugal",
-      "city": "Madrid",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "pt2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "149.88.20.129",
+        "62.233.127.182",
+        "149.102.244.33",
+        "185.166.144.243"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Portugal",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "pt2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "103.192.205.139",
+        "103.192.205.140"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Portugal",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "pt2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "185.174.156.36",
-        "185.174.156.37"
+        "103.192.205.136",
+        "103.192.205.137"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Puerto Rico",
-      "city": "Frankfurt am Main",
-      "hostname": "pr2-auto-tcp-qr.ptoserver.com",
+      "country": "Portugal",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "pt2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "149.88.20.129",
+        "62.233.127.182",
+        "149.102.244.33",
+        "185.166.144.243"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Portugal",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "pt2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "172.94.98.7"
+        "149.88.20.129",
+        "62.233.127.182",
+        "149.102.244.33",
+        "185.166.144.243"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Portugal",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "pt2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021,
+        1521
+      ],
+      "ips": [
+        "149.88.20.129",
+        "62.233.127.182",
+        "149.102.244.33",
+        "185.166.144.243"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Puerto Rico",
-      "city": "Frankfurt am Main",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "pr2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Puerto Rico",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "pr2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.98.10",
+        "172.94.98.12"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Puerto Rico",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "pr2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "172.94.98.7"
+        "172.94.98.8"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Romania",
-      "region": "București",
-      "city": "Bucharest",
-      "hostname": "ro2-auto-tcp-qr.ptoserver.com",
+      "country": "Puerto Rico",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "pr2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Puerto Rico",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "pr2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "66.234.157.135",
-        "66.234.157.137",
-        "66.234.157.171"
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Puerto Rico",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "pr2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "2.58.44.162"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Romania",
-      "region": "București",
-      "city": "Bucharest",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ro2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "149.102.239.65",
+        "146.70.124.2"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Romania",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ro2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "66.234.157.138",
+        "66.234.157.139",
+        "66.234.157.174"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Romania",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "ro2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "66.234.157.170",
-        "66.234.157.171"
+        "66.234.157.135",
+        "66.234.157.136",
+        "66.234.157.137",
+        "66.234.157.170"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Romania",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ro2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "149.102.239.65",
+        "146.70.124.2"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Romania",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ro2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "149.102.239.65",
+        "146.70.124.2"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Romania",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ro2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        53
+      ],
+      "ips": [
+        "149.102.239.65",
+        "146.70.124.2"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Russian Federation",
-      "city": "Warsaw",
-      "hostname": "ru2-auto-tcp-qr.ptoserver.com",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ru2-auto-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "45.74.22.7",
+        "149.11.89.194",
+        "31.28.19.227",
+        "82.102.29.155",
+        "82.102.29.245"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Russian Federation",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ru2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "45.74.22.40",
+        "45.74.22.42",
+        "172.94.123.10"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Russian Federation",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ru2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
         "172.94.123.6"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Russian Federation",
-      "city": "Warsaw",
-      "hostname": "ru2-auto-udp-qr.ptoserver.com",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ru2-auto-udp.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "45.74.22.6"
+        "149.11.89.194",
+        "31.28.19.227",
+        "82.102.29.155",
+        "82.102.29.245"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Serbia",
-      "region": "Central Serbia",
-      "city": "Belgrade",
-      "hostname": "rs2-auto-tcp-qr.ptoserver.com",
+      "country": "Russian Federation",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ru2-tcp-pf.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "port_forward": true,
       "ips": [
-        "37.46.115.193",
-        "37.46.115.194"
+        "149.11.89.194",
+        "31.28.19.227",
+        "82.102.29.155",
+        "82.102.29.245"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Russian Federation",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ru2-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.123.9"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Russian Federation",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ru2-udp-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "ips": [
+        "149.11.89.194",
+        "31.28.19.227",
+        "82.102.29.155",
+        "82.102.29.245"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Russian Federation",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ru2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "45.74.22.37",
+        "172.94.123.8"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Serbia",
-      "region": "Central Serbia",
-      "city": "Belgrade",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "rs2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "212.103.51.181"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Serbia",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "rs2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "37.46.115.198",
+        "135.136.30.10"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Serbia",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "rs2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "37.46.115.193",
-        "37.46.115.195",
-        "152.89.160.67"
+        "37.46.115.194",
+        "135.136.30.7"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Singapore",
-      "region": "Singapore",
-      "city": "Singapore",
-      "hostname": "sg2-auto-tcp-qr.ptoserver.com",
+      "country": "Serbia",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "rs2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "212.103.51.181"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Serbia",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "rs2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "74.63.203.55",
-        "74.63.203.56",
-        "74.63.203.57",
-        "149.50.211.71"
+        "212.103.51.181"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Serbia",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "rs2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "212.103.51.181"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Singapore",
-      "region": "Singapore",
-      "city": "Singapore",
+      "hostname": "sg2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "94.237.73.82",
+        "146.70.67.194",
+        "149.34.253.65"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Singapore",
+      "hostname": "sg2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "74.63.203.59"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Singapore",
       "hostname": "sg2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "149.50.211.69",
-        "149.50.211.71"
+        "74.63.203.56",
+        "103.107.199.167",
+        "103.107.199.168"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Singapore",
+      "hostname": "sg2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "94.237.73.82",
+        "146.70.67.194",
+        "149.34.253.65"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Singapore",
+      "hostname": "sg2-obf-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "206.123.135.9",
+        "206.123.135.10"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Singapore",
+      "hostname": "sg2-tcp-pf.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "port_forward": true,
+      "ips": [
+        "94.237.73.82",
+        "146.70.67.194",
+        "149.34.253.65"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Singapore",
+      "hostname": "sg2-udp-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "ips": [
+        "94.237.73.82",
+        "146.70.67.194",
+        "149.34.253.65"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Singapore",
+      "hostname": "sg2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        53
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "206.123.135.6",
+        "206.123.135.7"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Slovakia",
-      "region": "Bratislava Region",
-      "city": "Bratislava",
-      "hostname": "sk2-auto-tcp-qr.ptoserver.com",
+      "hostname": "sk2-auto-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "217.79.119.37",
+        "149.6.174.74"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Slovakia",
+      "hostname": "sk2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "149.102.232.49",
+        "149.102.232.50",
+        "217.79.119.42"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Slovakia",
+      "hostname": "sk2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
+        "149.102.232.46",
+        "149.102.232.48",
         "217.79.119.38"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Slovakia",
-      "region": "Bratislava Region",
-      "city": "Bratislava",
-      "hostname": "sk2-auto-udp-qr.ptoserver.com",
+      "hostname": "sk2-auto-udp.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "217.79.119.37",
-        "217.79.119.39"
+        "149.6.174.74"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "South Africa",
-      "region": "Gauteng",
-      "city": "Johannesburg",
-      "hostname": "za2-auto-tcp-qr.ptoserver.com",
+      "country": "Slovakia",
+      "hostname": "sk2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "213.139.10.102",
-        "213.139.10.104"
+        "149.6.174.74"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Slovakia",
+      "hostname": "sk2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "149.6.174.74"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "South Africa",
-      "region": "Gauteng",
-      "city": "Johannesburg",
+      "hostname": "za2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "102.130.70.58",
+        "168.209.1.188"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "South Africa",
+      "hostname": "za2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "154.47.30.171",
+        "154.47.30.173",
+        "213.139.10.105"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "South Africa",
       "hostname": "za2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "154.47.30.169",
-        "213.139.10.104"
+        "154.47.30.168",
+        "154.47.30.169"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Spain",
-      "region": "Madrid",
-      "city": "Madrid",
-      "hostname": "es2-auto-tcp-qr.ptoserver.com",
+      "country": "South Africa",
+      "hostname": "za2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021,
+        1210
+      ],
+      "ips": [
+        "102.130.70.58",
+        "168.209.1.188"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "South Africa",
+      "hostname": "za2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "45.134.213.9",
-        "135.136.4.9",
-        "135.136.4.71",
-        "135.136.4.72"
+        "102.130.70.58",
+        "168.209.1.188"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "South Africa",
+      "hostname": "za2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "102.130.70.58",
+        "168.209.1.188"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Spain",
-      "region": "Madrid",
-      "city": "Madrid",
+      "hostname": "es2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "82.102.29.83",
+        "82.178.33.201"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Spain",
+      "hostname": "es2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "45.134.213.16",
+        "135.136.4.75",
+        "135.136.28.43",
+        "135.136.28.44"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Spain",
       "hostname": "es2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "135.136.4.71"
+        "45.134.213.7",
+        "135.136.4.9",
+        "135.136.28.10",
+        "135.136.28.41"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Stockholm",
-      "city": "Stockholm",
-      "hostname": "se2-auto-tcp-qr.ptoserver.com",
+      "country": "Spain",
+      "hostname": "es2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021,
+        1210
+      ],
+      "ips": [
+        "82.102.29.83",
+        "82.178.33.201"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Spain",
+      "hostname": "es2-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
       "ips": [
-        "79.142.77.208",
-        "169.150.208.36",
-        "169.150.208.37",
-        "169.150.208.38"
+        "82.102.29.83",
+        "82.178.33.201"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Spain",
+      "hostname": "es2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "82.102.29.83",
+        "82.178.33.201"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Sweden",
-      "region": "Stockholm",
-      "city": "Stockholm",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "se2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "149.11.77.50",
+        "193.27.15.235",
+        "70.34.206.112"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Sweden",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "se2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "79.142.77.211",
+        "79.142.77.214",
+        "169.150.208.46"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Sweden",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "se2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "79.142.77.208",
-        "79.142.77.209",
-        "169.150.208.38"
+        "79.142.77.210"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Switzerland",
-      "region": "Zurich",
-      "city": "Zürich",
-      "hostname": "ch2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "country": "Sweden",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "se2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "135.136.18.167",
-        "135.136.18.168",
-        "135.136.18.169",
-        "149.102.238.136"
+        "149.11.77.50",
+        "193.27.15.235",
+        "70.34.206.112"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Sweden",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "se2-tcp-pf.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "port_forward": true,
+      "ips": [
+        "149.11.77.50",
+        "193.27.15.235",
+        "70.34.206.112"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Sweden",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "se2-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "206.123.137.9",
+        "206.123.137.10"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Sweden",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "se2-udp-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "ips": [
+        "149.11.77.50",
+        "193.27.15.235",
+        "70.34.206.112"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Sweden",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "se2-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
+        "149.11.77.50",
+        "193.27.15.235",
+        "70.34.206.112"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Switzerland",
-      "region": "Zurich",
-      "city": "Zürich",
+      "hostname": "ch2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "149.6.25.2",
+        "130.117.48.74",
+        "149.11.89.194"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Switzerland",
+      "hostname": "ch2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "135.136.18.170",
+        "135.136.18.171",
+        "149.102.238.142"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Switzerland",
       "hostname": "ch2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "149.102.238.137"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "Turkey",
-      "region": "Istanbul",
-      "city": "Istanbul",
-      "hostname": "tr2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "country": "Switzerland",
+      "hostname": "ch2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "149.102.229.200"
+        "149.6.25.2",
+        "130.117.48.74",
+        "149.11.89.194"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Switzerland",
+      "hostname": "ch2-tcp-pf.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "port_forward": true,
+      "ips": [
+        "149.6.25.2",
+        "130.117.48.74",
+        "149.11.89.194"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Switzerland",
+      "hostname": "ch2-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "135.136.18.170",
+        "135.136.18.172",
+        "149.102.238.143"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Switzerland",
+      "hostname": "ch2-udp-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "ips": [
+        "149.6.25.2",
+        "130.117.48.74",
+        "149.11.89.194"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Switzerland",
+      "hostname": "ch2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "149.102.238.137"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Switzerland",
+      "hostname": "ch2-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
+        "149.102.238.137"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Taiwan",
+      "hostname": "tw2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "116.206.73.82",
+        "72.14.194.14"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Taiwan",
+      "hostname": "tw2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.111.186.9",
+        "172.111.186.10",
+        "172.111.186.11"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Taiwan",
+      "hostname": "tw2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
+        "172.111.186.8"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Taiwan",
+      "hostname": "tw2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "116.206.73.82",
+        "72.14.194.14"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Taiwan",
+      "hostname": "tw2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "43.228.156.5"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Taiwan",
+      "hostname": "tw2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "43.228.156.5"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Turkey",
-      "region": "Istanbul",
-      "city": "Istanbul",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "tr2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "195.175.203.86"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Turkey",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "tr2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "149.50.208.104",
+        "149.102.229.202"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Turkey",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "tr2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "149.50.208.100",
-        "149.50.208.101",
-        "149.102.229.200"
+        "149.50.208.102",
+        "149.102.229.200",
+        "149.102.229.201"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "United Arab Emirates",
-      "region": "Dubai",
-      "city": "Dubai",
-      "hostname": "ae2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "country": "Turkey",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "tr2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "135.136.7.71",
-        "135.136.7.73"
+        "195.175.203.86"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Turkey",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "tr2-tcp-pf.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "port_forward": true,
+      "ips": [
+        "195.175.203.86"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Turkey",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "tr2-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "104.250.164.8"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Turkey",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "tr2-udp-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "ips": [
+        "195.175.203.86"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Turkey",
+      "hostname": "tr2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "104.250.164.6"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Turkey",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "tr2-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
+        "104.250.164.6"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Ukraine",
+      "hostname": "ua2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "87.245.237.242"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Ukraine",
+      "hostname": "ua2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "149.102.240.169",
+        "149.102.240.170"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Ukraine",
+      "hostname": "ua2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
+        "149.102.240.165",
+        "149.102.240.167"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Ukraine",
+      "hostname": "ua2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "87.245.237.242"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Ukraine",
+      "hostname": "ua2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "87.245.237.242"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Ukraine",
+      "hostname": "ua2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "87.245.237.242"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "United Arab Emirates",
-      "region": "Dubai",
-      "city": "Dubai",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ae2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "146.70.155.2",
+        "38.54.76.28"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Arab Emirates",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ae2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "135.136.7.42",
+        "135.136.7.44",
+        "135.136.7.75"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Arab Emirates",
+      "categories": [
+        "p2p"
+      ],
       "hostname": "ae2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "135.136.7.41",
+        "135.136.7.71",
         "135.136.7.72",
         "135.136.7.73"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "United Kingdom",
-      "region": "England",
-      "city": "London",
-      "hostname": "uk2-auto-tcp-qr.ptoserver.com",
+      "country": "United Arab Emirates",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ae2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "146.70.155.2",
+        "38.54.76.28"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Arab Emirates",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ae2-tcp-pf.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "port_forward": true,
+      "ips": [
+        "146.70.155.2",
+        "38.54.76.28"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Arab Emirates",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ae2-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "135.136.7.74",
+        "135.136.7.76"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Arab Emirates",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ae2-udp-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "ips": [
+        "146.70.155.2",
+        "38.54.76.28"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Arab Emirates",
+      "categories": [
+        "p2p"
+      ],
+      "hostname": "ae2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "135.136.7.39",
+        "135.136.7.41"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "hostname": "uk2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "154.47.24.244",
+        "134.0.220.225",
+        "45.141.154.42",
+        "82.178.32.238",
+        "5.254.2.210",
+        "212.103.51.182",
+        "62.115.44.254",
+        "5.254.112.98",
+        "62.233.127.182"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "hostname": "uk2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "146.70.181.240",
+        "146.70.181.241"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "hostname": "uk2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "5.254.106.8",
-        "146.70.181.233"
+        "91.90.121.153",
+        "146.70.181.231"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "hostname": "uk2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021,
+        1210
+      ],
+      "ips": [
+        "154.47.24.244",
+        "134.0.220.225",
+        "45.141.154.42",
+        "82.178.32.238",
+        "5.254.2.210",
+        "212.103.51.182",
+        "62.115.44.254",
+        "5.254.112.98",
+        "62.233.127.182"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "hostname": "uk2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "154.47.24.244",
+        "134.0.220.225",
+        "45.141.154.42",
+        "82.178.32.238",
+        "5.254.2.210",
+        "212.103.51.182",
+        "62.115.44.254",
+        "5.254.112.98",
+        "62.233.127.182"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "hostname": "uk2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "149.40.48.44",
+        "149.40.48.52"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "hostname": "uk2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "154.47.24.244",
+        "134.0.220.225",
+        "45.141.154.42",
+        "82.178.32.238",
+        "5.254.2.210",
+        "212.103.51.182",
+        "62.115.44.254",
+        "5.254.112.98",
+        "62.233.127.182"
       ]
     },
     {
@@ -1564,13 +7065,15 @@
       "country": "United Kingdom",
       "region": "England",
       "city": "London",
-      "hostname": "ukl2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "hostname": "ukl2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
       "ips": [
-        "5.254.106.8",
-        "89.238.176.107",
-        "146.70.179.234",
-        "172.111.205.4"
+        "5.254.106.10",
+        "146.70.179.236"
       ]
     },
     {
@@ -1580,23 +7083,47 @@
       "city": "London",
       "hostname": "ukl2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "5.254.106.7",
-        "5.254.106.8",
-        "5.254.112.103",
-        "138.199.31.193"
+        "81.19.222.41",
+        "81.19.222.75"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "United Kingdom",
       "region": "England",
-      "city": "Manchester",
-      "hostname": "uk2-auto-udp-qr.ptoserver.com",
+      "city": "London",
+      "hostname": "ukl2-obf-udp.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
       "ips": [
-        "91.90.121.153",
-        "138.199.31.6"
+        "5.254.106.12",
+        "5.254.106.18"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "hostname": "ukl2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "149.40.48.44",
+        "149.40.48.52"
       ]
     },
     {
@@ -1604,11 +7131,15 @@
       "country": "United Kingdom",
       "region": "England",
       "city": "Manchester",
-      "hostname": "ukm2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "hostname": "ukm2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
       "ips": [
-        "91.90.121.154",
-        "146.70.181.233"
+        "84.233.251.10",
+        "89.238.130.226"
       ]
     },
     {
@@ -1618,21 +7149,270 @@
       "city": "Manchester",
       "hostname": "ukm2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "91.90.121.153",
-        "91.90.121.154"
+        "84.233.251.8",
+        "146.70.181.232",
+        "146.70.181.233"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "hostname": "us-global-tcp2.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "38.122.46.50",
+        "195.22.206.114",
+        "176.10.83.101",
+        "38.142.233.114",
+        "5.254.77.154",
+        "212.103.51.237",
+        "38.142.33.186",
+        "38.142.86.2",
+        "185.124.240.124",
+        "37.221.174.112",
+        "38.142.16.210",
+        "45.134.142.84",
+        "38.88.50.74",
+        "4.69.141.50",
+        "64.31.13.252",
+        "38.104.85.170",
+        "64.31.13.253",
+        "4.2.94.86",
+        "143.244.47.36",
+        "143.198.161.133",
+        "184.75.221.218",
+        "4.69.219.142",
+        "4.8.5.194",
+        "146.70.41.34"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "hostname": "us2-auto-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "38.122.46.50",
+        "195.22.206.114",
+        "176.10.83.101",
+        "38.142.233.114",
+        "5.254.77.154",
+        "212.103.51.237",
+        "38.142.33.186",
+        "38.142.86.2",
+        "185.124.240.124",
+        "37.221.174.112",
+        "38.142.16.210",
+        "45.134.142.84",
+        "38.88.50.74",
+        "4.69.141.50",
+        "64.31.13.252",
+        "38.104.85.170",
+        "64.31.13.253",
+        "4.2.94.86",
+        "143.244.47.36",
+        "143.198.161.133",
+        "184.75.221.218",
+        "4.69.219.142",
+        "4.8.5.194",
+        "146.70.41.34"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "hostname": "us2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "135.136.5.203",
+        "135.136.37.173",
+        "169.150.205.140",
+        "194.59.251.75"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "hostname": "us2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
+      "ips": [
+        "135.136.5.200",
+        "149.40.51.10",
+        "162.246.185.1"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "hostname": "us2-auto-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021,
+        1210
+      ],
+      "ips": [
+        "38.122.46.50",
+        "195.22.206.114",
+        "176.10.83.101",
+        "38.142.233.114",
+        "5.254.77.154",
+        "212.103.51.237",
+        "38.142.33.186",
+        "38.142.86.2",
+        "185.124.240.124",
+        "37.221.174.112",
+        "38.142.16.210",
+        "45.134.142.84",
+        "38.88.50.74",
+        "4.69.141.50",
+        "64.31.13.252",
+        "38.104.85.170",
+        "64.31.13.253",
+        "4.2.94.86",
+        "143.244.47.36",
+        "143.198.161.133",
+        "184.75.221.218",
+        "4.69.219.142",
+        "4.8.5.194",
+        "146.70.41.34"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "hostname": "us2-obf-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "89.46.114.173",
+        "89.46.114.204",
+        "107.175.196.108",
+        "149.102.243.42"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "hostname": "us2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "104.216.247.69",
+        "37.221.174.112",
+        "5.254.81.162",
+        "38.122.64.74",
+        "146.70.41.34",
+        "62.115.120.177",
+        "176.10.83.101",
+        "86.106.87.162",
+        "5.254.77.154",
+        "143.198.161.133",
+        "38.142.233.114",
+        "38.32.13.10",
+        "212.103.51.237",
+        "38.32.69.90",
+        "38.142.16.210",
+        "38.122.46.50",
+        "45.134.142.84",
+        "38.88.195.154",
+        "38.142.86.2",
+        "38.142.33.186",
+        "45.144.112.3",
+        "38.88.50.74",
+        "45.92.192.123",
+        "107.150.158.10",
+        "45.9.15.9",
+        "45.83.22.162",
+        "69.25.117.17",
+        "69.25.116.17",
+        "74.217.183.17",
+        "154.24.82.86"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "hostname": "us2-udp-obf-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565
+      ],
+      "port_forward": true,
+      "obfuscated": true,
+      "ips": [
+        "143.244.47.49",
+        "143.244.47.50",
+        "149.40.51.42"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "hostname": "us2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "149.40.51.40",
+        "149.40.51.48",
+        "217.138.217.69"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "hostname": "us2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "135.136.5.200",
+        "149.40.57.242"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "United States",
       "city": "New York",
-      "hostname": "usny2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "hostname": "usny2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
       "ips": [
-        "38.132.102.9",
-        "135.136.37.169",
-        "135.136.37.170"
+        "135.136.37.172",
+        "135.136.37.173",
+        "149.40.49.202"
       ]
     },
     {
@@ -1641,20 +7421,58 @@
       "city": "New York",
       "hostname": "usny2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "135.136.37.168",
-        "143.244.44.136",
-        "149.40.49.199"
+        "135.136.37.41",
+        "135.136.37.169"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "New York",
+      "hostname": "usny2-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "143.244.47.49"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "New York",
+      "hostname": "usny2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "143.244.47.42"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "United States",
       "city": "Newark",
-      "hostname": "usnj2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "hostname": "usnj2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
       "ips": [
-        "146.70.212.74"
+        "194.59.251.43",
+        "194.59.251.44",
+        "194.59.251.77"
       ]
     },
     {
@@ -1663,19 +7481,27 @@
       "city": "Newark",
       "hostname": "usnj2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "146.70.212.72",
-        "146.70.212.73"
+        "194.59.251.72",
+        "194.59.251.73"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "United States",
       "city": "San Francisco",
-      "hostname": "ussf2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "hostname": "ussf2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
       "ips": [
-        "107.175.196.106"
+        "107.175.196.108"
       ]
     },
     {
@@ -1684,7 +7510,12 @@
       "city": "San Francisco",
       "hostname": "ussf2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
+        "107.175.196.104",
         "107.175.196.105",
         "107.175.196.106"
       ]
@@ -1693,23 +7524,15 @@
       "vpn": "openvpn",
       "country": "United States",
       "city": "Washington DC",
-      "hostname": "uswdc2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
-      "ips": [
-        "207.58.142.71"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "Washington DC",
-      "hostname": "uswdc2-auto-udp-qr.ptoserver.com",
+      "hostname": "uswdc2-auto-udp-obf.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "obfuscated": true,
       "ips": [
-        "64.31.20.9",
-        "207.58.142.70",
-        "207.58.142.71",
-        "207.58.142.72"
+        "64.31.20.13",
+        "207.58.142.74"
       ]
     },
     {
@@ -1717,27 +7540,14 @@
       "country": "United States",
       "region": "Arizona",
       "city": "Phoenix",
-      "hostname": "us2-auto-udp-qr.ptoserver.com",
+      "hostname": "usphx2-auto-udp-obf.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
       "ips": [
-        "23.81.17.42",
-        "64.31.3.105",
-        "64.31.20.21",
-        "208.115.225.56"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "Arizona",
-      "city": "Phoenix",
-      "hostname": "usphx2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
-      "ips": [
-        "23.81.17.41",
-        "23.81.17.42",
-        "23.81.17.43",
-        "217.148.140.137"
+        "23.81.17.44"
       ]
     },
     {
@@ -1747,22 +7557,12 @@
       "city": "Phoenix",
       "hostname": "usphx2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "23.81.17.42",
-        "23.81.17.43",
-        "217.148.140.135",
-        "217.148.140.137"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "California",
-      "city": "Los Angeles",
-      "hostname": "usca2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
-      "ips": [
-        "149.102.243.20"
+        "23.81.17.42"
       ]
     },
     {
@@ -1772,8 +7572,48 @@
       "city": "Los Angeles",
       "hostname": "usca2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "149.102.243.20"
+        "135.136.12.71",
+        "149.102.243.9",
+        "149.102.243.20",
+        "149.102.243.37"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "region": "California",
+      "city": "Los Angeles",
+      "hostname": "usca2-obf-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "217.138.217.73",
+        "217.138.217.75"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "region": "California",
+      "city": "Los Angeles",
+      "hostname": "usca2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "217.138.217.69",
+        "217.138.217.70"
       ]
     },
     {
@@ -1781,11 +7621,14 @@
       "country": "United States",
       "region": "Florida",
       "city": "Miami",
-      "hostname": "usfl2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "hostname": "usfl2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
       "ips": [
-        "208.115.225.56",
-        "208.115.225.57"
+        "135.136.5.203"
       ]
     },
     {
@@ -1795,9 +7638,12 @@
       "city": "Miami",
       "hostname": "usfl2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "208.115.225.55",
-        "208.115.225.57"
+        "135.136.5.199"
       ]
     },
     {
@@ -1805,11 +7651,15 @@
       "country": "United States",
       "region": "Georgia",
       "city": "Atlanta",
-      "hostname": "usga2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "hostname": "usga2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
       "ips": [
-        "149.40.57.233",
-        "149.40.57.240"
+        "89.46.114.173",
+        "149.40.57.225"
       ]
     },
     {
@@ -1819,8 +7669,12 @@
       "city": "Atlanta",
       "hostname": "usga2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "149.40.57.242"
+        "89.46.114.171"
       ]
     },
     {
@@ -1828,10 +7682,15 @@
       "country": "United States",
       "region": "Illinois",
       "city": "Chicago",
-      "hostname": "usil2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "hostname": "usil2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
       "ips": [
-        "149.88.25.200"
+        "66.234.159.108",
+        "149.88.25.206"
       ]
     },
     {
@@ -1841,23 +7700,13 @@
       "city": "Chicago",
       "hostname": "usil2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "149.88.25.211",
-        "149.88.25.212"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "New Jersey",
-      "city": "Secaucus",
-      "hostname": "us2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
-      "ips": [
-        "38.132.102.7",
-        "135.136.37.168",
-        "149.88.25.200",
-        "155.94.186.202"
+        "66.234.159.105",
+        "149.88.25.200"
       ]
     },
     {
@@ -1865,12 +7714,14 @@
       "country": "United States",
       "region": "Texas",
       "city": "Houston",
-      "hostname": "ustx2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "hostname": "ustx2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
       "ips": [
-        "79.127.197.71",
-        "79.127.197.72",
-        "79.127.197.73"
+        "169.150.205.137"
       ]
     },
     {
@@ -1880,9 +7731,14 @@
       "city": "Houston",
       "hostname": "ustx2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "79.127.197.71",
-        "169.150.205.136"
+        "169.150.205.135",
+        "169.150.224.166",
+        "169.150.224.168"
       ]
     },
     {
@@ -1890,21 +7746,16 @@
       "country": "United States",
       "region": "Utah",
       "city": "Salt Lake City",
-      "hostname": "usut2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
-      "ips": [
-        "64.31.3.105"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "Utah",
-      "city": "Salt Lake City",
-      "hostname": "usut2-auto-udp-qr.ptoserver.com",
+      "hostname": "usut2-auto-udp-obf.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
       "ips": [
-        "64.31.3.103"
+        "64.31.3.106",
+        "64.31.3.107",
+        "64.31.3.108"
       ]
     },
     {
@@ -1912,10 +7763,15 @@
       "country": "United States",
       "region": "Virginia",
       "city": "Ashburn",
-      "hostname": "usva2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "hostname": "usva2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
       "ips": [
-        "149.88.18.9"
+        "149.88.18.14",
+        "149.88.18.15"
       ]
     },
     {
@@ -1925,7 +7781,12 @@
       "city": "Ashburn",
       "hostname": "usva2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
+        "149.88.18.8",
         "149.88.18.9"
       ]
     },
@@ -1934,12 +7795,16 @@
       "country": "United States",
       "region": "Washington",
       "city": "Seattle",
-      "hostname": "ussa2-auto-tcp-qr.ptoserver.com",
-      "tcp": true,
+      "hostname": "ussa2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        1210
+      ],
+      "obfuscated": true,
       "ips": [
-        "138.199.43.8",
-        "155.94.186.200",
-        "155.94.186.202"
+        "149.40.51.12",
+        "155.94.186.203",
+        "155.94.186.205"
       ]
     },
     {
@@ -1949,35 +7814,110 @@
       "city": "Seattle",
       "hostname": "ussa2-auto-udp-qr.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
-        "138.199.43.9",
-        "155.94.186.202",
-        "156.146.51.163"
+        "149.40.51.10",
+        "149.40.51.11"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "region": "Washington",
+      "city": "Seattle",
+      "hostname": "ussa2-udp-qr-pf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "port_forward": true,
+      "quantum_resistant": true,
+      "ips": [
+        "149.40.51.48"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Vietnam",
-      "city": "New York City",
-      "hostname": "vn2-auto-tcp-qr.ptoserver.com",
+      "hostname": "vn2-auto-tcp.ptoserver.com",
       "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "222.255.100.3",
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Vietnam",
+      "hostname": "vn2-auto-udp-obf.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        5565,
+        1210
+      ],
+      "obfuscated": true,
+      "ips": [
+        "172.94.25.140"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Vietnam",
+      "hostname": "vn2-auto-udp-qr.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "quantum_resistant": true,
       "ips": [
         "172.94.25.8",
         "172.94.25.9",
-        "172.94.25.137",
         "172.94.25.138"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "Vietnam",
-      "city": "New York City",
-      "hostname": "vn2-auto-udp-qr.ptoserver.com",
+      "hostname": "vn2-auto-udp.ptoserver.com",
       "udp": true,
+      "udp_ports": [
+        15021
+      ],
       "ips": [
-        "172.94.25.9",
-        "172.94.25.10",
-        "172.94.25.137"
+        "222.255.100.3",
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Vietnam",
+      "hostname": "vn2-tcp.ptoserver.com",
+      "tcp": true,
+      "tcp_ports": [
+        80
+      ],
+      "ips": [
+        "222.255.100.3",
+        "2.58.44.162"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Vietnam",
+      "hostname": "vn2-udp.ptoserver.com",
+      "udp": true,
+      "udp_ports": [
+        15021
+      ],
+      "ips": [
+        "222.255.100.3",
+        "2.58.44.162"
       ]
     }
   ]
