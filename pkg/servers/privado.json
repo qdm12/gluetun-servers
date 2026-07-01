@@ -1,6 +1,6 @@
 {
   "version": 6,
-  "timestamp": 1777610179,
+  "timestamp": 1782890322,
   "servers": [
     {
       "vpn": "openvpn",
@@ -156,6 +156,16 @@
       "vpn": "openvpn",
       "country": "Czech Republic",
       "city": "Prague",
+      "hostname": "gw8.philosophyhq.org",
+      "udp": true,
+      "ips": [
+        "91.148.247.236"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Czech Republic",
+      "city": "Prague",
       "hostname": "prg-003.vpn.privado.io",
       "udp": true,
       "ips": [
@@ -190,56 +200,6 @@
       "udp": true,
       "ips": [
         "91.148.244.160"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Estonia",
-      "city": "Tallinn",
-      "hostname": "tll-001.vpn.privado.io",
-      "udp": true,
-      "ips": [
-        "185.174.159.227"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Estonia",
-      "city": "Tallinn",
-      "hostname": "tll-002.vpn.privado.io",
-      "udp": true,
-      "ips": [
-        "185.174.159.232"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Estonia",
-      "city": "Tallinn",
-      "hostname": "tll-003.vpn.privado.io",
-      "udp": true,
-      "ips": [
-        "185.174.159.237"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Estonia",
-      "city": "Tallinn",
-      "hostname": "tll-004.vpn.privado.io",
-      "udp": true,
-      "ips": [
-        "185.174.159.242"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Estonia",
-      "city": "Tallinn",
-      "hostname": "tll-005.vpn.privado.io",
-      "udp": true,
-      "ips": [
-        "185.174.159.247"
       ]
     },
     {
@@ -619,7 +579,7 @@
       "hostname": "nrt-012.vpn.privado.io",
       "udp": true,
       "ips": [
-        "85.12.4.200"
+        "85.12.4.201"
       ]
     },
     {
@@ -746,16 +706,6 @@
       "vpn": "openvpn",
       "country": "Netherlands",
       "city": "Amsterdam",
-      "hostname": "ams-034.vpn.privado.io",
-      "udp": true,
-      "ips": [
-        "91.148.245.64"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Netherlands",
-      "city": "Amsterdam",
       "hostname": "ams-035.vpn.privado.io",
       "udp": true,
       "ips": [
@@ -780,6 +730,16 @@
       "udp": true,
       "ips": [
         "91.148.245.82"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "hostname": "corp86.heyjcd.com",
+      "udp": true,
+      "ips": [
+        "91.148.247.8"
       ]
     },
     {
@@ -920,6 +880,16 @@
       "udp": true,
       "ips": [
         "91.148.240.151"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Serbia",
+      "city": "Belgrade",
+      "hostname": "platform67.mechanicalmen.org",
+      "udp": true,
+      "ips": [
+        "91.148.247.156"
       ]
     },
     {
@@ -1290,6 +1260,56 @@
       "udp": true,
       "ips": [
         "45.38.17.19"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "USA",
+      "city": "Los Angeles",
+      "hostname": "devbuild06.philosphyhq.com",
+      "udp": true,
+      "ips": [
+        "81.171.62.10"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "USA",
+      "city": "Los Angeles",
+      "hostname": "devbuild07.philosphyhq.com",
+      "udp": true,
+      "ips": [
+        "69.161.145.3"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "USA",
+      "city": "Los Angeles",
+      "hostname": "gw12.mechanicalmen.org",
+      "udp": true,
+      "ips": [
+        "45.38.18.233"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "USA",
+      "city": "Los Angeles",
+      "hostname": "gw67.mechanicalmen.org",
+      "udp": true,
+      "ips": [
+        "69.161.145.11"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "USA",
+      "city": "Los Angeles",
+      "hostname": "gw7.heyjcd.com",
+      "udp": true,
+      "ips": [
+        "69.161.145.7"
       ]
     },
     {

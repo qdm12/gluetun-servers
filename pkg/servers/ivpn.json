@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "timestamp": 1777610167,
+  "timestamp": 1782890313,
   "servers": [
     {
       "vpn": "openvpn",
@@ -621,29 +621,6 @@
       "wgpubkey": "G30fNdXrnlqtqqOLF23QXWzFdLIKDxLW60HoYPvqml8=",
       "ips": [
         "185.189.114.189"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Iceland",
-      "city": "Reykjavik",
-      "isp": "Advania",
-      "hostname": "is1.gw.ivpn.net",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "82.221.107.178"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Iceland",
-      "city": "Reykjavik",
-      "isp": "Advania",
-      "hostname": "is1.wg.ivpn.net",
-      "wgpubkey": "nZZT6TlQ2dXlVe3P3B5ozEScHYMWH4JY4y3to8w5dz0=",
-      "ips": [
-        "82.221.107.185"
       ]
     },
     {
@@ -1752,31 +1729,6 @@
       "country": "United States",
       "region": "GA",
       "city": "Atlanta",
-      "isp": "Ingenuity",
-      "hostname": "us-ga4.gw.ivpn.net",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "67.213.215.91"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "region": "GA",
-      "city": "Atlanta",
-      "isp": "Ingenuity",
-      "hostname": "us-ga4.wg.ivpn.net",
-      "wgpubkey": "DBOSDaNKSauFlqPE62a3bVBeJ5VsLdx9Lms27hpajm0=",
-      "ips": [
-        "67.213.209.3"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "GA",
-      "city": "Atlanta",
       "isp": "Tzulo",
       "hostname": "us-ga5.gw.ivpn.net",
       "tcp": true,
@@ -1895,31 +1847,6 @@
       "wgpubkey": "JtIx5H4hqFUhwyrnlVlvthQgwNKJTKnpmT7Ld1XcPhM=",
       "ips": [
         "109.61.86.50"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "NJ",
-      "city": "Secaucus",
-      "isp": "Ingenuity",
-      "hostname": "us-nj1.gw.ivpn.net",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "67.213.220.13"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "region": "NJ",
-      "city": "Secaucus",
-      "isp": "Ingenuity",
-      "hostname": "us-nj1.wg.ivpn.net",
-      "wgpubkey": "ZffXqS8uJHDHLwTuYAVNhYn6IbWvcM2FsdCCLugHCCw=",
-      "ips": [
-        "69.4.232.51"
       ]
     },
     {
@@ -2100,26 +2027,26 @@
     {
       "vpn": "openvpn",
       "country": "United States",
-      "region": "UT",
+      "region": "Utah",
       "city": "Salt Lake City",
-      "isp": "100TB",
-      "hostname": "us-ut1.gw.ivpn.net",
+      "isp": "Tzulo",
+      "hostname": "us-ut2.gw.ivpn.net",
       "tcp": true,
       "udp": true,
       "ips": [
-        "198.105.216.28"
+        "198.44.139.90"
       ]
     },
     {
       "vpn": "wireguard",
       "country": "United States",
-      "region": "UT",
+      "region": "Utah",
       "city": "Salt Lake City",
-      "isp": "100TB",
-      "hostname": "us-ut1.wg.ivpn.net",
-      "wgpubkey": "KirI7bpxD186CuYiOqNHF+QUe6YmRYf6CN3pXWOJT2k=",
+      "isp": "Tzulo",
+      "hostname": "us-ut2.wg.ivpn.net",
+      "wgpubkey": "5bX1NIcNST+78oqQVS8I+uGY4vBHGSpF95lNIokwHRY=",
       "ips": [
-        "206.190.145.92"
+        "198.44.139.94"
       ]
     },
     {
