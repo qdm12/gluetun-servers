@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "timestamp": 1777610215,
+  "timestamp": 1785564405,
   "servers": [
     {
       "vpn": "openvpn",
@@ -310,7 +310,7 @@
     {
       "vpn": "openvpn",
       "country": "Italy",
-      "city": "Milan1",
+      "city": "Milan",
       "hostname": "it-mil.pvdata.host",
       "tcp": true,
       "udp": true,
@@ -541,8 +541,8 @@
     },
     {
       "vpn": "openvpn",
-      "country": "Singapore",
-      "city": "Singapore",
+      "country": "Slovakia",
+      "city": "Bratislava",
       "hostname": "sg-sin.pvdata.host",
       "tcp": true,
       "udp": true,
