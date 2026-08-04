@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1772653669,
+  "timestamp": 1785848417,
   "servers": [
     {
       "vpn": "wireguard",
@@ -3807,82 +3807,6 @@
       "country": "Czech Republic",
       "region": "Europe",
       "city": "Prague",
-      "server_name": "Markab",
-      "hostname": "cz.ipv6.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "2001:ac8:33:5:a575:5312:9d46:8c58"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Czech Republic",
-      "region": "Europe",
-      "city": "Prague",
-      "server_name": "Markab",
-      "hostname": "cz.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "185.156.174.26"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Czech Republic",
-      "region": "Europe",
-      "city": "Prague",
-      "server_name": "Markab",
-      "hostname": "cz3.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2001:ac8:33:5:f529:45a0:e2b8:7494"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Czech Republic",
-      "region": "Europe",
-      "city": "Prague",
-      "server_name": "Markab",
-      "hostname": "cz3.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "185.156.174.29"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Czech Republic",
-      "region": "Europe",
-      "city": "Prague",
-      "server_name": "Markab",
-      "hostname": "cz4.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2001:ac8:33:5:396d:3a49:83eb:7c91"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Czech Republic",
-      "region": "Europe",
-      "city": "Prague",
-      "server_name": "Markab",
-      "hostname": "cz4.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "185.156.174.30"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Czech Republic",
-      "region": "Europe",
-      "city": "Prague",
       "server_name": "Turais",
       "hostname": "cz.ipv6.vpn.airdns.org",
       "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
@@ -6916,82 +6840,6 @@
       "udp": true,
       "ips": [
         "213.152.187.208"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Netherlands",
-      "region": "Europe",
-      "city": "Alblasserdam",
-      "server_name": "Ancha",
-      "hostname": "nl.ipv6.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "2a00:1678:2470:16:f876:b7fb:a4dc:613d"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Netherlands",
-      "region": "Europe",
-      "city": "Alblasserdam",
-      "server_name": "Ancha",
-      "hostname": "nl.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "213.152.162.164"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Netherlands",
-      "region": "Europe",
-      "city": "Alblasserdam",
-      "server_name": "Ancha",
-      "hostname": "nl3.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1678:2470:16:46b2:3237:652b:4584"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Netherlands",
-      "region": "Europe",
-      "city": "Alblasserdam",
-      "server_name": "Ancha",
-      "hostname": "nl3.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "213.152.162.167"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Netherlands",
-      "region": "Europe",
-      "city": "Alblasserdam",
-      "server_name": "Ancha",
-      "hostname": "nl4.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1678:2470:16:2570:ade3:292f:f2fe"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Netherlands",
-      "region": "Europe",
-      "city": "Alblasserdam",
-      "server_name": "Ancha",
-      "hostname": "nl4.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "213.152.162.168"
       ]
     },
     {
@@ -11552,6 +11400,158 @@
       "udp": true,
       "ips": [
         "213.152.161.152"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Netherlands",
+      "region": "Europe",
+      "city": "Amsterdam",
+      "server_name": "Dedalus",
+      "hostname": "nl.ipv6.vpn.airdns.org",
+      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
+      "ips": [
+        "2a00:dd0:0:115:5121:b8a8:f2c6:991d"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Netherlands",
+      "region": "Europe",
+      "city": "Amsterdam",
+      "server_name": "Dedalus",
+      "hostname": "nl.vpn.airdns.org",
+      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
+      "ips": [
+        "109.235.50.5"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "region": "Europe",
+      "city": "Amsterdam",
+      "server_name": "Dedalus",
+      "hostname": "nl3.ipv6.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "2a00:dd0:0:115:a718:55d6:4f15:50dc"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "region": "Europe",
+      "city": "Amsterdam",
+      "server_name": "Dedalus",
+      "hostname": "nl3.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "109.235.50.17"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "region": "Europe",
+      "city": "Amsterdam",
+      "server_name": "Dedalus",
+      "hostname": "nl4.ipv6.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "2a00:dd0:0:115:809:d41e:6e51:92ac"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "region": "Europe",
+      "city": "Amsterdam",
+      "server_name": "Dedalus",
+      "hostname": "nl4.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "109.235.50.18"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Netherlands",
+      "region": "Europe",
+      "city": "Amsterdam",
+      "server_name": "Felix",
+      "hostname": "nl.ipv6.vpn.airdns.org",
+      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
+      "ips": [
+        "2a00:dd0:0:116:eb8a:825:1991:cd10"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Netherlands",
+      "region": "Europe",
+      "city": "Amsterdam",
+      "server_name": "Felix",
+      "hostname": "nl.vpn.airdns.org",
+      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
+      "ips": [
+        "109.235.50.7"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "region": "Europe",
+      "city": "Amsterdam",
+      "server_name": "Felix",
+      "hostname": "nl3.ipv6.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "2a00:dd0:0:116:c1af:561d:fc77:c160"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "region": "Europe",
+      "city": "Amsterdam",
+      "server_name": "Felix",
+      "hostname": "nl3.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "109.235.50.33"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "region": "Europe",
+      "city": "Amsterdam",
+      "server_name": "Felix",
+      "hostname": "nl4.ipv6.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "2a00:dd0:0:116:62bf:c43:c96d:cf12"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "region": "Europe",
+      "city": "Amsterdam",
+      "server_name": "Felix",
+      "hostname": "nl4.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "109.235.50.34"
       ]
     },
     {
@@ -17632,310 +17632,6 @@
       "udp": true,
       "ips": [
         "23.130.104.133"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Maia",
-      "hostname": "us.ipv6.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "2607:9000:3000:32:fcc7:ebed:57ce:d05"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Maia",
-      "hostname": "us.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "198.54.129.51"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Maia",
-      "hostname": "us3.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2607:9000:3000:32:5ca5:68a0:c556:395c"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Maia",
-      "hostname": "us3.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "198.54.129.54"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Maia",
-      "hostname": "us4.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2607:9000:3000:32:369a:7f1a:f864:5555"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Maia",
-      "hostname": "us4.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "198.44.129.210"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Revati",
-      "hostname": "us.ipv6.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "2607:9000:3000:38:6cd0:1472:8c16:dc00"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Revati",
-      "hostname": "us.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "198.54.129.123"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Revati",
-      "hostname": "us3.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2607:9000:3000:38:b445:83c4:bd01:dbcb"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Revati",
-      "hostname": "us3.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "198.54.129.125"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Revati",
-      "hostname": "us4.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2607:9000:3000:38:2c32:f872:dc6e:24ee"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Revati",
-      "hostname": "us4.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "198.54.129.126"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Sarin",
-      "hostname": "us.ipv6.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "2607:9000:3000:33:d732:f661:7931:6253"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Sarin",
-      "hostname": "us.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "198.54.129.59"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Sarin",
-      "hostname": "us3.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2607:9000:3000:33:415c:3f0f:c0db:65ee"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Sarin",
-      "hostname": "us3.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "198.54.129.62"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Sarin",
-      "hostname": "us4.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2607:9000:3000:33:6b86:e7c2:2f35:6c6c"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Sarin",
-      "hostname": "us4.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "198.44.129.226"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Xamidimura",
-      "hostname": "us.ipv6.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "2607:9000:3000:31:41ed:8ac8:86ad:d70c"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Xamidimura",
-      "hostname": "us.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "198.54.129.43"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Xamidimura",
-      "hostname": "us3.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2607:9000:3000:31:bd0f:275a:3545:1bd0"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Xamidimura",
-      "hostname": "us3.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "198.54.129.46"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Xamidimura",
-      "hostname": "us4.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2607:9000:3000:31:cc02:8576:a1b1:adb7"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "region": "America",
-      "city": "Los Angeles",
-      "server_name": "Xamidimura",
-      "hostname": "us4.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "198.44.129.194"
       ]
     },
     {

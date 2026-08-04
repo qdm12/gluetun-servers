@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "timestamp": 1777610215,
+  "timestamp": 1785848482,
   "servers": [
     {
       "vpn": "openvpn",
@@ -310,7 +310,7 @@
     {
       "vpn": "openvpn",
       "country": "Italy",
-      "city": "Milan1",
+      "city": "Milan",
       "hostname": "it-mil.pvdata.host",
       "tcp": true,
       "udp": true,
@@ -559,21 +559,6 @@
       "udp": true,
       "ips": [
         "46.29.2.168"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "South Africa",
-      "city": "Johannesburg",
-      "hostname": "us-nyc.pvdata.host",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "45.130.86.3",
-        "45.130.86.5",
-        "45.130.86.8",
-        "45.130.86.10",
-        "45.130.86.12"
       ]
     },
     {
@@ -869,6 +854,21 @@
       "udp": true,
       "ips": [
         "195.181.163.139"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "NewYork1",
+      "hostname": "us-nyc.pvdata.host",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "45.130.86.3",
+        "45.130.86.5",
+        "45.130.86.8",
+        "45.130.86.10",
+        "45.130.86.12"
       ]
     },
     {
