@@ -29,9 +29,6 @@
   "nordvpn": {
     "filepath": "/gluetun/servers/nordvpn.json"
   },
-  "perfect privacy": {
-    "filepath": "/gluetun/servers/perfect privacy.json"
-  },
   "privado": {
     "filepath": "/gluetun/servers/privado.json"
   },
