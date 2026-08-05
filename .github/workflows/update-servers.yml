@@ -57,6 +57,7 @@ jobs:
 
           docker run --rm -v "$PWD/pkg/servers:/gluetun/servers" ghcr.io/qdm12/gluetun:latest \
             update "${FLAGS[@]}" \
+            -minratio 0.5 \
             -proton-email "${{ secrets.PROTON_EMAIL }}" \
             -proton-password "${{ secrets.PROTON_PASSWORD }}"
 
