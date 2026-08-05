@@ -42,6 +42,7 @@ jobs:
       actions: read
       contents: write
       pull-requests: write
+    environment: secrets
     steps:
       - uses: actions/checkout@v6
 
