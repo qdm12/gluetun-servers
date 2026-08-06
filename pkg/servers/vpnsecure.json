@@ -1,11 +1,10 @@
 {
   "version": 1,
-  "timestamp": 1777610236,
+  "timestamp": 1785990881,
   "servers": [
     {
       "vpn": "openvpn",
       "country": "Australia",
-      "region": "New South Wales",
       "city": "Sydney",
       "hostname": "au1.isponeder.com",
       "tcp": true,
@@ -17,7 +16,6 @@
     {
       "vpn": "openvpn",
       "country": "Brazil",
-      "region": "São Paulo",
       "city": "São Paulo",
       "hostname": "br1.isponeder.com",
       "tcp": true,
@@ -29,31 +27,11 @@
     {
       "vpn": "openvpn",
       "country": "Canada",
-      "hostname": "ca2.isponeder.com",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "51.79.117.214"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Canada",
-      "hostname": "ca4.isponeder.com",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "51.79.117.215"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Canada",
-      "region": "Quebec",
-      "city": "Montreal",
+      "city": "Montréal",
       "hostname": "ca1.isponeder.com",
       "tcp": true,
       "udp": true,
+      "premium": true,
       "ips": [
         "167.114.145.160"
       ]
@@ -61,11 +39,23 @@
     {
       "vpn": "openvpn",
       "country": "Canada",
-      "region": "Quebec",
-      "city": "Montreal",
+      "city": "Montréal",
+      "hostname": "ca2.isponeder.com",
+      "tcp": true,
+      "udp": true,
+      "premium": true,
+      "ips": [
+        "51.79.117.214"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "city": "Montréal",
       "hostname": "ca3.isponeder.com",
       "tcp": true,
       "udp": true,
+      "premium": true,
       "ips": [
         "167.114.145.52"
       ]
@@ -73,6 +63,7 @@
     {
       "vpn": "openvpn",
       "country": "Czech Republic",
+      "city": "Prague",
       "hostname": "cz1.isponeder.com",
       "tcp": true,
       "udp": true,
@@ -84,9 +75,11 @@
     {
       "vpn": "openvpn",
       "country": "France",
+      "city": "Roubaix",
       "hostname": "fr1.isponeder.com",
       "tcp": true,
       "udp": true,
+      "premium": true,
       "ips": [
         "217.182.66.152"
       ]
@@ -94,9 +87,11 @@
     {
       "vpn": "openvpn",
       "country": "France",
+      "city": "Roubaix",
       "hostname": "fr2.isponeder.com",
       "tcp": true,
       "udp": true,
+      "premium": true,
       "ips": [
         "51.91.234.27"
       ]
@@ -104,9 +99,11 @@
     {
       "vpn": "openvpn",
       "country": "France",
+      "city": "Strasbourg",
       "hostname": "fr3.isponeder.com",
       "tcp": true,
       "udp": true,
+      "premium": true,
       "ips": [
         "217.182.65.36"
       ]
@@ -114,36 +111,19 @@
     {
       "vpn": "openvpn",
       "country": "France",
+      "city": "Strasbourg",
       "hostname": "fr4.isponeder.com",
       "tcp": true,
       "udp": true,
+      "premium": true,
       "ips": [
         "51.178.71.3"
       ]
     },
     {
       "vpn": "openvpn",
-      "country": "France",
-      "hostname": "fr5.isponeder.com",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "51.178.71.4"
-      ]
-    },
-    {
-      "vpn": "openvpn",
       "country": "Germany",
-      "hostname": "de1.isponeder.com",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "54.38.159.43"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Germany",
+      "city": "Frankfurt",
       "hostname": "de2.isponeder.com",
       "tcp": true,
       "udp": true,
@@ -154,12 +134,23 @@
     },
     {
       "vpn": "openvpn",
+      "country": "Germany",
+      "city": "Limburg",
+      "hostname": "de1.isponeder.com",
+      "tcp": true,
+      "udp": true,
+      "premium": true,
+      "ips": [
+        "54.38.159.43"
+      ]
+    },
+    {
+      "vpn": "openvpn",
       "country": "Hong Kong",
       "city": "Hong Kong",
       "hostname": "hk1.isponeder.com",
       "tcp": true,
       "udp": true,
-      "premium": true,
       "ips": [
         "203.23.128.147"
       ]
@@ -167,6 +158,7 @@
     {
       "vpn": "openvpn",
       "country": "India",
+      "city": "Mumbai",
       "hostname": "in1.isponeder.com",
       "tcp": true,
       "udp": true,
@@ -177,11 +169,11 @@
     {
       "vpn": "openvpn",
       "country": "Ireland",
-      "region": "Leinster",
       "city": "Dublin",
       "hostname": "ie1.isponeder.com",
       "tcp": true,
       "udp": true,
+      "premium": true,
       "ips": [
         "185.224.197.164"
       ]
@@ -189,7 +181,6 @@
     {
       "vpn": "openvpn",
       "country": "Ireland",
-      "region": "Leinster",
       "city": "Dublin",
       "hostname": "ie2.isponeder.com",
       "tcp": true,
@@ -202,7 +193,6 @@
     {
       "vpn": "openvpn",
       "country": "Ireland",
-      "region": "Leinster",
       "city": "Dublin",
       "hostname": "ie3.isponeder.com",
       "tcp": true,
@@ -215,12 +205,10 @@
     {
       "vpn": "openvpn",
       "country": "Israel",
-      "region": "Tel Aviv",
       "city": "Tel Aviv",
       "hostname": "il1.isponeder.com",
       "tcp": true,
       "udp": true,
-      "premium": true,
       "ips": [
         "83.229.71.19"
       ]
@@ -228,9 +216,11 @@
     {
       "vpn": "openvpn",
       "country": "Italy",
+      "city": "Milan",
       "hostname": "it1.isponeder.com",
       "tcp": true,
       "udp": true,
+      "premium": true,
       "ips": [
         "51.75.158.45"
       ]
@@ -238,7 +228,6 @@
     {
       "vpn": "openvpn",
       "country": "Italy",
-      "region": "Lombardy",
       "city": "Milan",
       "hostname": "it2.isponeder.com",
       "tcp": true,
@@ -251,12 +240,10 @@
     {
       "vpn": "openvpn",
       "country": "Japan",
-      "region": "Tokyo",
       "city": "Tokyo",
       "hostname": "jp1.isponeder.com",
       "tcp": true,
       "udp": true,
-      "premium": true,
       "ips": [
         "103.106.228.223"
       ]
@@ -264,6 +251,7 @@
     {
       "vpn": "openvpn",
       "country": "Lithuania",
+      "city": "Vilnius",
       "hostname": "lt1.isponeder.com",
       "tcp": true,
       "udp": true,
@@ -275,7 +263,6 @@
     {
       "vpn": "openvpn",
       "country": "Mexico",
-      "region": "Mexico City",
       "city": "Mexico City",
       "hostname": "mx1.isponeder.com",
       "tcp": true,
@@ -287,11 +274,11 @@
     {
       "vpn": "openvpn",
       "country": "Netherlands",
-      "region": "Île-de-France",
-      "city": "Paris",
+      "city": "Amsterdam",
       "hostname": "nl1.isponeder.com",
       "tcp": true,
       "udp": true,
+      "premium": true,
       "ips": [
         "51.158.145.18"
       ]
@@ -299,11 +286,11 @@
     {
       "vpn": "openvpn",
       "country": "Netherlands",
-      "region": "Île-de-France",
-      "city": "Paris",
+      "city": "Amsterdam",
       "hostname": "nl2.isponeder.com",
       "tcp": true,
       "udp": true,
+      "premium": true,
       "ips": [
         "51.158.40.241"
       ]
@@ -311,9 +298,11 @@
     {
       "vpn": "openvpn",
       "country": "Poland",
+      "city": "Warsaw",
       "hostname": "pl1.isponeder.com",
       "tcp": true,
       "udp": true,
+      "premium": true,
       "ips": [
         "57.128.239.13"
       ]
@@ -321,21 +310,7 @@
     {
       "vpn": "openvpn",
       "country": "Romania",
-      "region": "Central Macedonia",
-      "city": "Thessaloniki",
-      "hostname": "ro1.isponeder.com",
-      "tcp": true,
-      "udp": true,
-      "premium": true,
-      "ips": [
-        "154.43.62.84"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Romania",
-      "region": "Central Macedonia",
-      "city": "Thessaloniki",
+      "city": "Bucharest",
       "hostname": "ro2.isponeder.com",
       "tcp": true,
       "udp": true,
@@ -346,7 +321,20 @@
     },
     {
       "vpn": "openvpn",
+      "country": "Romania",
+      "city": "Voluntari",
+      "hostname": "ro1.isponeder.com",
+      "tcp": true,
+      "udp": true,
+      "premium": true,
+      "ips": [
+        "154.43.62.84"
+      ]
+    },
+    {
+      "vpn": "openvpn",
       "country": "Russia",
+      "city": "Saint Petersburg",
       "hostname": "ru1.isponeder.com",
       "tcp": true,
       "udp": true,
@@ -358,21 +346,10 @@
       "vpn": "openvpn",
       "country": "Singapore",
       "city": "Singapore",
-      "hostname": "sg0.isponeder.com",
-      "tcp": true,
-      "udp": true,
-      "premium": true,
-      "ips": [
-        "216.107.138.208"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Singapore",
-      "city": "Singapore",
       "hostname": "sg1.isponeder.com",
       "tcp": true,
       "udp": true,
+      "premium": true,
       "ips": [
         "216.107.138.209"
       ]
@@ -380,9 +357,11 @@
     {
       "vpn": "openvpn",
       "country": "Spain",
+      "city": "Madrid",
       "hostname": "es1.isponeder.com",
       "tcp": true,
       "udp": true,
+      "premium": true,
       "ips": [
         "51.77.89.153"
       ]
@@ -390,7 +369,6 @@
     {
       "vpn": "openvpn",
       "country": "Spain",
-      "region": "Madrid",
       "city": "Madrid",
       "hostname": "es2.isponeder.com",
       "tcp": true,
@@ -403,8 +381,7 @@
     {
       "vpn": "openvpn",
       "country": "Sweden",
-      "region": "Örebro County",
-      "city": "Örebro",
+      "city": "Stockholm",
       "hostname": "se1.isponeder.com",
       "tcp": true,
       "udp": true,
@@ -415,7 +392,6 @@
     {
       "vpn": "openvpn",
       "country": "Switzerland",
-      "region": "Zurich",
       "city": "Zurich",
       "hostname": "ch1.isponeder.com",
       "tcp": true,
@@ -427,11 +403,11 @@
     {
       "vpn": "openvpn",
       "country": "Ukraine",
-      "region": "Kyiv City",
       "city": "Kyiv",
       "hostname": "ua1.isponeder.com",
       "tcp": true,
       "udp": true,
+      "premium": true,
       "ips": [
         "139.28.38.117"
       ]
@@ -439,7 +415,6 @@
     {
       "vpn": "openvpn",
       "country": "Ukraine",
-      "region": "Kyiv City",
       "city": "Kyiv",
       "hostname": "ua2.isponeder.com",
       "tcp": true,
@@ -452,21 +427,10 @@
     {
       "vpn": "openvpn",
       "country": "United Kingdom",
-      "hostname": "uk2.isponeder.com",
+      "city": "Bexleyheath",
+      "hostname": "gb3.isponeder.com",
       "tcp": true,
       "udp": true,
-      "premium": true,
-      "ips": [
-        "154.41.135.18"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United Kingdom",
-      "hostname": "uk3.isponeder.com",
-      "tcp": true,
-      "udp": true,
-      "premium": true,
       "ips": [
         "51.75.161.116"
       ]
@@ -474,8 +438,18 @@
     {
       "vpn": "openvpn",
       "country": "United Kingdom",
-      "region": "England",
-      "city": "Canary Wharf",
+      "city": "Erith",
+      "hostname": "gb2.isponeder.com",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "154.41.135.18"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "city": "London",
       "hostname": "gb1.isponeder.com",
       "tcp": true,
       "udp": true,
@@ -485,33 +459,8 @@
     },
     {
       "vpn": "openvpn",
-      "country": "United Kingdom",
-      "region": "England",
-      "city": "Erith",
-      "hostname": "uk4.isponeder.com",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "51.195.174.150"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United Kingdom",
-      "region": "North Rhine-Westphalia",
-      "city": "Düsseldorf",
-      "hostname": "gb5.isponeder.com",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "185.87.255.98"
-      ]
-    },
-    {
-      "vpn": "openvpn",
       "country": "United States",
-      "region": "Missouri",
-      "city": "Kansas City",
+      "city": "Missouri",
       "hostname": "us5.isponeder.com",
       "tcp": true,
       "udp": true,
@@ -522,8 +471,7 @@
     {
       "vpn": "openvpn",
       "country": "United States",
-      "region": "New York",
-      "city": "Buffalo",
+      "city": "New York",
       "hostname": "us1.isponeder.com",
       "tcp": true,
       "udp": true,
@@ -534,8 +482,7 @@
     {
       "vpn": "openvpn",
       "country": "United States",
-      "region": "New York",
-      "city": "Buffalo",
+      "city": "New York",
       "hostname": "us4.isponeder.com",
       "tcp": true,
       "udp": true,
@@ -546,68 +493,67 @@
     {
       "vpn": "openvpn",
       "country": "United States",
-      "region": "Oregon",
-      "city": "Hillsboro",
+      "city": "Oregon",
       "hostname": "us10.isponeder.com",
       "tcp": true,
       "udp": true,
+      "premium": true,
       "ips": [
-        "15.204.48.101"
+        "51.81.194.247"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "United States",
-      "region": "Oregon",
-      "city": "Hillsboro",
+      "city": "Oregon",
       "hostname": "us6.isponeder.com",
       "tcp": true,
       "udp": true,
+      "premium": true,
       "ips": [
-        "51.81.186.71"
+        "15.204.80.70"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "United States",
-      "region": "Oregon",
-      "city": "Hillsboro",
+      "city": "Oregon",
       "hostname": "us7.isponeder.com",
       "tcp": true,
       "udp": true,
+      "premium": true,
       "ips": [
-        "15.204.48.98"
+        "51.81.194.244"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "United States",
-      "region": "Oregon",
-      "city": "Hillsboro",
+      "city": "Oregon",
       "hostname": "us8.isponeder.com",
       "tcp": true,
       "udp": true,
+      "premium": true,
       "ips": [
-        "15.204.48.99"
+        "51.81.194.245"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "United States",
-      "region": "Oregon",
-      "city": "Hillsboro",
+      "city": "Oregon",
       "hostname": "us9.isponeder.com",
       "tcp": true,
       "udp": true,
+      "premium": true,
       "ips": [
-        "15.204.48.100"
+        "51.81.194.246"
       ]
     },
     {
       "vpn": "openvpn",
       "country": "United States",
-      "region": "Texas",
-      "city": "Dallas",
+      "city": "Texas",
       "hostname": "us2.isponeder.com",
       "tcp": true,
       "udp": true,
@@ -618,8 +564,7 @@
     {
       "vpn": "openvpn",
       "country": "United States",
-      "region": "Texas",
-      "city": "Dallas",
+      "city": "Texas",
       "hostname": "us3.isponeder.com",
       "tcp": true,
       "udp": true,
@@ -630,8 +575,7 @@
     {
       "vpn": "openvpn",
       "country": "United States",
-      "region": "Virginia",
-      "city": "Reston",
+      "city": "Virginia",
       "hostname": "us11.isponeder.com",
       "tcp": true,
       "udp": true,
@@ -643,8 +587,7 @@
     {
       "vpn": "openvpn",
       "country": "United States",
-      "region": "Virginia",
-      "city": "Reston",
+      "city": "Virginia",
       "hostname": "us12.isponeder.com",
       "tcp": true,
       "udp": true,
@@ -656,8 +599,7 @@
     {
       "vpn": "openvpn",
       "country": "United States",
-      "region": "Virginia",
-      "city": "Reston",
+      "city": "Virginia",
       "hostname": "us13.isponeder.com",
       "tcp": true,
       "udp": true,
@@ -669,8 +611,7 @@
     {
       "vpn": "openvpn",
       "country": "United States",
-      "region": "Virginia",
-      "city": "Reston",
+      "city": "Virginia",
       "hostname": "us14.isponeder.com",
       "tcp": true,
       "udp": true,
@@ -682,8 +623,7 @@
     {
       "vpn": "openvpn",
       "country": "United States",
-      "region": "Virginia",
-      "city": "Reston",
+      "city": "Virginia",
       "hostname": "us15.isponeder.com",
       "tcp": true,
       "udp": true,
@@ -695,8 +635,7 @@
     {
       "vpn": "openvpn",
       "country": "United States",
-      "region": "Virginia",
-      "city": "Reston",
+      "city": "Virginia",
       "hostname": "us16.isponeder.com",
       "tcp": true,
       "udp": true,
