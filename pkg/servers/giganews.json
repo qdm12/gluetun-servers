@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1726044812,
+  "timestamp": 1785990784,
   "servers": [
     {
       "vpn": "openvpn",
@@ -26,7 +26,7 @@
       "hostname": "au2.vpn.giganews.com",
       "udp": true,
       "ips": [
-        "64.253.88.29"
+        "103.27.225.253"
       ]
     },
     {
@@ -35,7 +35,7 @@
       "hostname": "au3.vpn.giganews.com",
       "udp": true,
       "ips": [
-        "216.168.18.27"
+        "43.251.166.253"
       ]
     },
     {
@@ -44,7 +44,7 @@
       "hostname": "au1.vpn.giganews.com",
       "udp": true,
       "ips": [
-        "64.253.88.21"
+        "103.27.224.253"
       ]
     },
     {
@@ -103,7 +103,7 @@
     },
     {
       "vpn": "openvpn",
-      "region": "Columbia",
+      "region": "Colombia",
       "hostname": "co1.vpn.giganews.com",
       "udp": true,
       "ips": [
@@ -135,15 +135,6 @@
       "udp": true,
       "ips": [
         "128.90.154.253"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "region": "Dubai",
-      "hostname": "ae1.vpn.giganews.com",
-      "udp": true,
-      "ips": [
-        "128.90.101.253"
       ]
     },
     {
@@ -206,7 +197,7 @@
       "hostname": "hk1.vpn.giganews.com",
       "udp": true,
       "ips": [
-        "216.168.18.37"
+        "128.90.192.253"
       ]
     },
     {
@@ -233,7 +224,7 @@
       "hostname": "id1.vpn.giganews.com",
       "udp": true,
       "ips": [
-        "216.168.18.28"
+        "103.250.142.253"
       ]
     },
     {
@@ -269,7 +260,7 @@
       "hostname": "jp1.vpn.giganews.com",
       "udp": true,
       "ips": [
-        "216.168.20.20"
+        "128.90.0.253"
       ]
     },
     {
@@ -323,7 +314,7 @@
       "hostname": "my1.vpn.giganews.com",
       "udp": true,
       "ips": [
-        "216.168.18.29"
+        "45.120.203.253"
       ]
     },
     {
@@ -332,7 +323,7 @@
       "hostname": "mv1.vpn.giganews.com",
       "udp": true,
       "ips": [
-        "216.168.18.35"
+        "45.254.246.253"
       ]
     },
     {
@@ -341,7 +332,7 @@
       "hostname": "mh1.vpn.giganews.com",
       "udp": true,
       "ips": [
-        "216.168.18.34"
+        "45.254.247.253"
       ]
     },
     {
@@ -368,7 +359,7 @@
       "hostname": "nz1.vpn.giganews.com",
       "udp": true,
       "ips": [
-        "64.253.88.29"
+        "103.27.227.253"
       ]
     },
     {
@@ -404,7 +395,7 @@
       "hostname": "ph1.vpn.giganews.com",
       "udp": true,
       "ips": [
-        "216.168.18.30"
+        "128.90.79.253"
       ]
     },
     {
@@ -467,7 +458,7 @@
       "hostname": "sg1.vpn.giganews.com",
       "udp": true,
       "ips": [
-        "216.168.18.31"
+        "128.90.49.253"
       ]
     },
     {
@@ -494,7 +485,7 @@
       "hostname": "kr1.vpn.giganews.com",
       "udp": true,
       "ips": [
-        "216.168.20.21"
+        "128.90.30.253"
       ]
     },
     {
@@ -539,7 +530,7 @@
       "hostname": "th1.vpn.giganews.com",
       "udp": true,
       "ips": [
-        "216.168.18.32"
+        "103.250.143.253"
       ]
     },
     {
@@ -616,7 +607,7 @@
     },
     {
       "vpn": "openvpn",
-      "region": "USA Washington DC",
+      "region": "USA Washington",
       "hostname": "us2.vpn.giganews.com",
       "udp": true,
       "ips": [
@@ -630,6 +621,15 @@
       "udp": true,
       "ips": [
         "128.90.172.253"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "region": "United Arab Emirates",
+      "hostname": "ae1.vpn.giganews.com",
+      "udp": true,
+      "ips": [
+        "128.90.101.253"
       ]
     },
     {
@@ -656,7 +656,7 @@
       "hostname": "vn1.vpn.giganews.com",
       "udp": true,
       "ips": [
-        "216.168.18.33"
+        "128.90.53.253"
       ]
     }
   ]
