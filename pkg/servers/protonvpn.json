@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "timestamp": 1785990858,
+  "timestamp": 1788251698,
   "servers": [
     {
       "vpn": "openvpn",
@@ -241,6 +241,33 @@
     },
     {
       "vpn": "openvpn",
+      "country": "Andorra",
+      "city": "Andorra la Vella",
+      "server_name": "AD#32",
+      "hostname": "ad-01.protonvpn.net",
+      "tcp": true,
+      "udp": true,
+      "stream": true,
+      "port_forward": true,
+      "ips": [
+        "134.82.75.160"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Andorra",
+      "city": "Andorra la Vella",
+      "server_name": "AD#32",
+      "hostname": "ad-01.protonvpn.net",
+      "wgpubkey": "nOsZ7jHKurYfiyAeaOBbQGDQZBabELg8gDbQ/1icuhk=",
+      "stream": true,
+      "port_forward": true,
+      "ips": [
+        "134.82.75.160"
+      ]
+    },
+    {
+      "vpn": "openvpn",
       "country": "Angola",
       "city": "Luanda",
       "server_name": "AO#1",
@@ -302,7 +329,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.102.224.161"
+        "149.102.224.161",
+        "2a10:9007:3::10"
       ]
     },
     {
@@ -315,7 +343,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.102.224.161"
+        "149.102.224.161",
+        "2a10:9007:3::10"
       ]
     },
     {
@@ -487,7 +516,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "103.214.20.210"
+        "103.214.20.210",
+        "2404:f780:1:3137::10"
       ]
     },
     {
@@ -500,7 +530,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "103.214.20.210"
+        "103.214.20.210",
+        "2404:f780:1:3137::10"
       ]
     },
     {
@@ -622,7 +653,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "103.216.220.98"
+        "103.216.220.98",
+        "2404:f780:4:3137::10"
       ]
     },
     {
@@ -635,7 +667,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "103.216.220.98"
+        "103.216.220.98",
+        "2404:f780:4:3137::10"
       ]
     },
     {
@@ -804,33 +837,6 @@
       "vpn": "openvpn",
       "country": "Australia",
       "city": "Perth",
-      "server_name": "AU#135",
-      "hostname": "node-au-20.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "stream": true,
-      "port_forward": true,
-      "ips": [
-        "103.108.231.162"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Australia",
-      "city": "Perth",
-      "server_name": "AU#135",
-      "hostname": "node-au-20.protonvpn.net",
-      "wgpubkey": "Xmre1psA04kUzSUMuAq0QGQe3dqQBXOw8dzRCs6tYUs=",
-      "stream": true,
-      "port_forward": true,
-      "ips": [
-        "103.108.231.162"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Australia",
-      "city": "Perth",
       "server_name": "AU#231",
       "hostname": "node-au-13.protonvpn.net",
       "tcp": true,
@@ -838,7 +844,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "103.108.231.18"
+        "103.108.231.18",
+        "2404:f780:8:3136::10"
       ]
     },
     {
@@ -851,7 +858,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "103.108.231.18"
+        "103.108.231.18",
+        "2404:f780:8:3136::10"
       ]
     },
     {
@@ -1000,7 +1008,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "37.120.234.194"
+        "37.120.234.194",
+        "2001:ac8:84:66::10"
       ]
     },
     {
@@ -1013,7 +1022,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "37.120.234.194"
+        "37.120.234.194",
+        "2001:ac8:84:66::10"
       ]
     },
     {
@@ -1114,31 +1124,6 @@
       "secure_core": true,
       "ips": [
         "62.169.136.253"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Australia",
-      "city": "Sydney",
-      "server_name": "CH-AU#2",
-      "hostname": "node-au-20.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "79.135.104.60"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Australia",
-      "city": "Sydney",
-      "server_name": "CH-AU#2",
-      "hostname": "node-au-20.protonvpn.net",
-      "wgpubkey": "Xmre1psA04kUzSUMuAq0QGQe3dqQBXOw8dzRCs6tYUs=",
-      "secure_core": true,
-      "ips": [
-        "79.135.104.60"
       ]
     },
     {
@@ -1504,7 +1489,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "87.249.133.246"
+        "87.249.133.246",
+        "2a02:6ea0:cb02:8081::10"
       ]
     },
     {
@@ -1517,7 +1503,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "87.249.133.246"
+        "87.249.133.246",
+        "2a02:6ea0:cb02:8081::10"
       ]
     },
     {
@@ -1531,7 +1518,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "87.249.133.248"
+        "87.249.133.248",
+        "2a02:6ea0:cb02:8082::10"
       ]
     },
     {
@@ -1544,7 +1532,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "87.249.133.248"
+        "87.249.133.248",
+        "2a02:6ea0:cb02:8082::10"
       ]
     },
     {
@@ -1558,7 +1547,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "91.132.139.2"
+        "91.132.139.2",
+        "2001:ac8:29:97::10"
       ]
     },
     {
@@ -1571,7 +1561,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "91.132.139.2"
+        "91.132.139.2",
+        "2001:ac8:29:97::10"
       ]
     },
     {
@@ -1687,7 +1678,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "217.138.89.2"
+        "217.138.89.2",
+        "2a0d:5600:162:1::10"
       ]
     },
     {
@@ -1700,7 +1692,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "217.138.89.2"
+        "217.138.89.2",
+        "2a0d:5600:162:1::10"
       ]
     },
     {
@@ -1843,7 +1836,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.164.94"
+        "79.127.164.94",
+        "2a02:6ea0:fa0f:8101::10"
       ]
     },
     {
@@ -1856,7 +1850,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.164.94"
+        "79.127.164.94",
+        "2a02:6ea0:fa0f:8101::10"
       ]
     },
     {
@@ -1870,7 +1865,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.164.95"
+        "79.127.164.95",
+        "2a02:6ea0:fa0f:8059::10"
       ]
     },
     {
@@ -1883,7 +1879,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.164.95"
+        "79.127.164.95",
+        "2a02:6ea0:fa0f:8059::10"
       ]
     },
     {
@@ -2129,7 +2126,7 @@
       "udp": true,
       "secure_core": true,
       "ips": [
-        "79.135.104.109"
+        "62.169.136.7"
       ]
     },
     {
@@ -2142,7 +2139,7 @@
       "udp": true,
       "secure_core": true,
       "ips": [
-        "62.169.136.7"
+        "79.135.104.109"
       ]
     },
     {
@@ -2207,7 +2204,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "188.241.177.226"
+        "188.241.177.226",
+        "2a0d:5600:35:3::10"
       ]
     },
     {
@@ -2220,7 +2218,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "188.241.177.226"
+        "188.241.177.226",
+        "2a0d:5600:35:3::10"
       ]
     },
     {
@@ -2234,7 +2233,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.177.96.177"
+        "95.177.96.177",
+        "2a02:6ea0:d012:8577::10"
       ]
     },
     {
@@ -2247,7 +2247,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.177.96.177"
+        "95.177.96.177",
+        "2a02:6ea0:d012:8577::10"
       ]
     },
     {
@@ -2287,7 +2288,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.102.251.97"
+        "149.102.251.97",
+        "2a02:6ea0:d012:2078::10"
       ]
     },
     {
@@ -2299,7 +2301,8 @@
       "wgpubkey": "0FnhfTGup0LHPmBCsuDN4tVqlgOaItDwayQokhWapFQ=",
       "stream": true,
       "ips": [
-        "149.102.251.97"
+        "149.102.251.97",
+        "2a02:6ea0:d012:2078::10"
       ]
     },
     {
@@ -2313,7 +2316,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.98.162"
+        "146.70.98.162",
+        "2a0d:5600:35:9::10"
       ]
     },
     {
@@ -2326,7 +2330,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.98.162"
+        "146.70.98.162",
+        "2a0d:5600:35:9::10"
       ]
     },
     {
@@ -2364,7 +2369,7 @@
       "wgpubkey": "C3LgiID8tKOhXsu4Tyu8NMz5/WOWZoeZAY41Bybp5gM=",
       "secure_core": true,
       "ips": [
-        "62.169.136.8"
+        "79.135.104.94"
       ]
     },
     {
@@ -2376,7 +2381,7 @@
       "wgpubkey": "C3LgiID8tKOhXsu4Tyu8NMz5/WOWZoeZAY41Bybp5gM=",
       "secure_core": true,
       "ips": [
-        "79.135.104.94"
+        "62.169.136.8"
       ]
     },
     {
@@ -2467,7 +2472,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "156.146.55.225"
+        "156.146.55.225",
+        "2a02:6ea0:e705:2143::10"
       ]
     },
     {
@@ -2480,7 +2486,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "156.146.55.225"
+        "156.146.55.225",
+        "2a02:6ea0:e705:2143::10"
       ]
     },
     {
@@ -2494,7 +2501,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.245.130"
+        "146.70.245.130",
+        "2001:ac8:30:67::10"
       ]
     },
     {
@@ -2507,7 +2515,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.245.130"
+        "146.70.245.130",
+        "2001:ac8:30:67::10"
       ]
     },
     {
@@ -2570,7 +2579,8 @@
       "udp": true,
       "port_forward": true,
       "ips": [
-        "188.215.235.82"
+        "188.215.235.82",
+        "2001:ac8:4:3::10"
       ]
     },
     {
@@ -2582,7 +2592,8 @@
       "wgpubkey": "D4M0O60wCBf1nYWOmXRfK7IpgG7VBBwQLeWVFLIqFG4=",
       "port_forward": true,
       "ips": [
-        "188.215.235.82"
+        "188.215.235.82",
+        "2001:ac8:4:3::10"
       ]
     },
     {
@@ -2729,7 +2740,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "176.113.74.82"
+        "176.113.74.82",
+        "2a0d:5600:19:1::10"
       ]
     },
     {
@@ -2742,7 +2754,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "176.113.74.82"
+        "176.113.74.82",
+        "2a0d:5600:19:1::10"
       ]
     },
     {
@@ -2756,7 +2769,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "139.28.218.2"
+        "139.28.218.2",
+        "2a0d:5600:9:a25::10"
       ]
     },
     {
@@ -2769,7 +2783,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "139.28.218.2"
+        "139.28.218.2",
+        "2a0d:5600:9:a25::10"
       ]
     },
     {
@@ -2782,7 +2797,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "195.242.214.66"
+        "195.242.214.66",
+        "2a0d:5600:19:31::10"
       ]
     },
     {
@@ -2794,7 +2810,8 @@
       "wgpubkey": "1fGFZtHU8r8qwdnron9E80NdvLw5WcUdhPgh7phzQnA=",
       "free": true,
       "ips": [
-        "195.242.214.66"
+        "195.242.214.66",
+        "2a0d:5600:19:31::10"
       ]
     },
     {
@@ -2807,7 +2824,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "195.242.214.114"
+        "195.242.214.114",
+        "2a0d:5600:19:34::10"
       ]
     },
     {
@@ -2819,7 +2837,8 @@
       "wgpubkey": "cFWV9L1uNf/u4Hiojt0u4G4E4I12WB65JRq7nkHl0ns=",
       "free": true,
       "ips": [
-        "195.242.214.114"
+        "195.242.214.114",
+        "2a0d:5600:19:34::10"
       ]
     },
     {
@@ -2832,7 +2851,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "195.242.214.130"
+        "195.242.214.130",
+        "2a0d:5600:19:35::10"
       ]
     },
     {
@@ -2844,7 +2864,8 @@
       "wgpubkey": "TEUAMY5iMm31LFvOgYjJKRsjZrF8ICRjSrqgwscrFx0=",
       "free": true,
       "ips": [
-        "195.242.214.130"
+        "195.242.214.130",
+        "2a0d:5600:19:35::10"
       ]
     },
     {
@@ -2933,7 +2954,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "185.111.110.66"
+        "185.111.110.66",
+        "2a02:6ea0:de10:6104::10"
       ]
     },
     {
@@ -2946,7 +2968,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "185.111.110.66"
+        "185.111.110.66",
+        "2a02:6ea0:de10:6104::10"
       ]
     },
     {
@@ -2960,7 +2983,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "185.111.110.68"
+        "185.111.110.68",
+        "2a02:6ea0:de10:6105::10"
       ]
     },
     {
@@ -2973,7 +2997,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "185.111.110.68"
+        "185.111.110.68",
+        "2a02:6ea0:de10:6105::10"
       ]
     },
     {
@@ -3013,7 +3038,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "154.47.17.129"
+        "154.47.17.129",
+        "2a02:6ea0:de10:5427::10"
       ]
     },
     {
@@ -3025,7 +3051,8 @@
       "wgpubkey": "47Y5endlEtxoo7Y2e33GVTpj/fAzrXtIK6ta+hSt5gg=",
       "stream": true,
       "ips": [
-        "154.47.17.129"
+        "154.47.17.129",
+        "2a02:6ea0:de10:5427::10"
       ]
     },
     {
@@ -3039,7 +3066,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "185.111.110.1"
+        "185.111.110.1",
+        "2a02:6ea0:de10:5998::10"
       ]
     },
     {
@@ -3052,7 +3080,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "185.111.110.1"
+        "185.111.110.1",
+        "2a02:6ea0:de10:5998::10"
       ]
     },
     {
@@ -3066,7 +3095,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "185.111.110.2"
+        "185.111.110.2",
+        "2a02:6ea0:de10:5999::10"
       ]
     },
     {
@@ -3079,7 +3109,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "185.111.110.2"
+        "185.111.110.2",
+        "2a02:6ea0:de10:5999::10"
       ]
     },
     {
@@ -3093,7 +3124,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "185.111.110.65"
+        "185.111.110.65",
+        "2a02:6ea0:de10:6103::10"
       ]
     },
     {
@@ -3106,7 +3138,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "185.111.110.65"
+        "185.111.110.65",
+        "2a02:6ea0:de10:6103::10"
       ]
     },
     {
@@ -3119,7 +3152,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "149.88.97.122"
+        "149.88.97.122",
+        "2a02:6ea0:de10:3565::10"
       ]
     },
     {
@@ -3131,7 +3165,8 @@
       "wgpubkey": "mS8GfqvUvazXvSYg7VHV7s8eEyU0yyGjJwYgdjHq23A=",
       "free": true,
       "ips": [
-        "149.88.97.122"
+        "149.88.97.122",
+        "2a02:6ea0:de10:3565::10"
       ]
     },
     {
@@ -3144,7 +3179,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "149.88.97.110"
+        "149.88.97.110",
+        "2a02:6ea0:de10:3564::10"
       ]
     },
     {
@@ -3156,7 +3192,8 @@
       "wgpubkey": "9mTDh5Tku0gxDdzqxnpnzItHQBm2h2B2hXnUHvhGCFw=",
       "free": true,
       "ips": [
-        "149.88.97.110"
+        "149.88.97.110",
+        "2a02:6ea0:de10:3564::10"
       ]
     },
     {
@@ -3169,7 +3206,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "149.22.82.1"
+        "149.22.82.1",
+        "2a02:6ea0:de10:3595::10"
       ]
     },
     {
@@ -3181,7 +3219,8 @@
       "wgpubkey": "7nj3Zh17Dzx+1SKIPE+dPfFmDbTTOggDK6SfK6tlEgE=",
       "free": true,
       "ips": [
-        "149.22.82.1"
+        "149.22.82.1",
+        "2a02:6ea0:de10:3595::10"
       ]
     },
     {
@@ -3207,31 +3246,6 @@
       "secure_core": true,
       "ips": [
         "62.169.136.231"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Canada",
-      "city": "Toronto",
-      "server_name": "CH-CA#2",
-      "hostname": "node-ca-18.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "62.169.136.230"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Canada",
-      "city": "Toronto",
-      "server_name": "CH-CA#2",
-      "hostname": "node-ca-18.protonvpn.net",
-      "wgpubkey": "RWj/yInIFoGovnNO3wKBcMrdPmDjckc0TVNgOSSZsgs=",
-      "secure_core": true,
-      "ips": [
-        "62.169.136.230"
       ]
     },
     {
@@ -3520,7 +3534,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.222.98.38"
+        "89.222.98.38",
+        "2a02:6ea0:510c:6109::10"
       ]
     },
     {
@@ -3533,7 +3548,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.222.98.38"
+        "89.222.98.38",
+        "2a02:6ea0:510c:6109::10"
       ]
     },
     {
@@ -3547,7 +3563,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.222.98.40"
+        "89.222.98.40",
+        "2a02:6ea0:510c:6111::10"
       ]
     },
     {
@@ -3560,7 +3577,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.222.98.40"
+        "89.222.98.40",
+        "2a02:6ea0:510c:6111::10"
       ]
     },
     {
@@ -3627,7 +3645,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "79.127.254.92"
+        "79.127.254.92",
+        "2a02:6ea0:510c:3880::10"
       ]
     },
     {
@@ -3639,7 +3658,8 @@
       "wgpubkey": "WajeJDezN7JFBe//v/VMsASFyBUk01Hlyvjb0T+dTjE=",
       "free": true,
       "ips": [
-        "79.127.254.92"
+        "79.127.254.92",
+        "2a02:6ea0:510c:3880::10"
       ]
     },
     {
@@ -3807,7 +3827,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "138.199.50.106"
+        "138.199.50.106",
+        "2a10:9007:3:2::10"
       ]
     },
     {
@@ -3820,7 +3841,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "138.199.50.106"
+        "138.199.50.106",
+        "2a10:9007:3:2::10"
       ]
     },
     {
@@ -3834,7 +3856,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "195.86.38.33"
+        "195.86.38.33",
+        "2a02:6ea0:fc11:7198::10"
       ]
     },
     {
@@ -3847,7 +3870,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "195.86.38.33"
+        "195.86.38.33",
+        "2a02:6ea0:fc11:7198::10"
       ]
     },
     {
@@ -3935,7 +3959,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "154.47.16.81"
+        "154.47.16.81",
+        "2a02:6ea0:f105:2721::10"
       ]
     },
     {
@@ -3947,7 +3972,8 @@
       "wgpubkey": "Qm1zsNxnGphhEJHJzhjd4oVHrHLgDZop+6+audZiKVI=",
       "stream": true,
       "ips": [
-        "154.47.16.81"
+        "154.47.16.81",
+        "2a02:6ea0:f105:2721::10"
       ]
     },
     {
@@ -3961,7 +3987,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.136.35"
+        "146.70.136.35",
+        "2a0d:5600:95:1::11"
       ]
     },
     {
@@ -3974,7 +4001,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.136.35"
+        "146.70.136.35",
+        "2a0d:5600:95:1::11"
       ]
     },
     {
@@ -4171,7 +4199,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "138.199.50.104"
+        "138.199.50.104",
+        "2a10:9007:3:3::10"
       ]
     },
     {
@@ -4184,7 +4213,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "138.199.50.104"
+        "138.199.50.104",
+        "2a10:9007:3:3::10"
       ]
     },
     {
@@ -4198,7 +4228,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "192.144.22.2"
+        "192.144.22.2",
+        "2a0d:5600:186:1::10"
       ]
     },
     {
@@ -4211,7 +4242,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "192.144.22.2"
+        "192.144.22.2",
+        "2a0d:5600:186:1::10"
       ]
     },
     {
@@ -4302,7 +4334,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.144.160"
+        "79.127.144.160",
+        "2a02:6ea0:f413:8093::10"
       ]
     },
     {
@@ -4315,7 +4348,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.144.160"
+        "79.127.144.160",
+        "2a02:6ea0:f413:8093::10"
       ]
     },
     {
@@ -4379,7 +4413,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.144.158"
+        "79.127.144.158",
+        "2a02:6ea0:f413:8092::10"
       ]
     },
     {
@@ -4392,7 +4427,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.144.158"
+        "79.127.144.158",
+        "2a02:6ea0:f413:8092::10"
       ]
     },
     {
@@ -4481,7 +4517,8 @@
       "tcp": true,
       "udp": true,
       "ips": [
-        "85.132.252.34"
+        "85.132.252.34",
+        "2a02:540:3:2009::10"
       ]
     },
     {
@@ -4492,7 +4529,35 @@
       "hostname": "node-cy-01.protonvpn.net",
       "wgpubkey": "e3RzM0pr0CkENa045wi0oBMzL3D6kfHbGW5rHWSOtig=",
       "ips": [
-        "85.132.252.34"
+        "85.132.252.34",
+        "2a02:540:3:2009::10"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Cyprus",
+      "city": "Limassol",
+      "server_name": "CY#11",
+      "hostname": "node-cy-02.protonvpn.net",
+      "tcp": true,
+      "udp": true,
+      "stream": true,
+      "ips": [
+        "66.205.84.242",
+        "2a02:540:1b:100::10"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Cyprus",
+      "city": "Limassol",
+      "server_name": "CY#11",
+      "hostname": "node-cy-02.protonvpn.net",
+      "wgpubkey": "ffTjBlAmHzAC42q9yrsW0C9Cb7rhP2XoKETZOVWhbAg=",
+      "stream": true,
+      "ips": [
+        "66.205.84.242",
+        "2a02:540:1b:100::10"
       ]
     },
     {
@@ -4556,7 +4621,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "62.93.165.209"
+        "62.93.165.209",
+        "2a02:6ea0:1201:6187::10"
       ]
     },
     {
@@ -4569,7 +4635,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "62.93.165.209"
+        "62.93.165.209",
+        "2a02:6ea0:1201:6187::10"
       ]
     },
     {
@@ -4583,7 +4650,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.129.18"
+        "146.70.129.18",
+        "2001:ac8:33:75::10"
       ]
     },
     {
@@ -4596,7 +4664,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.129.18"
+        "146.70.129.18",
+        "2001:ac8:33:75::10"
       ]
     },
     {
@@ -4609,7 +4678,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.102.235.33"
+        "149.102.235.33",
+        "2a02:6ea0:1201:2616::10"
       ]
     },
     {
@@ -4621,7 +4691,8 @@
       "wgpubkey": "oNctPLp48sX2jk6U9hoER6QT4aGp6TEAUydA6VuA8h8=",
       "stream": true,
       "ips": [
-        "149.102.235.33"
+        "149.102.235.33",
+        "2a02:6ea0:1201:2616::10"
       ]
     },
     {
@@ -4635,7 +4706,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.154.1"
+        "79.127.154.1",
+        "2a02:6ea0:1201:5279::10"
       ]
     },
     {
@@ -4648,7 +4720,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.154.1"
+        "79.127.154.1",
+        "2a02:6ea0:1201:5279::10"
       ]
     },
     {
@@ -4868,7 +4941,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.88.109.34"
+        "149.88.109.34",
+        "2a02:6ea0:4709:6194::10"
       ]
     },
     {
@@ -4881,7 +4955,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.88.109.34"
+        "149.88.109.34",
+        "2a02:6ea0:4709:6194::10"
       ]
     },
     {
@@ -4895,7 +4970,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "193.29.107.162"
+        "193.29.107.162",
+        "2001:ac8:37:65::10"
       ]
     },
     {
@@ -4908,7 +4984,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "193.29.107.162"
+        "193.29.107.162",
+        "2001:ac8:37:65::10"
       ]
     },
     {
@@ -4922,7 +4999,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "193.29.107.98"
+        "193.29.107.98",
+        "2001:ac8:37:66::10"
       ]
     },
     {
@@ -4935,7 +5013,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "193.29.107.98"
+        "193.29.107.98",
+        "2001:ac8:37:66::10"
       ]
     },
     {
@@ -5001,7 +5080,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "138.199.50.103"
+        "138.199.50.103",
+        "2a10:9007:3:6::10"
       ]
     },
     {
@@ -5014,7 +5094,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "138.199.50.103"
+        "138.199.50.103",
+        "2a10:9007:3:6::10"
       ]
     },
     {
@@ -5106,7 +5187,8 @@
       "udp": true,
       "port_forward": true,
       "ips": [
-        "188.214.122.82"
+        "188.214.122.82",
+        "2001:ac8:8f:8::10"
       ]
     },
     {
@@ -5118,7 +5200,8 @@
       "wgpubkey": "DUtOX4QuHcmlBk7bI5eoCSp8RLqV7NPIU8pywn1w0k0=",
       "port_forward": true,
       "ips": [
-        "188.214.122.82"
+        "188.214.122.82",
+        "2001:ac8:8f:8::10"
       ]
     },
     {
@@ -5594,7 +5677,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "193.187.151.98"
+        "193.187.151.98",
+        "2a0d:5600:142:22::10"
       ]
     },
     {
@@ -5607,7 +5691,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "193.187.151.98"
+        "193.187.151.98",
+        "2a0d:5600:142:22::10"
       ]
     },
     {
@@ -5621,7 +5706,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "66.234.150.2"
+        "66.234.150.2",
+        "2a0d:5600:142:21::10"
       ]
     },
     {
@@ -5634,20 +5720,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "66.234.150.2"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Finland",
-      "city": "Helsinki",
-      "server_name": "SE-FI#1",
-      "hostname": "node-fi-01.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.28"
+        "66.234.150.2",
+        "2a0d:5600:142:21::10"
       ]
     },
     {
@@ -5664,15 +5738,16 @@
       ]
     },
     {
-      "vpn": "wireguard",
+      "vpn": "openvpn",
       "country": "Finland",
       "city": "Helsinki",
       "server_name": "SE-FI#1",
       "hostname": "node-fi-01.protonvpn.net",
-      "wgpubkey": "z0xd29K3h6taRG+nGSvkgPXXzAOt+2V69dZTtjGoajs=",
+      "tcp": true,
+      "udp": true,
       "secure_core": true,
       "ips": [
-        "185.159.156.27"
+        "185.159.156.28"
       ]
     },
     {
@@ -5685,6 +5760,18 @@
       "secure_core": true,
       "ips": [
         "185.159.156.28"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Finland",
+      "city": "Helsinki",
+      "server_name": "SE-FI#1",
+      "hostname": "node-fi-01.protonvpn.net",
+      "wgpubkey": "z0xd29K3h6taRG+nGSvkgPXXzAOt+2V69dZTtjGoajs=",
+      "secure_core": true,
+      "ips": [
+        "185.159.156.27"
       ]
     },
     {
@@ -5722,7 +5809,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.102.245.129"
+        "149.102.245.129",
+        "2a02:6ea0:dc0e:3563::10"
       ]
     },
     {
@@ -5734,7 +5822,8 @@
       "wgpubkey": "m8vo9+NTxgkGJ1eV2nP9AyanXxeSlztAhIhQWDYPfnc=",
       "stream": true,
       "ips": [
-        "149.102.245.129"
+        "149.102.245.129",
+        "2a02:6ea0:dc0e:3563::10"
       ]
     },
     {
@@ -5747,7 +5836,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.102.245.156"
+        "149.102.245.156",
+        "2a02:6ea0:dc0e:3562::10"
       ]
     },
     {
@@ -5759,7 +5849,8 @@
       "wgpubkey": "DG6UsR8aCBawKEw9FQoGDBIxJHinM7oedppLYZFxA0o=",
       "stream": true,
       "ips": [
-        "149.102.245.156"
+        "149.102.245.156",
+        "2a02:6ea0:dc0e:3562::10"
       ]
     },
     {
@@ -5773,7 +5864,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "178.249.212.171"
+        "178.249.212.171",
+        "2a02:6ea0:dc0e:6210::10"
       ]
     },
     {
@@ -5786,7 +5878,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "178.249.212.171"
+        "178.249.212.171",
+        "2a02:6ea0:dc0e:6210::10"
       ]
     },
     {
@@ -5800,7 +5893,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "178.249.212.168"
+        "178.249.212.168",
+        "2a02:6ea0:dc0e:6211::10"
       ]
     },
     {
@@ -5813,7 +5907,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "178.249.212.168"
+        "178.249.212.168",
+        "2a02:6ea0:dc0e:6211::10"
       ]
     },
     {
@@ -5827,7 +5922,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "178.249.212.169"
+        "178.249.212.169",
+        "2a02:6ea0:dc0e:6213::10"
       ]
     },
     {
@@ -5840,34 +5936,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "178.249.212.169"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "France",
-      "city": "Marseille",
-      "server_name": "FR#9",
-      "hostname": "node-fr-32.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "stream": true,
-      "port_forward": true,
-      "ips": [
-        "217.79.104.2"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "France",
-      "city": "Marseille",
-      "server_name": "FR#9",
-      "hostname": "node-fr-32.protonvpn.net",
-      "wgpubkey": "pb/PKE3OKegozt5mnfdkTr2u4/eluJb+qRiMthaUkT4=",
-      "stream": true,
-      "port_forward": true,
-      "ips": [
-        "217.79.104.2"
+        "178.249.212.169",
+        "2a02:6ea0:dc0e:6213::10"
       ]
     },
     {
@@ -6181,7 +6251,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.194.50"
+        "146.70.194.50",
+        "2001:ac8:25:5e::10"
       ]
     },
     {
@@ -6194,7 +6265,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.194.50"
+        "146.70.194.50",
+        "2001:ac8:25:5e::10"
       ]
     },
     {
@@ -6208,7 +6280,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.194.66"
+        "146.70.194.66",
+        "2001:ac8:25:5f::10"
       ]
     },
     {
@@ -6221,7 +6294,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.194.66"
+        "146.70.194.66",
+        "2001:ac8:25:5f::10"
       ]
     },
     {
@@ -6262,7 +6336,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.134.28"
+        "79.127.134.28",
+        "2a02:6ea0:c90f:4905::10"
       ]
     },
     {
@@ -6275,7 +6350,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.134.28"
+        "79.127.134.28",
+        "2a02:6ea0:c90f:4905::10"
       ]
     },
     {
@@ -6289,7 +6365,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.169.1"
+        "79.127.169.1",
+        "2a02:6ea0:c90f:5496::10"
       ]
     },
     {
@@ -6302,7 +6379,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.169.1"
+        "79.127.169.1",
+        "2a02:6ea0:c90f:5496::10"
       ]
     },
     {
@@ -6316,7 +6394,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.169.31"
+        "79.127.169.31",
+        "2a02:6ea0:c90f:5497::10"
       ]
     },
     {
@@ -6329,7 +6408,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.169.31"
+        "79.127.169.31",
+        "2a02:6ea0:c90f:5497::10"
       ]
     },
     {
@@ -6343,7 +6423,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.169.89"
+        "79.127.169.89",
+        "2a02:6ea0:c90f:6237::10"
       ]
     },
     {
@@ -6356,7 +6437,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.169.89"
+        "79.127.169.89",
+        "2a02:6ea0:c90f:6237::10"
       ]
     },
     {
@@ -6370,7 +6452,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.169.91"
+        "79.127.169.91",
+        "2a02:6ea0:c90f:6240::10"
       ]
     },
     {
@@ -6383,7 +6466,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.169.91"
+        "79.127.169.91",
+        "2a02:6ea0:c90f:6240::10"
       ]
     },
     {
@@ -6397,7 +6481,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.169.92"
+        "79.127.169.92",
+        "2a02:6ea0:c90f:6191::10"
       ]
     },
     {
@@ -6410,7 +6495,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.169.92"
+        "79.127.169.92",
+        "2a02:6ea0:c90f:6191::10"
       ]
     },
     {
@@ -6676,7 +6762,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.249.72.130"
+        "89.249.72.130",
+        "2a0d:5600:185:1::10"
       ]
     },
     {
@@ -6689,7 +6776,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.249.72.130"
+        "89.249.72.130",
+        "2a0d:5600:185:1::10"
       ]
     },
     {
@@ -6703,7 +6791,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "138.199.53.236"
+        "138.199.53.236",
+        "2a10:9007:0:1::10"
       ]
     },
     {
@@ -6716,7 +6805,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "138.199.53.236"
+        "138.199.53.236",
+        "2a10:9007:0:1::10"
       ]
     },
     {
@@ -6755,7 +6845,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "217.138.216.130"
+        "217.138.216.130",
+        "2001:ac8:36:18::10"
       ]
     },
     {
@@ -6768,7 +6859,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "217.138.216.130"
+        "217.138.216.130",
+        "2001:ac8:36:18::10"
       ]
     },
     {
@@ -6782,7 +6874,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "217.138.216.98"
+        "217.138.216.98",
+        "2001:ac8:36:17::10"
       ]
     },
     {
@@ -6795,7 +6888,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "217.138.216.98"
+        "217.138.216.98",
+        "2001:ac8:36:17::10"
       ]
     },
     {
@@ -7007,31 +7101,6 @@
       "country": "Germany",
       "city": "Frankfurt",
       "server_name": "CH-DE#2",
-      "hostname": "node-de-22.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "79.135.104.38"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Germany",
-      "city": "Frankfurt",
-      "server_name": "CH-DE#2",
-      "hostname": "node-de-22.protonvpn.net",
-      "wgpubkey": "hOoBBy//7mddXPz1SybzWB3zK95SQCcPyI/DmxfULXk=",
-      "secure_core": true,
-      "ips": [
-        "79.135.104.38"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Germany",
-      "city": "Frankfurt",
-      "server_name": "CH-DE#2",
       "hostname": "node-de-23.protonvpn.net",
       "tcp": true,
       "udp": true,
@@ -7087,7 +7156,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.88.19.238"
+        "149.88.19.238",
+        "2a02:6ea0:1701:3039::10"
       ]
     },
     {
@@ -7099,7 +7169,8 @@
       "wgpubkey": "gW9yJRNQgnWPUB0qbRjRGrnvbYOhPqypmp1cW961XEM=",
       "stream": true,
       "ips": [
-        "149.88.19.238"
+        "149.88.19.238",
+        "2a02:6ea0:1701:3039::10"
       ]
     },
     {
@@ -7140,7 +7211,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "194.126.177.13"
+        "194.126.177.13",
+        "2a07:b941:e40::1:d"
       ]
     },
     {
@@ -7153,7 +7225,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "194.126.177.13"
+        "194.126.177.13",
+        "2a07:b941:e40::1:d"
       ]
     },
     {
@@ -7191,7 +7264,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.88.24.180"
+        "149.88.24.180",
+        "2a02:6ea0:1703:5031::10"
       ]
     },
     {
@@ -7203,7 +7277,8 @@
       "wgpubkey": "dZaHVURZJIpIPz1DceHUu1QA0WCz9VYEKKey0cymHXI=",
       "stream": true,
       "ips": [
-        "149.88.24.180"
+        "149.88.24.180",
+        "2a02:6ea0:1703:5031::10"
       ]
     },
     {
@@ -7216,7 +7291,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.88.24.129"
+        "149.88.24.129",
+        "2a02:6ea0:1703:5033::10"
       ]
     },
     {
@@ -7228,7 +7304,8 @@
       "wgpubkey": "XVhgEmVfTwllba68JLfzHVCw2Jr5RQsRwHB3JrcbRHE=",
       "stream": true,
       "ips": [
-        "149.88.24.129"
+        "149.88.24.129",
+        "2a02:6ea0:1703:5033::10"
       ]
     },
     {
@@ -7242,7 +7319,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.141.55"
+        "79.127.141.55",
+        "2a02:6ea0:1703:6204::10"
       ]
     },
     {
@@ -7255,7 +7333,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.141.55"
+        "79.127.141.55",
+        "2a02:6ea0:1703:6204::10"
       ]
     },
     {
@@ -7269,7 +7348,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.141.53"
+        "79.127.141.53",
+        "2a02:6ea0:1703:6207::10"
       ]
     },
     {
@@ -7282,7 +7362,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.141.53"
+        "79.127.141.53",
+        "2a02:6ea0:1703:6207::10"
       ]
     },
     {
@@ -7296,7 +7377,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.141.58"
+        "79.127.141.58",
+        "2a02:6ea0:1703:8184::10"
       ]
     },
     {
@@ -7309,7 +7391,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.141.58"
+        "79.127.141.58",
+        "2a02:6ea0:1703:8184::10"
       ]
     },
     {
@@ -7323,7 +7406,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.141.59"
+        "79.127.141.59",
+        "2a02:6ea0:1703:8185::10"
       ]
     },
     {
@@ -7336,7 +7420,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.141.59"
+        "79.127.141.59",
+        "2a02:6ea0:1703:8185::10"
       ]
     },
     {
@@ -7652,7 +7737,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.22.85.223"
+        "149.22.85.223",
+        "2a02:6ea0:f513:8072::10"
       ]
     },
     {
@@ -7665,7 +7751,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.22.85.223"
+        "149.22.85.223",
+        "2a02:6ea0:f513:8072::10"
       ]
     },
     {
@@ -7679,7 +7766,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "45.92.33.162"
+        "45.92.33.162",
+        "2001:ac8:8d:5::10"
       ]
     },
     {
@@ -7692,7 +7780,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "45.92.33.162"
+        "45.92.33.162",
+        "2001:ac8:8d:5::10"
       ]
     },
     {
@@ -7729,7 +7818,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.22.85.222"
+        "149.22.85.222",
+        "2a02:6ea0:f513:8071::10"
       ]
     },
     {
@@ -7742,7 +7832,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.22.85.222"
+        "149.22.85.222",
+        "2a02:6ea0:f513:8071::10"
       ]
     },
     {
@@ -7966,7 +8057,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.113.114"
+        "146.70.113.114",
+        "2001:ac8:a:5::10"
       ]
     },
     {
@@ -7979,7 +8071,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.113.114"
+        "146.70.113.114",
+        "2001:ac8:a:5::10"
       ]
     },
     {
@@ -7993,7 +8086,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.113.98"
+        "146.70.113.98",
+        "2001:ac8:a:2::10"
       ]
     },
     {
@@ -8006,7 +8100,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.113.98"
+        "146.70.113.98",
+        "2001:ac8:a:2::10"
       ]
     },
     {
@@ -8020,7 +8115,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "156.146.45.129"
+        "156.146.45.129",
+        "2a02:6ea0:d60f:2188::10"
       ]
     },
     {
@@ -8033,7 +8129,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "156.146.45.129"
+        "156.146.45.129",
+        "2a02:6ea0:d60f:2188::10"
       ]
     },
     {
@@ -8147,7 +8244,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.120.210"
+        "146.70.120.210",
+        "2001:ac8:26:14::10"
       ]
     },
     {
@@ -8160,7 +8258,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.120.210"
+        "146.70.120.210",
+        "2001:ac8:26:14::10"
       ]
     },
     {
@@ -8174,7 +8273,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.120.146"
+        "146.70.120.146",
+        "2001:ac8:26:d::10"
       ]
     },
     {
@@ -8187,7 +8287,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.120.146"
+        "146.70.120.146",
+        "2001:ac8:26:d::10"
       ]
     },
     {
@@ -8357,7 +8458,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.142.18"
+        "146.70.142.18",
+        "2001:ac8:2:1::10"
       ]
     },
     {
@@ -8370,7 +8472,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.142.18"
+        "146.70.142.18",
+        "2001:ac8:2:1::10"
       ]
     },
     {
@@ -8513,7 +8616,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.14.42"
+        "146.70.14.42",
+        "2a0d:5600:158:5::10"
       ]
     },
     {
@@ -8526,7 +8630,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.14.42"
+        "146.70.14.42",
+        "2a0d:5600:158:5::10"
       ]
     },
     {
@@ -8635,31 +8740,6 @@
       "vpn": "openvpn",
       "country": "Ireland",
       "city": "Dublin",
-      "server_name": "CH-IE#2",
-      "hostname": "node-ie-04.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "79.135.104.106"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Ireland",
-      "city": "Dublin",
-      "server_name": "CH-IE#2",
-      "hostname": "node-ie-04.protonvpn.net",
-      "wgpubkey": "YWMbt8hivy0dAHCuK4wFqKFZ54BhlsrLYR07xJzPAQc=",
-      "secure_core": true,
-      "ips": [
-        "79.135.104.106"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Ireland",
-      "city": "Dublin",
       "server_name": "IE#102",
       "hostname": "node-ie-06.protonvpn.net",
       "tcp": true,
@@ -8667,7 +8747,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.145.95"
+        "79.127.145.95",
+        "2a02:6ea0:ef0f:6586::10"
       ]
     },
     {
@@ -8680,7 +8761,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.145.95"
+        "79.127.145.95",
+        "2a02:6ea0:ef0f:6586::10"
       ]
     },
     {
@@ -8721,7 +8803,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.48.2"
+        "146.70.48.2",
+        "2001:ac8:88:91::10"
       ]
     },
     {
@@ -8734,61 +8817,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.48.2"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Ireland",
-      "city": "Dublin",
-      "server_name": "IE#25",
-      "hostname": "node-ie-04.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "stream": true,
-      "port_forward": true,
-      "ips": [
-        "79.127.145.65"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Ireland",
-      "city": "Dublin",
-      "server_name": "IE#25",
-      "hostname": "node-ie-04.protonvpn.net",
-      "wgpubkey": "YWMbt8hivy0dAHCuK4wFqKFZ54BhlsrLYR07xJzPAQc=",
-      "stream": true,
-      "port_forward": true,
-      "ips": [
-        "79.127.145.65"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Ireland",
-      "city": "Dublin",
-      "server_name": "IE#70",
-      "hostname": "node-ie-05.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "stream": true,
-      "port_forward": true,
-      "ips": [
-        "79.127.145.94"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Ireland",
-      "city": "Dublin",
-      "server_name": "IE#70",
-      "hostname": "node-ie-05.protonvpn.net",
-      "wgpubkey": "FQckzm04zGq6QOWh/nmPbi23jfCA1el5JPCYMGaAfzQ=",
-      "stream": true,
-      "port_forward": true,
-      "ips": [
-        "79.127.145.94"
+        "146.70.48.2",
+        "2001:ac8:88:91::10"
       ]
     },
     {
@@ -8852,7 +8882,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.226.172"
+        "169.150.226.172",
+        "2a02:6ea0:3b02:8099::10"
       ]
     },
     {
@@ -8865,7 +8896,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.226.172"
+        "169.150.226.172",
+        "2a02:6ea0:3b02:8099::10"
       ]
     },
     {
@@ -8973,31 +9005,6 @@
       "country": "Italy",
       "city": "Milan",
       "server_name": "CH-IT#2",
-      "hostname": "node-it-06.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "62.169.136.234"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Italy",
-      "city": "Milan",
-      "server_name": "CH-IT#2",
-      "hostname": "node-it-06.protonvpn.net",
-      "wgpubkey": "WeqHIUm2kUqZVMcr+6r5qxgM1FT9N/s/BAbEBPF/O0Q=",
-      "secure_core": true,
-      "ips": [
-        "62.169.136.234"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Italy",
-      "city": "Milan",
-      "server_name": "CH-IT#2",
       "hostname": "node-it-08.protonvpn.net",
       "tcp": true,
       "udp": true,
@@ -9056,7 +9063,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.182.34"
+        "146.70.182.34",
+        "2001:ac8:24:6a8::10"
       ]
     },
     {
@@ -9069,7 +9077,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.182.34"
+        "146.70.182.34",
+        "2001:ac8:24:6a8::10"
       ]
     },
     {
@@ -9083,7 +9092,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.182.18"
+        "146.70.182.18",
+        "2001:ac8:24:6a7::10"
       ]
     },
     {
@@ -9096,34 +9106,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.182.18"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Italy",
-      "city": "Milan",
-      "server_name": "IT#42",
-      "hostname": "node-it-06.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "stream": true,
-      "port_forward": true,
-      "ips": [
-        "146.70.182.2"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Italy",
-      "city": "Milan",
-      "server_name": "IT#42",
-      "hostname": "node-it-06.protonvpn.net",
-      "wgpubkey": "WeqHIUm2kUqZVMcr+6r5qxgM1FT9N/s/BAbEBPF/O0Q=",
-      "stream": true,
-      "port_forward": true,
-      "ips": [
-        "146.70.182.2"
+        "146.70.182.18",
+        "2001:ac8:24:6a7::10"
       ]
     },
     {
@@ -9189,7 +9173,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "45.14.71.6"
+        "45.14.71.6",
+        "2a10:484:3:1::20"
       ]
     },
     {
@@ -9202,7 +9187,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "45.14.71.6"
+        "45.14.71.6",
+        "2a10:484:3:1::20"
       ]
     },
     {
@@ -9291,7 +9277,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "45.87.213.210"
+        "45.87.213.210",
+        "2001:ac8:40:25::10"
       ]
     },
     {
@@ -9304,7 +9291,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "45.87.213.210"
+        "45.87.213.210",
+        "2001:ac8:40:25::10"
       ]
     },
     {
@@ -9345,7 +9333,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "138.199.21.213"
+        "138.199.21.213",
+        "2a02:6ea0:d33b:6271::10"
       ]
     },
     {
@@ -9358,7 +9347,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "138.199.21.213"
+        "138.199.21.213",
+        "2a02:6ea0:d33b:6271::10"
       ]
     },
     {
@@ -9372,7 +9362,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "138.199.21.214"
+        "138.199.21.214",
+        "2a02:6ea0:d33b:6272::10"
       ]
     },
     {
@@ -9385,7 +9376,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "138.199.21.214"
+        "138.199.21.214",
+        "2a02:6ea0:d33b:6272::10"
       ]
     },
     {
@@ -9399,7 +9391,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "212.102.51.120"
+        "212.102.51.120",
+        "2a02:6ea0:d33b:6276::10"
       ]
     },
     {
@@ -9412,7 +9405,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "212.102.51.120"
+        "212.102.51.120",
+        "2a02:6ea0:d33b:6276::10"
       ]
     },
     {
@@ -9426,7 +9420,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "212.102.51.121"
+        "212.102.51.121",
+        "2a02:6ea0:d33b:6277::10"
       ]
     },
     {
@@ -9439,7 +9434,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "212.102.51.121"
+        "212.102.51.121",
+        "2a02:6ea0:d33b:6277::10"
       ]
     },
     {
@@ -9502,7 +9498,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "149.88.103.162"
+        "149.88.103.162",
+        "2a02:6ea0:d33b:6290::10"
       ]
     },
     {
@@ -9514,7 +9511,8 @@
       "wgpubkey": "sKWRXpOQRf5Q7LUaBvCAGUTOI5IonZg7+NFRHHiX3xE=",
       "free": true,
       "ips": [
-        "149.88.103.162"
+        "149.88.103.162",
+        "2a02:6ea0:d33b:6290::10"
       ]
     },
     {
@@ -9628,7 +9626,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "217.138.11.2"
+        "217.138.11.2",
+        "2a0d:5600:161:1::10"
       ]
     },
     {
@@ -9641,7 +9640,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "217.138.11.2"
+        "217.138.11.2",
+        "2a0d:5600:161:1::10"
       ]
     },
     {
@@ -9757,7 +9757,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.110.55.2"
+        "79.110.55.2",
+        "2a04:9dc0:20:4::10"
       ]
     },
     {
@@ -9770,7 +9771,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.110.55.2"
+        "79.110.55.2",
+        "2a04:9dc0:20:4::10"
       ]
     },
     {
@@ -10268,7 +10270,7 @@
       "udp": true,
       "secure_core": true,
       "ips": [
-        "62.169.136.110"
+        "79.135.104.20"
       ]
     },
     {
@@ -10281,18 +10283,6 @@
       "udp": true,
       "secure_core": true,
       "ips": [
-        "79.135.104.20"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Lithuania",
-      "city": "Vilnius",
-      "server_name": "CH-LT#2",
-      "hostname": "node-lt-01b.protonvpn.net",
-      "wgpubkey": "bRGHR+5TEOvd2KR2dJJm9nOH1bboFu2omY4pW2EVZH8=",
-      "secure_core": true,
-      "ips": [
         "62.169.136.110"
       ]
     },
@@ -10306,6 +10296,18 @@
       "secure_core": true,
       "ips": [
         "79.135.104.20"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Lithuania",
+      "city": "Vilnius",
+      "server_name": "CH-LT#2",
+      "hostname": "node-lt-01b.protonvpn.net",
+      "wgpubkey": "bRGHR+5TEOvd2KR2dJJm9nOH1bboFu2omY4pW2EVZH8=",
+      "secure_core": true,
+      "ips": [
+        "62.169.136.110"
       ]
     },
     {
@@ -10344,7 +10346,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "130.195.243.2"
+        "130.195.243.2",
+        "2a0d:5600:100:1::10"
       ]
     },
     {
@@ -10357,20 +10360,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "130.195.243.2"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Luxembourg",
-      "city": "Luxembourg",
-      "server_name": "CH-LU#2",
-      "hostname": "node-lu-04.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "62.169.136.9"
+        "130.195.243.2",
+        "2a0d:5600:100:1::10"
       ]
     },
     {
@@ -10384,6 +10375,19 @@
       "secure_core": true,
       "ips": [
         "79.135.104.48"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Luxembourg",
+      "city": "Luxembourg",
+      "server_name": "CH-LU#2",
+      "hostname": "node-lu-04.protonvpn.net",
+      "tcp": true,
+      "udp": true,
+      "secure_core": true,
+      "ips": [
+        "62.169.136.9"
       ]
     },
     {
@@ -10421,7 +10425,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "5.253.204.194"
+        "5.253.204.194",
+        "2001:ac8:8:3::10"
       ]
     },
     {
@@ -10434,7 +10439,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "5.253.204.194"
+        "5.253.204.194",
+        "2001:ac8:8:3::10"
       ]
     },
     {
@@ -10448,7 +10454,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "5.253.204.162"
+        "5.253.204.162",
+        "2001:ac8:8:2::10"
       ]
     },
     {
@@ -10461,7 +10468,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "5.253.204.162"
+        "5.253.204.162",
+        "2001:ac8:8:2::10"
       ]
     },
     {
@@ -10759,7 +10767,8 @@
       "udp": true,
       "port_forward": true,
       "ips": [
-        "178.249.212.161"
+        "178.249.212.161",
+        "2a10:9007:2:10::10"
       ]
     },
     {
@@ -10771,7 +10780,8 @@
       "wgpubkey": "fX8h7YY6jz+Brn6LpO7Om+Zdp00HbpUKyyC7Hpc2Fz8=",
       "port_forward": true,
       "ips": [
-        "178.249.212.161"
+        "178.249.212.161",
+        "2a10:9007:2:10::10"
       ]
     },
     {
@@ -10903,25 +10913,25 @@
       "vpn": "openvpn",
       "country": "Mexico",
       "city": "Mexico City",
-      "server_name": "CH-MX#1",
-      "hostname": "node-mx-22.protonvpn.net",
+      "server_name": "CH-MX#2",
+      "hostname": "node-mx-03.protonvpn.net",
       "tcp": true,
       "udp": true,
       "secure_core": true,
       "ips": [
-        "62.169.136.115"
+        "62.169.136.218"
       ]
     },
     {
       "vpn": "wireguard",
       "country": "Mexico",
       "city": "Mexico City",
-      "server_name": "CH-MX#1",
-      "hostname": "node-mx-22.protonvpn.net",
-      "wgpubkey": "c4hRqWQ0Dh7xh5Ms1ZHcKcp8JmWuiLqB7zdPHpuKZDE=",
+      "server_name": "CH-MX#2",
+      "hostname": "node-mx-03.protonvpn.net",
+      "wgpubkey": "tHwmpVZsh4yfoA9/vWbacF6cWcXUKE9wuDP5bz66oh8=",
       "secure_core": true,
       "ips": [
-        "62.169.136.115"
+        "62.169.136.218"
       ]
     },
     {
@@ -10935,7 +10945,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "138.199.50.107"
+        "138.199.50.107",
+        "2a10:9007:3:9::10"
       ]
     },
     {
@@ -10948,7 +10959,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "138.199.50.107"
+        "138.199.50.107",
+        "2a10:9007:3:9::10"
       ]
     },
     {
@@ -11172,7 +11184,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "130.195.240.2"
+        "130.195.240.2",
+        "2a0d:5600:97:1::10"
       ]
     },
     {
@@ -11185,7 +11198,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "130.195.240.2"
+        "130.195.240.2",
+        "2a0d:5600:97:1::10"
       ]
     },
     {
@@ -11197,7 +11211,8 @@
       "tcp": true,
       "udp": true,
       "ips": [
-        "185.163.44.137"
+        "185.163.44.137",
+        "2a0a:c801:1:a::137"
       ]
     },
     {
@@ -11208,7 +11223,8 @@
       "hostname": "node-md-02.protonvpn.net",
       "wgpubkey": "Os6z+mP8fCp+EWHXuXs3IULqkVO/fWLrln/eNRAeKh4=",
       "ips": [
-        "185.163.44.137"
+        "185.163.44.137",
+        "2a0a:c801:1:a::137"
       ]
     },
     {
@@ -11434,7 +11450,8 @@
       "tcp": true,
       "udp": true,
       "ips": [
-        "138.199.60.87"
+        "138.199.60.87",
+        "2a10:9007:5:b::10"
       ]
     },
     {
@@ -11445,7 +11462,8 @@
       "hostname": "node-mm-01.protonvpn.net",
       "wgpubkey": "gbUzD44E0V5eUqGbYKo+NM/sVt1KJwQjS2TxPYQPK18=",
       "ips": [
-        "138.199.60.87"
+        "138.199.60.87",
+        "2a10:9007:5:b::10"
       ]
     },
     {
@@ -11575,31 +11593,6 @@
       "secure_core": true,
       "ips": [
         "62.169.136.199"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Netherlands",
-      "city": "Amsterdam",
-      "server_name": "CH-NL#2",
-      "hostname": "node-nl-168.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "62.169.136.91"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Netherlands",
-      "city": "Amsterdam",
-      "server_name": "CH-NL#2",
-      "hostname": "node-nl-168.protonvpn.net",
-      "wgpubkey": "s2Eo2xDw/yvvLjltF8VJT84k+T1K1+veCEE9uKC6gjo=",
-      "secure_core": true,
-      "ips": [
-        "62.169.136.91"
       ]
     },
     {
@@ -11757,31 +11750,6 @@
       "country": "Netherlands",
       "city": "Amsterdam",
       "server_name": "IS-NL#1",
-      "hostname": "node-nl-214.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.158.249"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Netherlands",
-      "city": "Amsterdam",
-      "server_name": "IS-NL#1",
-      "hostname": "node-nl-214.protonvpn.net",
-      "wgpubkey": "nPCWC0rx9ZXEkzh7dxMUTO5/HUqDaLaD827Yp1sJCQU=",
-      "secure_core": true,
-      "ips": [
-        "185.159.158.249"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Netherlands",
-      "city": "Amsterdam",
-      "server_name": "IS-NL#1",
       "hostname": "node-nl-221.protonvpn.net",
       "tcp": true,
       "udp": true,
@@ -11800,33 +11768,6 @@
       "secure_core": true,
       "ips": [
         "185.159.158.144"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Netherlands",
-      "city": "Amsterdam",
-      "server_name": "NL#412",
-      "hostname": "node-nl-168.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "stream": true,
-      "port_forward": true,
-      "ips": [
-        "212.92.104.225"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Netherlands",
-      "city": "Amsterdam",
-      "server_name": "NL#412",
-      "hostname": "node-nl-168.protonvpn.net",
-      "wgpubkey": "s2Eo2xDw/yvvLjltF8VJT84k+T1K1+veCEE9uKC6gjo=",
-      "stream": true,
-      "port_forward": true,
-      "ips": [
-        "212.92.104.225"
       ]
     },
     {
@@ -11867,7 +11808,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "46.29.25.4"
+        "46.29.25.4",
+        "2001:968:12:2102::41"
       ]
     },
     {
@@ -11880,7 +11822,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "46.29.25.4"
+        "46.29.25.4",
+        "2001:968:12:2102::41"
       ]
     },
     {
@@ -11894,7 +11837,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "46.29.25.6"
+        "46.29.25.6",
+        "2001:968:12:2102::134"
       ]
     },
     {
@@ -11907,7 +11851,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "46.29.25.6"
+        "46.29.25.6",
+        "2001:968:12:2102::134"
       ]
     },
     {
@@ -11921,7 +11866,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.196.67"
+        "169.150.196.67",
+        "2a02:6ea0:c041:6651::10"
       ]
     },
     {
@@ -11934,7 +11880,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.196.67"
+        "169.150.196.67",
+        "2a02:6ea0:c041:6651::10"
       ]
     },
     {
@@ -11948,7 +11895,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.196.155"
+        "169.150.196.155",
+        "2a02:6ea0:c041:6647::10"
       ]
     },
     {
@@ -11961,7 +11909,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.196.155"
+        "169.150.196.155",
+        "2a02:6ea0:c041:6647::10"
       ]
     },
     {
@@ -11974,7 +11923,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "149.34.244.174"
+        "149.34.244.174",
+        "2a02:6ea0:c041:2348::10"
       ]
     },
     {
@@ -11986,7 +11936,8 @@
       "wgpubkey": "S4sou/kWKF1tDtb98ik1PJs5DIOXONZrL0E9lI5lWEI=",
       "free": true,
       "ips": [
-        "149.34.244.174"
+        "149.34.244.174",
+        "2a02:6ea0:c041:2348::10"
       ]
     },
     {
@@ -12024,7 +11975,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "89.38.99.72"
+        "89.38.99.72",
+        "2a00:7c80:0:3b0::10"
       ]
     },
     {
@@ -12036,7 +11988,8 @@
       "wgpubkey": "Wj4jupUpBGVmyMmpME1qw1s2wAxDbygPfz2+ATVGC3c=",
       "free": true,
       "ips": [
-        "89.38.99.72"
+        "89.38.99.72",
+        "2a00:7c80:0:3b0::10"
       ]
     },
     {
@@ -12398,7 +12351,8 @@
       "tcp": true,
       "udp": true,
       "ips": [
-        "116.90.74.178"
+        "116.90.74.178",
+        "2401:3bc0:700:231::10"
       ]
     },
     {
@@ -12409,7 +12363,8 @@
       "hostname": "node-nz-03.protonvpn.net",
       "wgpubkey": "/QKfRMQaQKdQ4UAwmQc8KKShfc3Mjl1HcKiiGEoWwTU=",
       "ips": [
-        "116.90.74.178"
+        "116.90.74.178",
+        "2401:3bc0:700:231::10"
       ]
     },
     {
@@ -12581,7 +12536,8 @@
       "tcp": true,
       "udp": true,
       "ips": [
-        "185.76.11.27"
+        "185.76.11.27",
+        "2a10:9007:1:1::10"
       ]
     },
     {
@@ -12592,59 +12548,8 @@
       "hostname": "node-es-07.protonvpn.net",
       "wgpubkey": "xmy2vCo/o3h9gltwlNc5M79hwqOwlJmeHHp00Y/SSQU=",
       "ips": [
-        "185.76.11.27"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Nigeria",
-      "city": "Lagos",
-      "server_name": "IS-NG#1",
-      "hostname": "node-ng-01.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.158.123"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Nigeria",
-      "city": "Lagos",
-      "server_name": "IS-NG#1",
-      "hostname": "node-ng-01.protonvpn.net",
-      "wgpubkey": "X96XImRSoyqbsbWe7YvV2yK8oqwJpFfcvov+INdKfjA=",
-      "secure_core": true,
-      "ips": [
-        "185.159.158.123"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Nigeria",
-      "city": "Lagos",
-      "server_name": "NG#14",
-      "hostname": "node-ng-01.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "stream": true,
-      "port_forward": true,
-      "ips": [
-        "79.127.149.65"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Nigeria",
-      "city": "Lagos",
-      "server_name": "NG#14",
-      "hostname": "node-ng-01.protonvpn.net",
-      "wgpubkey": "X96XImRSoyqbsbWe7YvV2yK8oqwJpFfcvov+INdKfjA=",
-      "stream": true,
-      "port_forward": true,
-      "ips": [
-        "79.127.149.65"
+        "185.76.11.27",
+        "2a10:9007:1:1::10"
       ]
     },
     {
@@ -12701,38 +12606,14 @@
       "vpn": "openvpn",
       "country": "Norway",
       "city": "Oslo",
-      "server_name": "CH-NO#2",
-      "hostname": "node-no-06.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "62.169.136.240"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Norway",
-      "city": "Oslo",
-      "server_name": "CH-NO#2",
-      "hostname": "node-no-06.protonvpn.net",
-      "wgpubkey": "sSbgwNAoZtBVWlg6ZLnFDrXTM3YFTpPVKgE4DtzSUw0=",
-      "secure_core": true,
-      "ips": [
-        "62.169.136.240"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Norway",
-      "city": "Oslo",
       "server_name": "NO#23",
       "hostname": "node-no-05.protonvpn.net",
       "tcp": true,
       "udp": true,
       "stream": true,
       "ips": [
-        "146.70.170.18"
+        "146.70.170.18",
+        "2001:ac8:38:2::10"
       ]
     },
     {
@@ -12744,32 +12625,8 @@
       "wgpubkey": "KOITt3KQ72LHPbpVp7kp4cQo/qw2qvKPrN732UTWWFw=",
       "stream": true,
       "ips": [
-        "146.70.170.18"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Norway",
-      "city": "Oslo",
-      "server_name": "NO#33",
-      "hostname": "node-no-06.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "stream": true,
-      "ips": [
-        "146.70.170.2"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Norway",
-      "city": "Oslo",
-      "server_name": "NO#33",
-      "hostname": "node-no-06.protonvpn.net",
-      "wgpubkey": "sSbgwNAoZtBVWlg6ZLnFDrXTM3YFTpPVKgE4DtzSUw0=",
-      "stream": true,
-      "ips": [
-        "146.70.170.2"
+        "146.70.170.18",
+        "2001:ac8:38:2::10"
       ]
     },
     {
@@ -12809,7 +12666,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "95.173.205.161"
+        "95.173.205.161",
+        "2a02:6ea0:5601:6476::10"
       ]
     },
     {
@@ -12821,7 +12679,8 @@
       "wgpubkey": "N9uq1Vwlu7tHTzG13/P/Plo8m4HJLeal8rdHeD96MxE=",
       "free": true,
       "ips": [
-        "95.173.205.161"
+        "95.173.205.161",
+        "2a02:6ea0:5601:6476::10"
       ]
     },
     {
@@ -12834,7 +12693,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "95.173.205.167"
+        "95.173.205.167",
+        "2a02:6ea0:5601:6471::10"
       ]
     },
     {
@@ -12846,7 +12706,8 @@
       "wgpubkey": "2s+PN1/EcGL6LAK7YamHOYqL0waTlwc43+RR6+hxORQ=",
       "free": true,
       "ips": [
-        "95.173.205.167"
+        "95.173.205.167",
+        "2a02:6ea0:5601:6471::10"
       ]
     },
     {
@@ -12859,7 +12720,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "95.173.205.165"
+        "95.173.205.165",
+        "2a02:6ea0:5601:6472::10"
       ]
     },
     {
@@ -12871,7 +12733,8 @@
       "wgpubkey": "84dSFrHWsJr34E8GWyXZsxFourH7+vbjUoJWlZmS13I=",
       "free": true,
       "ips": [
-        "95.173.205.165"
+        "95.173.205.165",
+        "2a02:6ea0:5601:6472::10"
       ]
     },
     {
@@ -12964,7 +12827,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "217.113.171.2"
+        "217.113.171.2",
+        "2001:ac8:5:1::10"
       ]
     },
     {
@@ -12977,7 +12841,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "217.113.171.2"
+        "217.113.171.2",
+        "2001:ac8:5:1::10"
       ]
     },
     {
@@ -13172,7 +13037,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "138.199.50.105"
+        "138.199.50.105",
+        "2a10:9007:3:a::10"
       ]
     },
     {
@@ -13185,7 +13051,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "138.199.50.105"
+        "138.199.50.105",
+        "2a10:9007:3:a::10"
       ]
     },
     {
@@ -13199,7 +13066,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.176.29"
+        "79.127.176.29",
+        "2a02:6ea0:5505:7199::10"
       ]
     },
     {
@@ -13212,7 +13080,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.176.29"
+        "79.127.176.29",
+        "2a02:6ea0:5505:7199::10"
       ]
     },
     {
@@ -13226,7 +13095,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "188.214.125.162"
+        "188.214.125.162",
+        "2001:ac8:94:3::10"
       ]
     },
     {
@@ -13239,7 +13109,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "188.214.125.162"
+        "188.214.125.162",
+        "2001:ac8:94:3::10"
       ]
     },
     {
@@ -13353,7 +13224,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.186.162"
+        "79.127.186.162",
+        "2a02:6ea0:ce14:6266::10"
       ]
     },
     {
@@ -13366,7 +13238,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.186.162"
+        "79.127.186.162",
+        "2a02:6ea0:ce14:6266::10"
       ]
     },
     {
@@ -13380,7 +13253,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.186.165"
+        "79.127.186.165",
+        "2a02:6ea0:ce14:6189::10"
       ]
     },
     {
@@ -13393,7 +13267,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.186.165"
+        "79.127.186.165",
+        "2a02:6ea0:ce14:6189::10"
       ]
     },
     {
@@ -13407,7 +13282,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.186.164"
+        "79.127.186.164",
+        "2a02:6ea0:ce14:6190::10"
       ]
     },
     {
@@ -13420,7 +13296,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.186.164"
+        "79.127.186.164",
+        "2a02:6ea0:ce14:6190::10"
       ]
     },
     {
@@ -13434,7 +13311,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.161.178"
+        "146.70.161.178",
+        "2a0d:5600:13:28::10"
       ]
     },
     {
@@ -13447,7 +13325,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.161.178"
+        "146.70.161.178",
+        "2a0d:5600:13:28::10"
       ]
     },
     {
@@ -13461,7 +13340,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.161.162"
+        "146.70.161.162",
+        "2a0d:5600:13:b::10"
       ]
     },
     {
@@ -13474,7 +13354,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.161.162"
+        "146.70.161.162",
+        "2a0d:5600:13:b::10"
       ]
     },
     {
@@ -13514,7 +13395,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "149.102.244.112"
+        "149.102.244.112",
+        "2a02:6ea0:ce14:3035::10"
       ]
     },
     {
@@ -13526,7 +13408,8 @@
       "wgpubkey": "zear23pwkz4A+s8Q3KiCW8el4SrYYzv/lSgd4+xrVEU=",
       "free": true,
       "ips": [
-        "149.102.244.112"
+        "149.102.244.112",
+        "2a02:6ea0:ce14:3035::10"
       ]
     },
     {
@@ -13694,7 +13577,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.131.222"
+        "79.127.131.222",
+        "2a02:6ea0:4b08:6269::10"
       ]
     },
     {
@@ -13707,7 +13591,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.131.222"
+        "79.127.131.222",
+        "2a02:6ea0:4b08:6269::10"
       ]
     },
     {
@@ -13720,7 +13605,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "195.158.248.226"
+        "195.158.248.226",
+        "2a06:3040::907e:7954"
       ]
     },
     {
@@ -13732,7 +13618,8 @@
       "wgpubkey": "RbDaajNuhOJ2QWdraMp06PER6/F9TIHZXM+RUBH7tTM=",
       "stream": true,
       "ips": [
-        "195.158.248.226"
+        "195.158.248.226",
+        "2a06:3040::907e:7954"
       ]
     },
     {
@@ -13822,7 +13709,8 @@
       "udp": true,
       "port_forward": true,
       "ips": [
-        "138.199.50.97"
+        "138.199.50.97",
+        "2a10:9007:3:b::10"
       ]
     },
     {
@@ -13834,7 +13722,8 @@
       "wgpubkey": "bwxgdI9Jo1QCuw9g9VvfenOBrPouBxFkdnQgRjHvrSU=",
       "port_forward": true,
       "ips": [
-        "138.199.50.97"
+        "138.199.50.97",
+        "2a10:9007:3:b::10"
       ]
     },
     {
@@ -13978,7 +13867,7 @@
       "wgpubkey": "oXJDkB7ARwfgC1j8nJMTPz1s8zHDy72V3UxgERs9YjI=",
       "secure_core": true,
       "ips": [
-        "79.135.104.49"
+        "62.169.136.11"
       ]
     },
     {
@@ -13990,7 +13879,7 @@
       "wgpubkey": "oXJDkB7ARwfgC1j8nJMTPz1s8zHDy72V3UxgERs9YjI=",
       "secure_core": true,
       "ips": [
-        "62.169.136.11"
+        "79.135.104.49"
       ]
     },
     {
@@ -14004,7 +13893,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.199.73"
+        "169.150.199.73",
+        "2a02:6ea0:da08:6197::10"
       ]
     },
     {
@@ -14017,7 +13907,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.199.73"
+        "169.150.199.73",
+        "2a02:6ea0:da08:6197::10"
       ]
     },
     {
@@ -14031,7 +13922,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.199.72"
+        "169.150.199.72",
+        "2a02:6ea0:da08:6198::10"
       ]
     },
     {
@@ -14044,7 +13936,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.199.72"
+        "169.150.199.72",
+        "2a02:6ea0:da08:6198::10"
       ]
     },
     {
@@ -14058,7 +13951,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.199.71"
+        "169.150.199.71",
+        "2a02:6ea0:da08:6200::10"
       ]
     },
     {
@@ -14071,7 +13965,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.199.71"
+        "169.150.199.71",
+        "2a02:6ea0:da08:6200::10"
       ]
     },
     {
@@ -14085,7 +13980,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.199.69"
+        "169.150.199.69",
+        "2a02:6ea0:da08:6202::10"
       ]
     },
     {
@@ -14098,7 +13994,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.199.69"
+        "169.150.199.69",
+        "2a02:6ea0:da08:6202::10"
       ]
     },
     {
@@ -14112,7 +14009,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "185.181.100.178"
+        "185.181.100.178",
+        "2a04:9dc0:0:149::10"
       ]
     },
     {
@@ -14125,7 +14023,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "185.181.100.178"
+        "185.181.100.178",
+        "2a04:9dc0:0:149::10"
       ]
     },
     {
@@ -14205,6 +14104,31 @@
       "free": true,
       "ips": [
         "146.70.246.98"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Romania",
+      "city": "Bucharest",
+      "server_name": "RO-FREE#24",
+      "hostname": "node-ro-13.protonvpn.net",
+      "tcp": true,
+      "udp": true,
+      "free": true,
+      "ips": [
+        "146.70.246.114"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Romania",
+      "city": "Bucharest",
+      "server_name": "RO-FREE#24",
+      "hostname": "node-ro-13.protonvpn.net",
+      "wgpubkey": "dgVvjsBPhkKantancTMGlcd10ikyQjCtSTG2muBjvHA=",
+      "free": true,
+      "ips": [
+        "146.70.246.114"
       ]
     },
     {
@@ -14317,7 +14241,7 @@
       "udp": true,
       "secure_core": true,
       "ips": [
-        "79.135.104.25"
+        "62.169.136.12"
       ]
     },
     {
@@ -14330,7 +14254,7 @@
       "udp": true,
       "secure_core": true,
       "ips": [
-        "62.169.136.12"
+        "79.135.104.25"
       ]
     },
     {
@@ -14619,6 +14543,33 @@
     },
     {
       "vpn": "openvpn",
+      "country": "Saudi Arabia",
+      "city": "Riyadh",
+      "server_name": "SA#22",
+      "hostname": "sa-04.protonvpn.net",
+      "tcp": true,
+      "udp": true,
+      "stream": true,
+      "port_forward": true,
+      "ips": [
+        "134.82.74.200"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Saudi Arabia",
+      "city": "Riyadh",
+      "server_name": "SA#22",
+      "hostname": "sa-04.protonvpn.net",
+      "wgpubkey": "dxtvNxdVmzhiYtILwUyifOP45+9LtTr/MWLG3m7vfh0=",
+      "stream": true,
+      "port_forward": true,
+      "ips": [
+        "134.82.74.200"
+      ]
+    },
+    {
+      "vpn": "openvpn",
       "country": "Senegal",
       "city": "Dakar",
       "server_name": "SN#12",
@@ -14782,7 +14733,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.221.130"
+        "146.70.221.130",
+        "2001:ac8:7f:4::10"
       ]
     },
     {
@@ -14795,7 +14747,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.221.130"
+        "146.70.221.130",
+        "2001:ac8:7f:4::10"
       ]
     },
     {
@@ -14808,7 +14761,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "37.46.115.5"
+        "37.46.115.5",
+        "2a00:7147:22:1::10"
       ]
     },
     {
@@ -14820,7 +14774,8 @@
       "wgpubkey": "5H/Al8MzQNlRehSUbEIRH/rZbfRNdMk04/XgK3hhkwE=",
       "stream": true,
       "ips": [
-        "37.46.115.5"
+        "37.46.115.5",
+        "2a00:7147:22:1::10"
       ]
     },
     {
@@ -14959,7 +14914,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.50.211.165"
+        "149.50.211.165",
+        "2a02:6ea0:d101:6221::10"
       ]
     },
     {
@@ -14972,7 +14928,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.50.211.165"
+        "149.50.211.165",
+        "2a02:6ea0:d101:6221::10"
       ]
     },
     {
@@ -14986,7 +14943,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.50.211.167"
+        "149.50.211.167",
+        "2a02:6ea0:d101:6223::10"
       ]
     },
     {
@@ -14999,7 +14957,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.50.211.167"
+        "149.50.211.167",
+        "2a02:6ea0:d101:6223::10"
       ]
     },
     {
@@ -15013,7 +14972,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.50.211.166"
+        "149.50.211.166",
+        "2a02:6ea0:d101:6224::10"
       ]
     },
     {
@@ -15026,7 +14986,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.50.211.166"
+        "149.50.211.166",
+        "2a02:6ea0:d101:6224::10"
       ]
     },
     {
@@ -15040,7 +15001,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.50.211.169"
+        "149.50.211.169",
+        "2a02:6ea0:d101:6225::10"
       ]
     },
     {
@@ -15053,7 +15015,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.50.211.169"
+        "149.50.211.169",
+        "2a02:6ea0:d101:6225::10"
       ]
     },
     {
@@ -15067,7 +15030,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.50.211.168"
+        "149.50.211.168",
+        "2a02:6ea0:d101:6226::10"
       ]
     },
     {
@@ -15080,7 +15044,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.50.211.168"
+        "149.50.211.168",
+        "2a02:6ea0:d101:6226::10"
       ]
     },
     {
@@ -15346,7 +15311,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "185.245.85.130"
+        "185.245.85.130",
+        "2a0d:5600:11:35::10"
       ]
     },
     {
@@ -15359,7 +15325,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "185.245.85.130"
+        "185.245.85.130",
+        "2a0d:5600:11:35::10"
       ]
     },
     {
@@ -15450,7 +15417,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "130.195.245.3"
+        "130.195.245.3",
+        "2a0d:5600:96:1::50"
       ]
     },
     {
@@ -15463,7 +15431,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "130.195.245.3"
+        "130.195.245.3",
+        "2a0d:5600:96:1::50"
       ]
     },
     {
@@ -15477,7 +15446,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "130.195.245.2"
+        "130.195.245.2",
+        "2a0d:5600:96:1::10"
       ]
     },
     {
@@ -15490,7 +15460,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "130.195.245.2"
+        "130.195.245.2",
+        "2a0d:5600:96:1::10"
       ]
     },
     {
@@ -15808,7 +15779,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "130.195.250.66"
+        "130.195.250.66",
+        "2001:ac8:17:1::10"
       ]
     },
     {
@@ -15821,7 +15793,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "130.195.250.66"
+        "130.195.250.66",
+        "2001:ac8:17:1::10"
       ]
     },
     {
@@ -15835,7 +15808,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "130.195.250.98"
+        "130.195.250.98",
+        "2001:ac8:17:2::10"
       ]
     },
     {
@@ -15848,7 +15822,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "130.195.250.98"
+        "130.195.250.98",
+        "2001:ac8:17:2::10"
       ]
     },
     {
@@ -15937,7 +15912,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.139.129"
+        "79.127.139.129",
+        "2a02:6ea0:c31f:5498::10"
       ]
     },
     {
@@ -15950,7 +15926,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.139.129"
+        "79.127.139.129",
+        "2a02:6ea0:c31f:5498::10"
       ]
     },
     {
@@ -15964,7 +15941,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.139.162"
+        "79.127.139.162",
+        "2a02:6ea0:c31f:6214::10"
       ]
     },
     {
@@ -15977,7 +15955,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.139.162"
+        "79.127.139.162",
+        "2a02:6ea0:c31f:6214::10"
       ]
     },
     {
@@ -15991,7 +15970,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.139.160"
+        "79.127.139.160",
+        "2a02:6ea0:c31f:6217::10"
       ]
     },
     {
@@ -16004,7 +15984,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.139.160"
+        "79.127.139.160",
+        "2a02:6ea0:c31f:6217::10"
       ]
     },
     {
@@ -16018,7 +15999,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.139.163"
+        "79.127.139.163",
+        "2a02:6ea0:c31f:6220::10"
       ]
     },
     {
@@ -16031,7 +16013,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.139.163"
+        "79.127.139.163",
+        "2a02:6ea0:c31f:6220::10"
       ]
     },
     {
@@ -16044,7 +16027,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "185.76.11.17"
+        "185.76.11.17",
+        "2a02:6ea0:c31f:1783::10"
       ]
     },
     {
@@ -16056,7 +16040,8 @@
       "wgpubkey": "roOsz9dJeKKVt6E3EIEKXQfZsmhSfsqOceZWiuGLIgg=",
       "stream": true,
       "ips": [
-        "185.76.11.17"
+        "185.76.11.17",
+        "2a02:6ea0:c31f:1783::10"
       ]
     },
     {
@@ -16274,7 +16259,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "31.13.191.66"
+        "31.13.191.66",
+        "2001:ac8:59:85::10"
       ]
     },
     {
@@ -16287,7 +16273,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "31.13.191.66"
+        "31.13.191.66",
+        "2001:ac8:59:85::10"
       ]
     },
     {
@@ -16301,7 +16288,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.208.158"
+        "169.150.208.158",
+        "2a02:6ea0:c501:5965::10"
       ]
     },
     {
@@ -16314,7 +16302,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.208.158"
+        "169.150.208.158",
+        "2a02:6ea0:c501:5965::10"
       ]
     },
     {
@@ -16328,7 +16317,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.208.216"
+        "169.150.208.216",
+        "2a02:6ea0:c501:5964::10"
       ]
     },
     {
@@ -16341,7 +16331,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.208.216"
+        "169.150.208.216",
+        "2a02:6ea0:c501:5964::10"
       ]
     },
     {
@@ -16355,7 +16346,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.208.129"
+        "169.150.208.129",
+        "2a02:6ea0:c501:5967::10"
       ]
     },
     {
@@ -16368,7 +16360,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.208.129"
+        "169.150.208.129",
+        "2a02:6ea0:c501:5967::10"
       ]
     },
     {
@@ -16407,7 +16400,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "62.93.166.121"
+        "62.93.166.121",
+        "2a02:6ea0:c501:6262::10"
       ]
     },
     {
@@ -16420,7 +16414,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "62.93.166.121"
+        "62.93.166.121",
+        "2a02:6ea0:c501:6262::10"
       ]
     },
     {
@@ -16434,7 +16429,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "62.93.166.122"
+        "62.93.166.122",
+        "2a02:6ea0:c501:6264::10"
       ]
     },
     {
@@ -16447,7 +16443,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "62.93.166.122"
+        "62.93.166.122",
+        "2a02:6ea0:c501:6264::10"
       ]
     },
     {
@@ -16461,7 +16458,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.208.246"
+        "169.150.208.246",
+        "2a02:6ea0:c501:8096::10"
       ]
     },
     {
@@ -16474,7 +16472,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "169.150.208.246"
+        "169.150.208.246",
+        "2a02:6ea0:c501:8096::10"
       ]
     },
     {
@@ -16487,7 +16486,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.50.216.238"
+        "149.50.216.238",
+        "2a02:6ea0:c501:3108::10"
       ]
     },
     {
@@ -16499,7 +16499,8 @@
       "wgpubkey": "4mgCsg3Rox11k6YWGwToB1kshzqbQ8Iu1HuOZhNtYQg=",
       "stream": true,
       "ips": [
-        "149.50.216.238"
+        "149.50.216.238",
+        "2a02:6ea0:c501:3108::10"
       ]
     },
     {
@@ -16513,7 +16514,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "66.234.146.2"
+        "66.234.146.2",
+        "2001:ac8:28:17::10"
       ]
     },
     {
@@ -16526,7 +16528,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "66.234.146.2"
+        "66.234.146.2",
+        "2001:ac8:28:17::10"
       ]
     },
     {
@@ -16540,7 +16543,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "66.234.146.98"
+        "66.234.146.98",
+        "2001:ac8:28:25::10"
       ]
     },
     {
@@ -16553,7 +16557,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "66.234.146.98"
+        "66.234.146.98",
+        "2001:ac8:28:25::10"
       ]
     },
     {
@@ -16617,7 +16622,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.226.194"
+        "146.70.226.194",
+        "2001:ac8:28:a4d::10"
       ]
     },
     {
@@ -16630,7 +16636,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.226.194"
+        "146.70.226.194",
+        "2001:ac8:28:a4d::10"
       ]
     },
     {
@@ -16644,7 +16651,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.184.158"
+        "79.127.184.158",
+        "2a02:6ea0:d411:5429::10"
       ]
     },
     {
@@ -16657,7 +16665,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.184.158"
+        "79.127.184.158",
+        "2a02:6ea0:d411:5429::10"
       ]
     },
     {
@@ -16671,7 +16680,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.184.187"
+        "79.127.184.187",
+        "2a02:6ea0:d411:5431::10"
       ]
     },
     {
@@ -16684,7 +16694,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.184.187"
+        "79.127.184.187",
+        "2a02:6ea0:d411:5431::10"
       ]
     },
     {
@@ -16698,7 +16709,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.222.97.30"
+        "89.222.97.30",
+        "2a02:6ea0:d411:6001::10"
       ]
     },
     {
@@ -16711,7 +16723,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.222.97.30"
+        "89.222.97.30",
+        "2a02:6ea0:d411:6001::10"
       ]
     },
     {
@@ -16725,7 +16738,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.222.96.1"
+        "89.222.96.1",
+        "2a02:6ea0:d411:6005::10"
       ]
     },
     {
@@ -16738,7 +16752,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.222.96.1"
+        "89.222.96.1",
+        "2a02:6ea0:d411:6005::10"
       ]
     },
     {
@@ -16752,7 +16767,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.222.96.216"
+        "89.222.96.216",
+        "2a02:6ea0:d411:6006::10"
       ]
     },
     {
@@ -16765,7 +16781,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.222.96.216"
+        "89.222.96.216",
+        "2a02:6ea0:d411:6006::10"
       ]
     },
     {
@@ -16830,7 +16847,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "138.199.6.178"
+        "138.199.6.178",
+        "2a02:6ea0:d411:2416::10"
       ]
     },
     {
@@ -16842,7 +16860,8 @@
       "wgpubkey": "YpOUROUnumcF/snGX8zka0nThnvHesceJAYUSbZL1XQ=",
       "free": true,
       "ips": [
-        "138.199.6.178"
+        "138.199.6.178",
+        "2a02:6ea0:d411:2416::10"
       ]
     },
     {
@@ -16855,7 +16874,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "149.88.27.234"
+        "149.88.27.234",
+        "2a02:6ea0:d411:3574::10"
       ]
     },
     {
@@ -16867,7 +16887,8 @@
       "wgpubkey": "XPVCz7LndzqWe7y3+WSo51hvNOX8nX5CTwVTWhzg8g8=",
       "free": true,
       "ips": [
-        "149.88.27.234"
+        "149.88.27.234",
+        "2a02:6ea0:d411:3574::10"
       ]
     },
     {
@@ -17003,7 +17024,8 @@
       "udp": true,
       "port_forward": true,
       "ips": [
-        "188.214.106.178"
+        "188.214.106.178",
+        "2001:ac8:97:3::10"
       ]
     },
     {
@@ -17015,7 +17037,8 @@
       "wgpubkey": "jodLwKl2kl5scwLUIZQYGoKBsqTRAtv6ltsofBc6WD4=",
       "port_forward": true,
       "ips": [
-        "188.214.106.178"
+        "188.214.106.178",
+        "2001:ac8:97:3::10"
       ]
     },
     {
@@ -17185,7 +17208,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "130.195.242.2"
+        "130.195.242.2",
+        "2a0d:5600:99:1::10"
       ]
     },
     {
@@ -17198,7 +17222,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "130.195.242.2"
+        "130.195.242.2",
+        "2a0d:5600:99:1::10"
       ]
     },
     {
@@ -17211,7 +17236,8 @@
       "udp": true,
       "port_forward": true,
       "ips": [
-        "37.19.201.129"
+        "37.19.201.129",
+        "2a10:9007:5:10::10"
       ]
     },
     {
@@ -17223,7 +17249,8 @@
       "wgpubkey": "N4vu5ZFsvf3nbKAYnwwXvqeDwxrYOXZKbTSdknB9a1w=",
       "port_forward": true,
       "ips": [
-        "37.19.201.129"
+        "37.19.201.129",
+        "2a10:9007:5:10::10"
       ]
     },
     {
@@ -17391,7 +17418,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "87.249.139.170"
+        "87.249.139.170",
+        "2a02:6ea0:e806:2146::10"
       ]
     },
     {
@@ -17404,7 +17432,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "87.249.139.170"
+        "87.249.139.170",
+        "2a02:6ea0:e806:2146::10"
       ]
     },
     {
@@ -17601,7 +17630,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "156.146.50.17"
+        "156.146.50.17",
+        "2a02:6ea0:e108:6273::10"
       ]
     },
     {
@@ -17614,7 +17644,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "156.146.50.17"
+        "156.146.50.17",
+        "2a02:6ea0:e108:6273::10"
       ]
     },
     {
@@ -17628,7 +17659,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "156.146.50.18"
+        "156.146.50.18",
+        "2a02:6ea0:e108:8216::10"
       ]
     },
     {
@@ -17641,7 +17673,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "156.146.50.18"
+        "156.146.50.18",
+        "2a02:6ea0:e108:8216::10"
       ]
     },
     {
@@ -17654,7 +17687,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.88.110.33"
+        "149.88.110.33",
+        "2a02:6ea0:e108:3556::10"
       ]
     },
     {
@@ -17666,7 +17700,8 @@
       "wgpubkey": "BTwnvm0OR6IzwefZlzTgJMn8NhISk8DtczUk7P74NH8=",
       "stream": true,
       "ips": [
-        "149.88.110.33"
+        "149.88.110.33",
+        "2a02:6ea0:e108:3556::10"
       ]
     },
     {
@@ -17680,7 +17715,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "156.146.50.5"
+        "156.146.50.5",
+        "2a02:6ea0:e108:2054::10"
       ]
     },
     {
@@ -17693,7 +17729,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "156.146.50.5"
+        "156.146.50.5",
+        "2a02:6ea0:e108:2054::10"
       ]
     },
     {
@@ -17707,7 +17744,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "130.195.241.2"
+        "130.195.241.2",
+        "2a0d:5600:98:1::10"
       ]
     },
     {
@@ -17720,7 +17758,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "130.195.241.2"
+        "130.195.241.2",
+        "2a0d:5600:98:1::10"
       ]
     },
     {
@@ -17732,7 +17771,8 @@
       "tcp": true,
       "udp": true,
       "ips": [
-        "217.138.193.98"
+        "217.138.193.98",
+        "2001:ac8:81:14::10"
       ]
     },
     {
@@ -17743,7 +17783,8 @@
       "hostname": "node-ae-02.protonvpn.net",
       "wgpubkey": "IwddRZ5jYM+1WC31fJAsFslmkto71LUNA4LG90fPcDM=",
       "ips": [
-        "217.138.193.98"
+        "217.138.193.98",
+        "2001:ac8:81:14::10"
       ]
     },
     {
@@ -17756,7 +17797,8 @@
       "udp": true,
       "port_forward": true,
       "ips": [
-        "178.249.212.162"
+        "178.249.212.162",
+        "2a02:6ea0:dc0e:2704::10"
       ]
     },
     {
@@ -17768,7 +17810,8 @@
       "wgpubkey": "fHSz7nXioLz6qt+AoapT4ylVEkHTYpafdELZUmg4W3I=",
       "port_forward": true,
       "ips": [
-        "178.249.212.162"
+        "178.249.212.162",
+        "2a02:6ea0:dc0e:2704::10"
       ]
     },
     {
@@ -17782,7 +17825,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "217.79.104.3"
+        "217.79.104.3",
+        "2a02:6ea0:dc0e:8080::10"
       ]
     },
     {
@@ -17795,7 +17839,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "217.79.104.3"
+        "217.79.104.3",
+        "2a02:6ea0:dc0e:8080::10"
       ]
     },
     {
@@ -18158,31 +18203,6 @@
       "secure_core": true,
       "ips": [
         "79.135.104.44"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United Kingdom",
-      "city": "London",
-      "server_name": "CH-UK#2",
-      "hostname": "node-uk-23.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "79.135.104.87"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United Kingdom",
-      "city": "London",
-      "server_name": "CH-UK#2",
-      "hostname": "node-uk-23.protonvpn.net",
-      "wgpubkey": "VJHNhHnzYw3UTJb6EDY+280TkNMtlz1SShJ7wMvGmkQ=",
-      "secure_core": true,
-      "ips": [
-        "79.135.104.87"
       ]
     },
     {
@@ -18595,7 +18615,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.40.63.129"
+        "149.40.63.129",
+        "2a02:6ea0:1a01:3449::10"
       ]
     },
     {
@@ -18607,32 +18628,8 @@
       "wgpubkey": "kYWXMo4RQ08rekIUo0keVmqRkfhPrB8Y288ZQ7ZMYjU=",
       "stream": true,
       "ips": [
-        "149.40.63.129"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United Kingdom",
-      "city": "London",
-      "server_name": "UK#330",
-      "hostname": "node-uk-23.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "stream": true,
-      "ips": [
-        "149.40.48.225"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United Kingdom",
-      "city": "London",
-      "server_name": "UK#330",
-      "hostname": "node-uk-23.protonvpn.net",
-      "wgpubkey": "VJHNhHnzYw3UTJb6EDY+280TkNMtlz1SShJ7wMvGmkQ=",
-      "stream": true,
-      "ips": [
-        "149.40.48.225"
+        "149.40.63.129",
+        "2a02:6ea0:1a01:3449::10"
       ]
     },
     {
@@ -18671,7 +18668,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.146.1"
+        "79.127.146.1",
+        "2a02:6ea0:1a01:5258::10"
       ]
     },
     {
@@ -18684,7 +18682,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.146.1"
+        "79.127.146.1",
+        "2a02:6ea0:1a01:5258::10"
       ]
     },
     {
@@ -18698,7 +18697,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.146.206"
+        "79.127.146.206",
+        "2a02:6ea0:1a01:5259::10"
       ]
     },
     {
@@ -18711,7 +18711,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.146.206"
+        "79.127.146.206",
+        "2a02:6ea0:1a01:5259::10"
       ]
     },
     {
@@ -18725,7 +18726,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.146.156"
+        "79.127.146.156",
+        "2a02:6ea0:1a01:5261::10"
       ]
     },
     {
@@ -18738,7 +18740,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.146.156"
+        "79.127.146.156",
+        "2a02:6ea0:1a01:5261::10"
       ]
     },
     {
@@ -18752,7 +18755,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "84.20.17.193"
+        "84.20.17.193",
+        "2a02:6ea0:1a01:6284::10"
       ]
     },
     {
@@ -18765,7 +18769,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "84.20.17.193"
+        "84.20.17.193",
+        "2a02:6ea0:1a01:6284::10"
       ]
     },
     {
@@ -18779,7 +18784,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "84.20.17.194"
+        "84.20.17.194",
+        "2a02:6ea0:1a01:6285::10"
       ]
     },
     {
@@ -18792,7 +18798,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "84.20.17.194"
+        "84.20.17.194",
+        "2a02:6ea0:1a01:6285::10"
       ]
     },
     {
@@ -18806,7 +18813,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "84.20.17.196"
+        "84.20.17.196",
+        "2a02:6ea0:1a01:6287::10"
       ]
     },
     {
@@ -18819,7 +18827,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "84.20.17.196"
+        "84.20.17.196",
+        "2a02:6ea0:1a01:6287::10"
       ]
     },
     {
@@ -18833,7 +18842,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "84.20.17.197"
+        "84.20.17.197",
+        "2a02:6ea0:1a01:6288::10"
       ]
     },
     {
@@ -18846,7 +18856,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "84.20.17.197"
+        "84.20.17.197",
+        "2a02:6ea0:1a01:6288::10"
       ]
     },
     {
@@ -18860,7 +18871,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "84.20.17.198"
+        "84.20.17.198",
+        "2a02:6ea0:1a01:6289::10"
       ]
     },
     {
@@ -18873,7 +18885,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "84.20.17.198"
+        "84.20.17.198",
+        "2a02:6ea0:1a01:6289::10"
       ]
     },
     {
@@ -18887,7 +18900,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.181.34"
+        "146.70.181.34",
+        "2001:ac8:8b:55::10"
       ]
     },
     {
@@ -18900,7 +18914,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.181.34"
+        "146.70.181.34",
+        "2001:ac8:8b:55::10"
       ]
     },
     {
@@ -18914,7 +18929,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.133.130"
+        "146.70.133.130",
+        "2001:ac8:8b:2f::10"
       ]
     },
     {
@@ -18927,7 +18943,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.133.130"
+        "146.70.133.130",
+        "2001:ac8:8b:2f::10"
       ]
     },
     {
@@ -18968,7 +18985,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "185.156.46.33"
+        "185.156.46.33",
+        "2a02:6ea0:e20d:2101::10"
       ]
     },
     {
@@ -18981,7 +18999,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "185.156.46.33"
+        "185.156.46.33",
+        "2a02:6ea0:e20d:2101::10"
       ]
     },
     {
@@ -18994,7 +19013,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "154.47.22.65"
+        "154.47.22.65",
+        "2a02:6ea0:e20d:2691::10"
       ]
     },
     {
@@ -19006,7 +19026,8 @@
       "wgpubkey": "yYcyNBfbU6SWkTLNrzK7peMXHCkG4FKg9bk2D/5yLCo=",
       "stream": true,
       "ips": [
-        "154.47.22.65"
+        "154.47.22.65",
+        "2a02:6ea0:e20d:2691::10"
       ]
     },
     {
@@ -19019,7 +19040,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "154.47.22.90"
+        "154.47.22.90",
+        "2a02:6ea0:e20d:2753::10"
       ]
     },
     {
@@ -19031,7 +19053,8 @@
       "wgpubkey": "e3NMqmeAfSRFKRXou+nAvUloxcE8oz/cUtgIJ3OBFSQ=",
       "stream": true,
       "ips": [
-        "154.47.22.90"
+        "154.47.22.90",
+        "2a02:6ea0:e20d:2753::10"
       ]
     },
     {
@@ -19045,7 +19068,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.222.100.65"
+        "89.222.100.65",
+        "2a02:6ea0:e20d:6062::10"
       ]
     },
     {
@@ -19058,7 +19082,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.222.100.65"
+        "89.222.100.65",
+        "2a02:6ea0:e20d:6062::10"
       ]
     },
     {
@@ -19072,7 +19097,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.222.100.66"
+        "89.222.100.66",
+        "2a02:6ea0:e20d:6063::10"
       ]
     },
     {
@@ -19085,7 +19111,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.222.100.66"
+        "89.222.100.66",
+        "2a02:6ea0:e20d:6063::10"
       ]
     },
     {
@@ -19098,7 +19125,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.102.227.1"
+        "149.102.227.1",
+        "2a02:6ea0:e20d:5476::10"
       ]
     },
     {
@@ -19110,7 +19138,8 @@
       "wgpubkey": "UYV/TKeeacucbQhg888LVINXmiSWR7PRcwDcqqks3Ug=",
       "stream": true,
       "ips": [
-        "149.102.227.1"
+        "149.102.227.1",
+        "2a02:6ea0:e20d:5476::10"
       ]
     },
     {
@@ -19123,7 +19152,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.102.227.30"
+        "149.102.227.30",
+        "2a02:6ea0:e20d:5475::10"
       ]
     },
     {
@@ -19135,7 +19165,8 @@
       "wgpubkey": "OuhID2usMSMoGAiLExUhH0lrOMJQ3v8xFWS+6G3JLRs=",
       "stream": true,
       "ips": [
-        "149.102.227.30"
+        "149.102.227.30",
+        "2a02:6ea0:e20d:5475::10"
       ]
     },
     {
@@ -19148,7 +19179,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.22.94.1"
+        "149.22.94.1",
+        "2a02:6ea0:c10d:3585::10"
       ]
     },
     {
@@ -19160,7 +19192,8 @@
       "wgpubkey": "RAy+GOFz+bdG0l/wS+4J2AcpcVyUc2xbR6JR1Q8zJg4=",
       "stream": true,
       "ips": [
-        "149.22.94.1"
+        "149.22.94.1",
+        "2a02:6ea0:c10d:3585::10"
       ]
     },
     {
@@ -19174,7 +19207,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.187.170.135"
+        "89.187.170.135",
+        "2a02:6ea0:c118::10"
       ]
     },
     {
@@ -19187,7 +19221,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.187.170.135"
+        "89.187.170.135",
+        "2a02:6ea0:c118::10"
       ]
     },
     {
@@ -19225,7 +19260,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "45.134.140.59"
+        "45.134.140.59",
+        "2a02:6ea0:c10d:5273::10"
       ]
     },
     {
@@ -19237,7 +19273,8 @@
       "wgpubkey": "IV0rNO3lSM0n0yEbCUtEwFnO0vPUbUNurIFnO6AxRhI=",
       "stream": true,
       "ips": [
-        "45.134.140.59"
+        "45.134.140.59",
+        "2a02:6ea0:c10d:5273::10"
       ]
     },
     {
@@ -19250,7 +19287,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.22.94.113"
+        "149.22.94.113",
+        "2a02:6ea0:c10d:5272::10"
       ]
     },
     {
@@ -19262,7 +19300,8 @@
       "wgpubkey": "vrQlzOff8/CWCDVaesXMZLfQaOE4qrdY2BJUjWeRHyA=",
       "stream": true,
       "ips": [
-        "149.22.94.113"
+        "149.22.94.113",
+        "2a02:6ea0:c10d:5272::10"
       ]
     },
     {
@@ -19275,7 +19314,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.102.242.59"
+        "149.102.242.59",
+        "2a02:6ea0:c10d:5442::10"
       ]
     },
     {
@@ -19287,7 +19327,8 @@
       "wgpubkey": "6z8YI8d9MQSp0Wald17JMADTNkIRVoc1ODrENTqW5EE=",
       "stream": true,
       "ips": [
-        "149.102.242.59"
+        "149.102.242.59",
+        "2a02:6ea0:c10d:5442::10"
       ]
     },
     {
@@ -19300,7 +19341,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.102.242.1"
+        "149.102.242.1",
+        "2a02:6ea0:c10d:5441::10"
       ]
     },
     {
@@ -19312,7 +19354,8 @@
       "wgpubkey": "Y0z4FKdn1uBNAJsUe/oIpM1JhK3hBwnnPlHJ3mvLy1Y=",
       "stream": true,
       "ips": [
-        "149.102.242.1"
+        "149.102.242.1",
+        "2a02:6ea0:c10d:5441::10"
       ]
     },
     {
@@ -19326,7 +19369,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.222.103.6"
+        "89.222.103.6",
+        "2a02:6ea0:c10d:6068::10"
       ]
     },
     {
@@ -19339,7 +19383,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.222.103.6"
+        "89.222.103.6",
+        "2a02:6ea0:c10d:6068::10"
       ]
     },
     {
@@ -19353,7 +19398,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.222.103.2"
+        "89.222.103.2",
+        "2a02:6ea0:c10d:6069::10"
       ]
     },
     {
@@ -19366,7 +19412,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.222.103.2"
+        "89.222.103.2",
+        "2a02:6ea0:c10d:6069::10"
       ]
     },
     {
@@ -19380,7 +19427,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.160.216"
+        "79.127.160.216",
+        "2a02:6ea0:f911:6588::10"
       ]
     },
     {
@@ -19393,7 +19441,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.160.216"
+        "79.127.160.216",
+        "2a02:6ea0:f911:6588::10"
       ]
     },
     {
@@ -19434,7 +19483,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "62.93.176.130"
+        "62.93.176.130",
+        "2a02:6ea0:f911:6590::10"
       ]
     },
     {
@@ -19447,7 +19497,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "62.93.176.130"
+        "62.93.176.130",
+        "2a02:6ea0:f911:6590::10"
       ]
     },
     {
@@ -19461,7 +19512,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.160.244"
+        "79.127.160.244",
+        "2a02:6ea0:f911:6591::10"
       ]
     },
     {
@@ -19474,7 +19526,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.160.244"
+        "79.127.160.244",
+        "2a02:6ea0:f911:6591::10"
       ]
     },
     {
@@ -19488,7 +19541,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "62.93.176.131"
+        "62.93.176.131",
+        "2a02:6ea0:f911:6592::10"
       ]
     },
     {
@@ -19501,7 +19555,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "62.93.176.131"
+        "62.93.176.131",
+        "2a02:6ea0:f911:6592::10"
       ]
     },
     {
@@ -19568,7 +19623,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "89.187.180.55"
+        "89.187.180.55",
+        "2a02:6ea0:c603:2234::10"
       ]
     },
     {
@@ -19580,7 +19636,8 @@
       "wgpubkey": "yB6ySO0kjqbgVWanDYKDgWoAMwM3X//nBiKXwaqmiwU=",
       "free": true,
       "ips": [
-        "89.187.180.55"
+        "89.187.180.55",
+        "2a02:6ea0:c603:2234::10"
       ]
     },
     {
@@ -19593,7 +19650,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "87.249.134.138"
+        "87.249.134.138",
+        "2a02:6ea0:c603:3558::10"
       ]
     },
     {
@@ -19605,7 +19663,8 @@
       "wgpubkey": "WNLAmQkeAvdg9QRFMXq7EuwpEWWkltWwiS/DGIcjHjs=",
       "stream": true,
       "ips": [
-        "87.249.134.138"
+        "87.249.134.138",
+        "2a02:6ea0:c603:3558::10"
       ]
     },
     {
@@ -19618,7 +19677,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "154.47.25.129"
+        "154.47.25.129",
+        "2a02:6ea0:c603:2660::10"
       ]
     },
     {
@@ -19630,7 +19690,8 @@
       "wgpubkey": "KwU9qcRO0eamCxh/iF7pL2RAOOJezHPVqkIeANcS5Wk=",
       "stream": true,
       "ips": [
-        "154.47.25.129"
+        "154.47.25.129",
+        "2a02:6ea0:c603:2660::10"
       ]
     },
     {
@@ -19644,7 +19705,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.187.180.27"
+        "89.187.180.27",
+        "2a02:6ea0:c603:2121::10"
       ]
     },
     {
@@ -19657,7 +19719,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "89.187.180.27"
+        "89.187.180.27",
+        "2a02:6ea0:c603:2121::10"
       ]
     },
     {
@@ -19671,7 +19734,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.220.251"
+        "79.127.220.251",
+        "2a02:6ea0:c603:4899::10"
       ]
     },
     {
@@ -19684,7 +19748,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.220.251"
+        "79.127.220.251",
+        "2a02:6ea0:c603:4899::10"
       ]
     },
     {
@@ -19698,7 +19763,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.136.65"
+        "79.127.136.65",
+        "2a02:6ea0:c603:5252::10"
       ]
     },
     {
@@ -19711,7 +19777,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.136.65"
+        "79.127.136.65",
+        "2a02:6ea0:c603:5252::10"
       ]
     },
     {
@@ -19725,7 +19792,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.136.46"
+        "79.127.136.46",
+        "2a02:6ea0:c603:5424::10"
       ]
     },
     {
@@ -19738,7 +19806,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.136.46"
+        "79.127.136.46",
+        "2a02:6ea0:c603:5424::10"
       ]
     },
     {
@@ -19752,7 +19821,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.187.156"
+        "79.127.187.156",
+        "2a02:6ea0:c603:5507::10"
       ]
     },
     {
@@ -19765,7 +19835,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.187.156"
+        "79.127.187.156",
+        "2a02:6ea0:c603:5507::10"
       ]
     },
     {
@@ -19779,7 +19850,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.136.222"
+        "79.127.136.222",
+        "2a02:6ea0:c603:5953::10"
       ]
     },
     {
@@ -19792,7 +19864,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.136.222"
+        "79.127.136.222",
+        "2a02:6ea0:c603:5953::10"
       ]
     },
     {
@@ -19806,7 +19879,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.187.245"
+        "79.127.187.245",
+        "2a02:6ea0:c603:6950::10"
       ]
     },
     {
@@ -19819,7 +19893,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.187.245"
+        "79.127.187.245",
+        "2a02:6ea0:c603:6950::10"
       ]
     },
     {
@@ -19833,7 +19908,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.187.246"
+        "79.127.187.246",
+        "2a02:6ea0:c603:6947::10"
       ]
     },
     {
@@ -19846,7 +19922,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.187.246"
+        "79.127.187.246",
+        "2a02:6ea0:c603:6947::10"
       ]
     },
     {
@@ -19860,7 +19937,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "66.234.152.130"
+        "66.234.152.130",
+        "2a0d:5600:144:25::10"
       ]
     },
     {
@@ -19873,7 +19951,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "66.234.152.130"
+        "66.234.152.130",
+        "2a0d:5600:144:25::10"
       ]
     },
     {
@@ -19914,7 +19993,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "37.19.200.26"
+        "37.19.200.26",
+        "2a02:6ea0:d213:2675::10"
       ]
     },
     {
@@ -19927,7 +20007,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "37.19.200.26"
+        "37.19.200.26",
+        "2a02:6ea0:d213:2675::10"
       ]
     },
     {
@@ -19941,7 +20022,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.173.217.2"
+        "95.173.217.2",
+        "2a02:6ea0:d213:4416::10"
       ]
     },
     {
@@ -19954,7 +20036,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.173.217.2"
+        "95.173.217.2",
+        "2a02:6ea0:d213:4416::10"
       ]
     },
     {
@@ -19968,7 +20051,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.173.217.158"
+        "95.173.217.158",
+        "2a02:6ea0:d213:5898::10"
       ]
     },
     {
@@ -19981,7 +20065,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.173.217.158"
+        "95.173.217.158",
+        "2a02:6ea0:d213:5898::10"
       ]
     },
     {
@@ -19995,7 +20080,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.173.217.187"
+        "95.173.217.187",
+        "2a02:6ea0:d213:5897::10"
       ]
     },
     {
@@ -20008,7 +20094,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.173.217.187"
+        "95.173.217.187",
+        "2a02:6ea0:d213:5897::10"
       ]
     },
     {
@@ -20022,7 +20109,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.173.217.216"
+        "95.173.217.216",
+        "2a02:6ea0:d213:6253::10"
       ]
     },
     {
@@ -20035,7 +20123,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.173.217.216"
+        "95.173.217.216",
+        "2a02:6ea0:d213:6253::10"
       ]
     },
     {
@@ -20049,7 +20138,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.173.217.222"
+        "95.173.217.222",
+        "2a02:6ea0:d213:7203::10"
       ]
     },
     {
@@ -20062,7 +20152,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.173.217.222"
+        "95.173.217.222",
+        "2a02:6ea0:d213:7203::10"
       ]
     },
     {
@@ -20076,7 +20167,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.217.66"
+        "146.70.217.66",
+        "2001:ac8:9a:64::10"
       ]
     },
     {
@@ -20089,7 +20181,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.217.66"
+        "146.70.217.66",
+        "2001:ac8:9a:64::10"
       ]
     },
     {
@@ -20103,7 +20196,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.173.221.92"
+        "95.173.221.92",
+        "2a02:6ea0:d704:5254::10"
       ]
     },
     {
@@ -20116,7 +20210,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.173.221.92"
+        "95.173.221.92",
+        "2a02:6ea0:d704:5254::10"
       ]
     },
     {
@@ -20155,7 +20250,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.173.221.158"
+        "95.173.221.158",
+        "2a02:6ea0:d704:5506::10"
       ]
     },
     {
@@ -20168,7 +20264,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.173.221.158"
+        "95.173.221.158",
+        "2a02:6ea0:d704:5506::10"
       ]
     },
     {
@@ -20182,7 +20279,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.173.221.221"
+        "95.173.221.221",
+        "2a02:6ea0:d704:8058::10"
       ]
     },
     {
@@ -20195,7 +20293,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.173.221.221"
+        "95.173.221.221",
+        "2a02:6ea0:d704:8058::10"
       ]
     },
     {
@@ -20209,7 +20308,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.173.221.219"
+        "95.173.221.219",
+        "2a02:6ea0:d704:8087::10"
       ]
     },
     {
@@ -20222,7 +20322,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "95.173.221.219"
+        "95.173.221.219",
+        "2a02:6ea0:d704:8087::10"
       ]
     },
     {
@@ -20236,7 +20337,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "84.17.63.54"
+        "84.17.63.54",
+        "2a02:6ea0:d703::10"
       ]
     },
     {
@@ -20249,7 +20351,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "84.17.63.54"
+        "84.17.63.54",
+        "2a02:6ea0:d703::10"
       ]
     },
     {
@@ -20263,7 +20366,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "84.17.63.8"
+        "84.17.63.8",
+        "2a02:6ea0:d702::10"
       ]
     },
     {
@@ -20276,7 +20380,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "84.17.63.8"
+        "84.17.63.8",
+        "2a02:6ea0:d702::10"
       ]
     },
     {
@@ -20290,7 +20395,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "212.102.44.161"
+        "212.102.44.161",
+        "2a02:6ea0:d704:1768::10"
       ]
     },
     {
@@ -20303,7 +20409,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "212.102.44.161"
+        "212.102.44.161",
+        "2a02:6ea0:d704:1768::10"
       ]
     },
     {
@@ -20343,7 +20450,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "37.19.221.196"
+        "37.19.221.196",
+        "2a02:6ea0:e00a:2239::10"
       ]
     },
     {
@@ -20355,7 +20463,8 @@
       "wgpubkey": "4wqoqnWaoR8FLWkihmN4DVma/8lFn1fXQMRVs/4TD0A=",
       "free": true,
       "ips": [
-        "37.19.221.196"
+        "37.19.221.196",
+        "2a02:6ea0:e00a:2239::10"
       ]
     },
     {
@@ -20368,7 +20477,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "37.19.221.199"
+        "37.19.221.199",
+        "2a02:6ea0:e00a:2242::10"
       ]
     },
     {
@@ -20380,7 +20490,8 @@
       "wgpubkey": "qBUTSloO8PKGUl0ZrfTx1AZwwCwJRB+9kGD0hquFqVQ=",
       "free": true,
       "ips": [
-        "37.19.221.199"
+        "37.19.221.199",
+        "2a02:6ea0:e00a:2242::10"
       ]
     },
     {
@@ -20393,7 +20504,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "37.19.221.198"
+        "37.19.221.198",
+        "2a02:6ea0:e00a:2241::10"
       ]
     },
     {
@@ -20405,7 +20517,8 @@
       "wgpubkey": "ksK3faRBQlFLul2FcKPphBR9LYR+6/FbP1etg0T2liA=",
       "free": true,
       "ips": [
-        "37.19.221.198"
+        "37.19.221.198",
+        "2a02:6ea0:e00a:2241::10"
       ]
     },
     {
@@ -20419,7 +20532,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.183.234"
+        "79.127.183.234",
+        "2a02:6ea0:e00a:8074::10"
       ]
     },
     {
@@ -20432,7 +20546,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.183.234"
+        "79.127.183.234",
+        "2a02:6ea0:e00a:8074::10"
       ]
     },
     {
@@ -20446,7 +20561,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.183.236"
+        "79.127.183.236",
+        "2a02:6ea0:e00a:8075::10"
       ]
     },
     {
@@ -20459,7 +20575,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.183.236"
+        "79.127.183.236",
+        "2a02:6ea0:e00a:8075::10"
       ]
     },
     {
@@ -20473,7 +20590,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.183.238"
+        "79.127.183.238",
+        "2a02:6ea0:e00a:8077::10"
       ]
     },
     {
@@ -20486,7 +20604,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.183.238"
+        "79.127.183.238",
+        "2a02:6ea0:e00a:8077::10"
       ]
     },
     {
@@ -20500,7 +20619,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.183.233"
+        "79.127.183.233",
+        "2a02:6ea0:e00a:8079::10"
       ]
     },
     {
@@ -20513,7 +20633,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.183.233"
+        "79.127.183.233",
+        "2a02:6ea0:e00a:8079::10"
       ]
     },
     {
@@ -20527,7 +20648,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.183.235"
+        "79.127.183.235",
+        "2a02:6ea0:e00a:8073::10"
       ]
     },
     {
@@ -20540,7 +20662,33 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.183.235"
+        "79.127.183.235",
+        "2a02:6ea0:e00a:8073::10"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Los Angeles",
+      "server_name": "SE-US#2",
+      "hostname": "node-us-226.protonvpn.net",
+      "tcp": true,
+      "udp": true,
+      "secure_core": true,
+      "ips": [
+        "185.159.156.121"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Los Angeles",
+      "server_name": "SE-US#2",
+      "hostname": "node-us-226.protonvpn.net",
+      "wgpubkey": "fDSDNxB7yfHbaemo7cAFMWBsEm31bVAAradL4hbBEG0=",
+      "secure_core": true,
+      "ips": [
+        "185.159.156.121"
       ]
     },
     {
@@ -20554,7 +20702,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.34.251.135"
+        "149.34.251.135",
+        "2a02:6ea0:c803:6245::10"
       ]
     },
     {
@@ -20567,7 +20716,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.34.251.135"
+        "149.34.251.135",
+        "2a02:6ea0:c803:6245::10"
       ]
     },
     {
@@ -20581,7 +20731,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.174.82"
+        "146.70.174.82",
+        "2a0d:5600:8:106::10"
       ]
     },
     {
@@ -20594,7 +20745,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.174.82"
+        "146.70.174.82",
+        "2a0d:5600:8:106::10"
       ]
     },
     {
@@ -20608,7 +20760,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.195.98"
+        "146.70.195.98",
+        "2a0d:5600:8:326::10"
       ]
     },
     {
@@ -20621,7 +20774,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.195.98"
+        "146.70.195.98",
+        "2a0d:5600:8:326::10"
       ]
     },
     {
@@ -20634,7 +20788,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.88.30.1"
+        "149.88.30.1",
+        "2a02:6ea0:c803:5509::10"
       ]
     },
     {
@@ -20646,7 +20801,8 @@
       "wgpubkey": "NOpx9MBniYV6+OpXxTsrFwvA5AG8jUlg2Ppn5usgECk=",
       "stream": true,
       "ips": [
-        "149.88.30.1"
+        "149.88.30.1",
+        "2a02:6ea0:c803:5509::10"
       ]
     },
     {
@@ -20659,7 +20815,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.88.30.30"
+        "149.88.30.30",
+        "2a02:6ea0:c803:5512::10"
       ]
     },
     {
@@ -20671,7 +20828,8 @@
       "wgpubkey": "+9owkp2UcdRUGMNQC2x0pM5mMPRtm39gb2lIsJ92nBU=",
       "stream": true,
       "ips": [
-        "149.88.30.30"
+        "149.88.30.30",
+        "2a02:6ea0:c803:5512::10"
       ]
     },
     {
@@ -20684,7 +20842,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.102.228.193"
+        "149.102.228.193",
+        "2a02:6ea0:c803:5948::10"
       ]
     },
     {
@@ -20696,7 +20855,8 @@
       "wgpubkey": "gllq5CYSNwqDgciSMo/gDAwS9b5bS1lch2eOlBdPL2E=",
       "stream": true,
       "ips": [
-        "149.102.228.193"
+        "149.102.228.193",
+        "2a02:6ea0:c803:5948::10"
       ]
     },
     {
@@ -20709,7 +20869,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.102.228.85"
+        "149.102.228.85",
+        "2a02:6ea0:c803:5957::10"
       ]
     },
     {
@@ -20721,7 +20882,8 @@
       "wgpubkey": "qY+g+un4N6jVg2Q6cSqINpwirgQTmREi0YU15j72X2g=",
       "stream": true,
       "ips": [
-        "149.102.228.85"
+        "149.102.228.85",
+        "2a02:6ea0:c803:5957::10"
       ]
     },
     {
@@ -20734,7 +20896,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.102.228.29"
+        "149.102.228.29",
+        "2a02:6ea0:c803:5950::10"
       ]
     },
     {
@@ -20746,7 +20909,8 @@
       "wgpubkey": "Az021MwJA2cczjrXE+NtxVsQaVq2apEkmccB6iE7RzU=",
       "stream": true,
       "ips": [
-        "149.102.228.29"
+        "149.102.228.29",
+        "2a02:6ea0:c803:5950::10"
       ]
     },
     {
@@ -20760,7 +20924,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.34.251.137"
+        "149.34.251.137",
+        "2a02:6ea0:c803:6241::10"
       ]
     },
     {
@@ -20773,7 +20938,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.34.251.137"
+        "149.34.251.137",
+        "2a02:6ea0:c803:6241::10"
       ]
     },
     {
@@ -20787,7 +20953,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.34.251.133"
+        "149.34.251.133",
+        "2a02:6ea0:c803:6243::10"
       ]
     },
     {
@@ -20800,7 +20967,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.34.251.133"
+        "149.34.251.133",
+        "2a02:6ea0:c803:6243::10"
       ]
     },
     {
@@ -20947,7 +21115,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.147.114"
+        "146.70.147.114",
+        "2a0d:5600:6:ad1f::10"
       ]
     },
     {
@@ -20960,7 +21129,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.147.114"
+        "146.70.147.114",
+        "2a0d:5600:6:ad1f::10"
       ]
     },
     {
@@ -21001,7 +21171,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.183.130"
+        "146.70.183.130",
+        "2a0d:5600:6:201::10"
       ]
     },
     {
@@ -21014,7 +21185,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.183.130"
+        "146.70.183.130",
+        "2a0d:5600:6:201::10"
       ]
     },
     {
@@ -21028,7 +21200,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "45.87.214.18"
+        "45.87.214.18",
+        "2a0d:5600:6:204::10"
       ]
     },
     {
@@ -21041,7 +21214,37 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "45.87.214.18"
+        "45.87.214.18",
+        "2a0d:5600:6:204::10"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Miami",
+      "server_name": "US-FL#353",
+      "hostname": "node-us-446.protonvpn.net",
+      "tcp": true,
+      "udp": true,
+      "stream": true,
+      "port_forward": true,
+      "ips": [
+        "138.199.50.150",
+        "2a02:6ea0:cc02:6274::10"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Miami",
+      "server_name": "US-FL#353",
+      "hostname": "node-us-446.protonvpn.net",
+      "wgpubkey": "gKJOcx7sYU7oePVdYNcPEPVR1x8dewyYmmBI/grfKEU=",
+      "stream": true,
+      "port_forward": true,
+      "ips": [
+        "138.199.50.150",
+        "2a02:6ea0:cc02:6274::10"
       ]
     },
     {
@@ -21109,7 +21312,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.45.226"
+        "146.70.45.226",
+        "2a0d:5600:6:111::100"
       ]
     },
     {
@@ -21122,7 +21326,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.45.226"
+        "146.70.45.226",
+        "2a0d:5600:6:111::100"
       ]
     },
     {
@@ -21135,7 +21340,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "138.199.50.134"
+        "138.199.50.134",
+        "2a02:6ea0:cc02:5516::10"
       ]
     },
     {
@@ -21147,7 +21353,8 @@
       "wgpubkey": "/iPQhCh0/kEzS60D5ysFOQHSyUAFV9sx77AckhzA9Xw=",
       "free": true,
       "ips": [
-        "138.199.50.134"
+        "138.199.50.134",
+        "2a02:6ea0:cc02:5516::10"
       ]
     },
     {
@@ -21185,7 +21392,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "149.102.224.53"
+        "149.102.224.53",
+        "2a02:6ea0:cc02:5478::10"
       ]
     },
     {
@@ -21197,32 +21405,8 @@
       "wgpubkey": "q5gaJCz8PxEeE6f8P1lekbR+Q4IP1tyjStnsorQLY3k=",
       "free": true,
       "ips": [
-        "149.102.224.53"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "Miami",
-      "server_name": "US-FREE#88",
-      "hostname": "node-us-337.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "free": true,
-      "ips": [
-        "138.199.50.139"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "Miami",
-      "server_name": "US-FREE#88",
-      "hostname": "node-us-337.protonvpn.net",
-      "wgpubkey": "gow8oSZwAXmv3bv2yaYye5b7GxZVni6gNcz8PxKvWgA=",
-      "free": true,
-      "ips": [
-        "138.199.50.139"
+        "149.102.224.53",
+        "2a02:6ea0:cc02:5478::10"
       ]
     },
     {
@@ -21235,7 +21419,8 @@
       "udp": true,
       "free": true,
       "ips": [
-        "138.199.50.129"
+        "138.199.50.129",
+        "2a02:6ea0:cc02:5481::10"
       ]
     },
     {
@@ -21247,7 +21432,8 @@
       "wgpubkey": "A1lZjTXsjqmvmehp9i0zV+jzl89Vf2y2fXxeMRSjp18=",
       "free": true,
       "ips": [
-        "138.199.50.129"
+        "138.199.50.129",
+        "2a02:6ea0:cc02:5481::10"
       ]
     },
     {
@@ -22180,31 +22366,6 @@
       "country": "United States",
       "city": "New York",
       "server_name": "CH-US#3",
-      "hostname": "node-us-245.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "79.135.104.62"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "CH-US#3",
-      "hostname": "node-us-245.protonvpn.net",
-      "wgpubkey": "utqNH4P+C0fA1wTgIUaIfhm1b7ai0iEGvXyiw4KC3Fs=",
-      "secure_core": true,
-      "ips": [
-        "79.135.104.62"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "CH-US#3",
       "hostname": "node-us-246.protonvpn.net",
       "tcp": true,
       "udp": true,
@@ -22698,31 +22859,6 @@
       "secure_core": true,
       "ips": [
         "62.169.136.142"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "CH-US#3",
-      "hostname": "node-us-94.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "62.169.136.143"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "CH-US#3",
-      "hostname": "node-us-94.protonvpn.net",
-      "wgpubkey": "z54+LsnV9L6PyS/MO4dPfJ650jiOVLVevYrWf2WsDzg=",
-      "secure_core": true,
-      "ips": [
-        "62.169.136.143"
       ]
     },
     {
@@ -24079,1281 +24215,6 @@
       "vpn": "openvpn",
       "country": "United States",
       "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-134.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.96"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-134.protonvpn.net",
-      "wgpubkey": "/KM6QESKJRK7GiMqWstUl1Yn9pzc6DPzqCtNauxYgn8=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.96"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-135.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.100"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-135.protonvpn.net",
-      "wgpubkey": "qT0lxDVbWEIyrL2A40FfCXRlUALvnryRz2aQdD6gUDs=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.100"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-164.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.110"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-164.protonvpn.net",
-      "wgpubkey": "WLIgAxtnNNGoiPqZLeQ398sBR3Kubzzf52zcpP6Is3c=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.110"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-165.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.109"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-165.protonvpn.net",
-      "wgpubkey": "CWQjPwtCiy4zb/nUbj5VhtxLHMWY6wYS02PaayGdi3c=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.109"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-166.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.108"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-166.protonvpn.net",
-      "wgpubkey": "W2efYy9of9Z/iEvjcstWVueHoNsbr6rXE8mCr57Mglc=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.108"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-167.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.107"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-167.protonvpn.net",
-      "wgpubkey": "fXtINk5LcWvNoCxNwx9WkmHieyyw+zIcLiiRM6eyECc=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.107"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-168.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.106"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-168.protonvpn.net",
-      "wgpubkey": "hrpCDkmnfP/gvsvxAI113SMGs/h/e/fAVJv108kypH8=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.106"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-169.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.105"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-169.protonvpn.net",
-      "wgpubkey": "zD4qEIk4HqXDJ5vHE9G34EUUhEybyBhA/Gs8NrfOdmI=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.105"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-171.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.104"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-171.protonvpn.net",
-      "wgpubkey": "WORwyyPb5VRQTmKfAoemc4rp8ROmfAFHN7hi2Mv/F3Y=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.104"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-172.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.103"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-172.protonvpn.net",
-      "wgpubkey": "Nm/K6UQLBTliioKl4b/1bXeyvGCXyhm1DW6Ja9cTNkw=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.103"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-173.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.102"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-173.protonvpn.net",
-      "wgpubkey": "Mj03vnL7RG+sg2cognGuQg9MXEUJQYGHBmJ9BjUzWhQ=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.102"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-174.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.101"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-174.protonvpn.net",
-      "wgpubkey": "l7w86I7WktXeH5okV0/c/NW14hfDiAqrkZ33MBJAmyE=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.101"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-179.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.112"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-179.protonvpn.net",
-      "wgpubkey": "wm+NrCihayTi0RbmaW4CWZI3h9KOU/i7320UyTY4zFc=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.112"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-181.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.111"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-181.protonvpn.net",
-      "wgpubkey": "uHxpjPRK6pzTRiHfi+4TpkVZWgL26/KZKlTV4TmItEk=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.111"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-190.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.117"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-190.protonvpn.net",
-      "wgpubkey": "Daer24dSnQMoGm/LIDjPbKgrlUjF0ldjiDA9dfe+EXk=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.117"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-192.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.118"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-192.protonvpn.net",
-      "wgpubkey": "Q+F33KqUr9obW0a7u9ZwNRrQlcwcoNdStZfTs321CTY=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.118"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-194.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.114"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-194.protonvpn.net",
-      "wgpubkey": "w2G3XM+TbpmahFFOeGqXJtWdaYzKO7rBmNRQ/+T8JCU=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.114"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-195.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.113"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-195.protonvpn.net",
-      "wgpubkey": "qnjcsT0wrNHUtNm1uloWf9YbJij1Nr8O4UHtM9uqkmI=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.113"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-203.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.116"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-203.protonvpn.net",
-      "wgpubkey": "vGD6tyZKW743G1OHC/F4DAuyD+gJqSv8OTlRk8iODEA=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.116"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-221.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.120"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-221.protonvpn.net",
-      "wgpubkey": "L/lAxBloXzDXNrWw1xtJgEMJWPct1reKQPkRsw/7Knw=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.120"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-227.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.125"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-227.protonvpn.net",
-      "wgpubkey": "D7+AG9clQ1F/6uaY8apeoKDOKAD7p6tf65dFIVLGsHg=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.125"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-301.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.131"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-301.protonvpn.net",
-      "wgpubkey": "5iXyfmULePWumDYEH01b+K9fa53pXCtztkrQA2Kn0So=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.131"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-302.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.132"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-302.protonvpn.net",
-      "wgpubkey": "YSj10LI8/Im58sgiA7n6Szw96GgE0p3TZv3MfbkxZH0=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.132"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-305.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.137"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-305.protonvpn.net",
-      "wgpubkey": "/cShmFiK3SJsuGkMgIRoc4ovtzs5HEcksfOxaBEN0nc=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.137"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-307.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.138"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-307.protonvpn.net",
-      "wgpubkey": "KkUoHrIzkuQ4msZulqCFyRC1Gqcx8oMgbDFRn8wW1X8=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.138"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-310.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.145"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-310.protonvpn.net",
-      "wgpubkey": "GbuOJ8Dho0iXlS0+ma2teQ4RxhBALWK6RB94qA1GZDA=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.145"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-314.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.143"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-314.protonvpn.net",
-      "wgpubkey": "vsquyHHSbv76cOqCMZCREGur05Mp5XM0lbCAzrGDs2w=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.143"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-322.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.150"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-322.protonvpn.net",
-      "wgpubkey": "DO1nsCARTZBIg9uslw4dWGXaB6iU+SPOqiGgb8ByKVc=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.150"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-323.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.151"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-323.protonvpn.net",
-      "wgpubkey": "FrVOQ+Dy0StjfwNtbJygJCkwSJt6ynlGbQwZBZWYfhc=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.151"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-326.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.158"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-326.protonvpn.net",
-      "wgpubkey": "OuhID2usMSMoGAiLExUhH0lrOMJQ3v8xFWS+6G3JLRs=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.158"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-328.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.156"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-328.protonvpn.net",
-      "wgpubkey": "6z8YI8d9MQSp0Wald17JMADTNkIRVoc1ODrENTqW5EE=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.156"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-329.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.155"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-329.protonvpn.net",
-      "wgpubkey": "Y0z4FKdn1uBNAJsUe/oIpM1JhK3hBwnnPlHJ3mvLy1Y=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.155"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-356.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.163"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-356.protonvpn.net",
-      "wgpubkey": "yFFlg7lsXZwH/GN4DdpX+tr1l6aYu9XxgUuYj8evaGg=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.163"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-357.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.166"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-357.protonvpn.net",
-      "wgpubkey": "NOpx9MBniYV6+OpXxTsrFwvA5AG8jUlg2Ppn5usgECk=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.166"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-361.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.164"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-361.protonvpn.net",
-      "wgpubkey": "dOF5ay40T5bp9rWkfUxeAwTa5Fd5ANdstiSjjdwwLRU=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.164"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-362.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.165"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-362.protonvpn.net",
-      "wgpubkey": "xNAHXhTgYJEPWDwT4g80nqfcfA6bknhNkCRfDOPMcUA=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.165"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-366.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.167"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-366.protonvpn.net",
-      "wgpubkey": "MBmMFjf6WctesXSLUAHwUYJ6LG0ttkXVIahHUpZTUlA=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.167"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-371.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.172"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-371.protonvpn.net",
-      "wgpubkey": "FSoutl7ON0IAx+mtpb3bBVScZWyh4G6ihA1jAVkggA0=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.172"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-372.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.173"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-372.protonvpn.net",
-      "wgpubkey": "R0J2HK9bYV4Ww6tMk76hiTwiWbC6JvxqhvSNeO4tIhg=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.173"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-377.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.174"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-377.protonvpn.net",
-      "wgpubkey": "St4N3LILVN7IAAqjB4kv4G+6ErWWG3DKkXnNWgjpaXY=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.174"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-380.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.175"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-380.protonvpn.net",
-      "wgpubkey": "JJ4T70SdryxUbEzW49n2/eUfs8q5diKz//zQizQsr2Q=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.175"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-382.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.176"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-382.protonvpn.net",
-      "wgpubkey": "vWtn9MdRljk5aVHIctGG8piBsXEmq5hBMpvxAF4eMh8=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.176"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-383.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.177"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-383.protonvpn.net",
-      "wgpubkey": "78PaVzEjay6yOfB14BciJAr/5bFe75R0I7t9UG+N0B0=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.177"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-384.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.178"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-384.protonvpn.net",
-      "wgpubkey": "gllq5CYSNwqDgciSMo/gDAwS9b5bS1lch2eOlBdPL2E=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.178"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-58.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.54"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-58.protonvpn.net",
-      "wgpubkey": "Yu2fgynXUAASCkkrXWj76LRriFxKMTQq+zjTzyOKG1Q=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.54"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-59.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.57"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-59.protonvpn.net",
-      "wgpubkey": "d6QfE2GBWT42RpVD5rNEb4qxK+0yPid9rI3bhm7PLm0=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.57"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-66.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.64"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-66.protonvpn.net",
-      "wgpubkey": "rRO6yJim++Ezz6scCLMaizI+taDjU1pzR2nfW6qKbW0=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.64"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-67.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.66"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-67.protonvpn.net",
-      "wgpubkey": "R8Of+lrl8DgOQmO6kcjlX7SchP4ncvbY90MB7ZUNmD8=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.66"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-69.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.69"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-69.protonvpn.net",
-      "wgpubkey": "ce06fOftuyKP16IymSeHUNeTs4aGfA3SA033wGHrixg=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.69"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-74.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.70"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-74.protonvpn.net",
-      "wgpubkey": "uQAr4o8x8M9aONM/nMu7DHLZCUobnRILlaTPmnD8ISw=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.70"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-75.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "secure_core": true,
-      "ips": [
-        "185.159.156.71"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "SE-US#1",
-      "hostname": "node-us-75.protonvpn.net",
-      "wgpubkey": "zU0Jf18SPgf+6Bzg876z6MbG8M3pHSwQvKoPl1bhHjg=",
-      "secure_core": true,
-      "ips": [
-        "185.159.156.71"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
       "server_name": "US-FREE#121",
       "hostname": "node-us-477.protonvpn.net",
       "tcp": true,
@@ -25379,13 +24240,39 @@
       "vpn": "openvpn",
       "country": "United States",
       "city": "New York",
+      "server_name": "US-FREE#134",
+      "hostname": "node-us-511.protonvpn.net",
+      "tcp": true,
+      "udp": true,
+      "free": true,
+      "ips": [
+        "194.180.34.4"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "New York",
+      "server_name": "US-FREE#134",
+      "hostname": "node-us-511.protonvpn.net",
+      "wgpubkey": "dmLneQlg7RcqifSS3aHA4VGMVbSf4eTdxi5QfIoF1z4=",
+      "free": true,
+      "ips": [
+        "194.180.34.4"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "New York",
       "server_name": "US-FREE#154",
       "hostname": "node-us-162.protonvpn.net",
       "tcp": true,
       "udp": true,
       "free": true,
       "ips": [
-        "138.199.52.193"
+        "138.199.52.193",
+        "2a02:6ea0:c412:2408::10"
       ]
     },
     {
@@ -25397,7 +24284,8 @@
       "wgpubkey": "93rOlHiU4A7ACRTdqButvAjwrccdOgOIHwFMumODvgo=",
       "free": true,
       "ips": [
-        "138.199.52.193"
+        "138.199.52.193",
+        "2a02:6ea0:c412:2408::10"
       ]
     },
     {
@@ -25411,7 +24299,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.202.146"
+        "146.70.202.146",
+        "2a0d:5600:24:62::10"
       ]
     },
     {
@@ -25424,7 +24313,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.202.146"
+        "146.70.202.146",
+        "2a0d:5600:24:62::10"
       ]
     },
     {
@@ -25438,7 +24328,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.72.130"
+        "146.70.72.130",
+        "2a0d:5600:24:a::10"
       ]
     },
     {
@@ -25451,7 +24342,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.72.130"
+        "146.70.72.130",
+        "2a0d:5600:24:a::10"
       ]
     },
     {
@@ -25465,7 +24357,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.202.50"
+        "146.70.202.50",
+        "2a0d:5600:24:42::10"
       ]
     },
     {
@@ -25478,7 +24371,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.202.50"
+        "146.70.202.50",
+        "2a0d:5600:24:42::10"
       ]
     },
     {
@@ -25492,7 +24386,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.202.18"
+        "146.70.202.18",
+        "2a0d:5600:24:3d::10"
       ]
     },
     {
@@ -25505,32 +24400,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "146.70.202.18"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "US-NY#699",
-      "hostname": "node-us-380.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "stream": true,
-      "ips": [
-        "149.40.49.1"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "New York",
-      "server_name": "US-NY#699",
-      "hostname": "node-us-380.protonvpn.net",
-      "wgpubkey": "JJ4T70SdryxUbEzW49n2/eUfs8q5diKz//zQizQsr2Q=",
-      "stream": true,
-      "ips": [
-        "149.40.49.1"
+        "146.70.202.18",
+        "2a0d:5600:24:3d::10"
       ]
     },
     {
@@ -25543,7 +24414,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.40.49.30"
+        "149.40.49.30",
+        "2a02:6ea0:c412:5956::10"
       ]
     },
     {
@@ -25555,7 +24427,8 @@
       "wgpubkey": "JikV7Lj3rjIYG9MePiE19qFwVoUhACYFM7m55rEs2TA=",
       "stream": true,
       "ips": [
-        "149.40.49.30"
+        "149.40.49.30",
+        "2a02:6ea0:c412:5956::10"
       ]
     },
     {
@@ -25704,7 +24577,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "193.37.254.178"
+        "193.37.254.178",
+        "2a0d:5600:2:20::10"
       ]
     },
     {
@@ -25717,7 +24591,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "193.37.254.178"
+        "193.37.254.178",
+        "2a0d:5600:2:20::10"
       ]
     },
     {
@@ -25731,7 +24606,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "193.37.254.66"
+        "193.37.254.66",
+        "2a0d:5600:2:19::10"
       ]
     },
     {
@@ -25744,7 +24620,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "193.37.254.66"
+        "193.37.254.66",
+        "2a0d:5600:2:19::10"
       ]
     },
     {
@@ -25758,7 +24635,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "198.44.139.83"
+        "198.44.139.83",
+        "2607:9000:d00:16::10"
       ]
     },
     {
@@ -25771,7 +24649,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "198.44.139.83"
+        "198.44.139.83",
+        "2607:9000:d00:16::10"
       ]
     },
     {
@@ -25785,7 +24664,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "198.44.139.75"
+        "198.44.139.75",
+        "2607:9000:d00:15::10"
       ]
     },
     {
@@ -25798,7 +24678,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "198.44.139.75"
+        "198.44.139.75",
+        "2607:9000:d00:15::10"
       ]
     },
     {
@@ -25812,7 +24693,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.185.193"
+        "79.127.185.193",
+        "2a02:6ea0:e606:5434::10"
       ]
     },
     {
@@ -25825,7 +24707,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "79.127.185.193"
+        "79.127.185.193",
+        "2a02:6ea0:e606:5434::10"
       ]
     },
     {
@@ -25838,7 +24721,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.36.48.153"
+        "149.36.48.153",
+        "2a02:6ea0:e606:3589::10"
       ]
     },
     {
@@ -25850,7 +24734,8 @@
       "wgpubkey": "WGwF8za3sD1rc946cBJZe1SEwJB2NzAGMTDx1iGIrQ0=",
       "stream": true,
       "ips": [
-        "149.36.48.153"
+        "149.36.48.153",
+        "2a02:6ea0:e606:3589::10"
       ]
     },
     {
@@ -25863,7 +24748,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.36.48.155"
+        "149.36.48.155",
+        "2a02:6ea0:e606:3591::10"
       ]
     },
     {
@@ -25875,7 +24761,8 @@
       "wgpubkey": "84bwJLVJI1YzH99wbU1t6fouJuZGxcMsfKQpBz7LDxI=",
       "stream": true,
       "ips": [
-        "149.36.48.155"
+        "149.36.48.155",
+        "2a02:6ea0:e606:3591::10"
       ]
     },
     {
@@ -25888,7 +24775,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.22.84.89"
+        "149.22.84.89",
+        "2a02:6ea0:e606:3742::10"
       ]
     },
     {
@@ -25900,7 +24788,8 @@
       "wgpubkey": "Yg7VdAicq2Rj/FNl7dGvm4jB2XlmrzwBj6/eosX5CiY=",
       "stream": true,
       "ips": [
-        "149.22.84.89"
+        "149.22.84.89",
+        "2a02:6ea0:e606:3742::10"
       ]
     },
     {
@@ -25914,7 +24803,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "156.146.54.97"
+        "156.146.54.97",
+        "2a02:6ea0:e606:2103::10"
       ]
     },
     {
@@ -25927,7 +24817,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "156.146.54.97"
+        "156.146.54.97",
+        "2a02:6ea0:e606:2103::10"
       ]
     },
     {
@@ -26171,7 +25062,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "156.146.51.78"
+        "156.146.51.78",
+        "2a02:6ea0:d802:2110::10"
       ]
     },
     {
@@ -26183,7 +25075,8 @@
       "wgpubkey": "mn8WlkJqY66j17ZbwN2DB0Nj74zG/DicuRQZtxtQsTM=",
       "stream": true,
       "ips": [
-        "156.146.51.78"
+        "156.146.51.78",
+        "2a02:6ea0:d802:2110::10"
       ]
     },
     {
@@ -26196,7 +25089,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.40.62.91"
+        "149.40.62.91",
+        "2a02:6ea0:d802:5502::10"
       ]
     },
     {
@@ -26208,7 +25102,8 @@
       "wgpubkey": "yFFlg7lsXZwH/GN4DdpX+tr1l6aYu9XxgUuYj8evaGg=",
       "stream": true,
       "ips": [
-        "149.40.62.91"
+        "149.40.62.91",
+        "2a02:6ea0:d802:5502::10"
       ]
     },
     {
@@ -26221,7 +25116,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.22.88.149"
+        "149.22.88.149",
+        "2a02:6ea0:d802:5515::10"
       ]
     },
     {
@@ -26233,7 +25129,8 @@
       "wgpubkey": "IZGBP1awplflozHsjir/h0fbC+bmGG5ArGXcSUZbaBY=",
       "stream": true,
       "ips": [
-        "149.22.88.149"
+        "149.22.88.149",
+        "2a02:6ea0:d802:5515::10"
       ]
     },
     {
@@ -26247,7 +25144,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.40.51.229"
+        "149.40.51.229",
+        "2a02:6ea0:d802:6229::10"
       ]
     },
     {
@@ -26260,7 +25158,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.40.51.229"
+        "149.40.51.229",
+        "2a02:6ea0:d802:6229::10"
       ]
     },
     {
@@ -26274,7 +25173,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.40.51.226"
+        "149.40.51.226",
+        "2a02:6ea0:d802:6230::10"
       ]
     },
     {
@@ -26287,7 +25187,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.40.51.226"
+        "149.40.51.226",
+        "2a02:6ea0:d802:6230::10"
       ]
     },
     {
@@ -26301,7 +25202,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.40.51.225"
+        "149.40.51.225",
+        "2a02:6ea0:d802:6233::10"
       ]
     },
     {
@@ -26314,7 +25216,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.40.51.225"
+        "149.40.51.225",
+        "2a02:6ea0:d802:6233::10"
       ]
     },
     {
@@ -26328,7 +25231,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.40.51.233"
+        "149.40.51.233",
+        "2a02:6ea0:d802:6234::10"
       ]
     },
     {
@@ -26341,32 +25245,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "149.40.51.233"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "Seattle",
-      "server_name": "US-WA#72",
-      "hostname": "node-us-245.protonvpn.net",
-      "tcp": true,
-      "udp": true,
-      "stream": true,
-      "ips": [
-        "149.102.254.77"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "United States",
-      "city": "Seattle",
-      "server_name": "US-WA#72",
-      "hostname": "node-us-245.protonvpn.net",
-      "wgpubkey": "utqNH4P+C0fA1wTgIUaIfhm1b7ai0iEGvXyiw4KC3Fs=",
-      "stream": true,
-      "ips": [
-        "149.102.254.77"
+        "149.40.51.233",
+        "2a02:6ea0:d802:6234::10"
       ]
     },
     {
@@ -26379,7 +25259,8 @@
       "udp": true,
       "stream": true,
       "ips": [
-        "149.102.254.78"
+        "149.102.254.78",
+        "2a02:6ea0:d802:3580::10"
       ]
     },
     {
@@ -26391,7 +25272,8 @@
       "wgpubkey": "mdgZ6wT7AXGznoYqxERZexx9aPEd/FhQ+P6fdXCBuVQ=",
       "stream": true,
       "ips": [
-        "149.102.254.78"
+        "149.102.254.78",
+        "2a02:6ea0:d802:3580::10"
       ]
     },
     {
@@ -26642,7 +25524,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "170.23.224.3"
+        "170.23.224.3",
+        "2600:9c07:0:40::10"
       ]
     },
     {
@@ -26655,7 +25538,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "170.23.224.3"
+        "170.23.224.3",
+        "2600:9c07:0:40::10"
       ]
     },
     {
@@ -26669,7 +25553,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "170.23.224.29"
+        "170.23.224.29",
+        "2600:9c07:0:41::10"
       ]
     },
     {
@@ -26682,7 +25567,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "170.23.224.29"
+        "170.23.224.29",
+        "2600:9c07:0:41::10"
       ]
     },
     {
@@ -26696,7 +25582,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "185.247.68.50"
+        "185.247.68.50",
+        "2001:ac8:90:5::10"
       ]
     },
     {
@@ -26709,7 +25596,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "185.247.68.50"
+        "185.247.68.50",
+        "2001:ac8:90:5::10"
       ]
     },
     {
@@ -26723,7 +25611,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "104.234.212.26"
+        "104.234.212.26",
+        "2a0d:5600:24:33::10"
       ]
     },
     {
@@ -26736,7 +25625,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "104.234.212.26"
+        "104.234.212.26",
+        "2a0d:5600:24:33::10"
       ]
     },
     {
@@ -26764,6 +25654,33 @@
       "port_forward": true,
       "ips": [
         "135.136.15.2"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Uzbekistan",
+      "city": "Tashkent",
+      "server_name": "UZ#1",
+      "hostname": "uz-05.protonvpn.net",
+      "tcp": true,
+      "udp": true,
+      "stream": true,
+      "port_forward": true,
+      "ips": [
+        "134.82.74.16"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Uzbekistan",
+      "city": "Tashkent",
+      "server_name": "UZ#1",
+      "hostname": "uz-05.protonvpn.net",
+      "wgpubkey": "0jJgdTvxw8bVOJvM3jbjbuj+PK9nOVnNft6+e83q30w=",
+      "stream": true,
+      "port_forward": true,
+      "ips": [
+        "134.82.74.16"
       ]
     },
     {
@@ -26804,7 +25721,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "217.138.10.130"
+        "217.138.10.130",
+        "2a0d:5600:165:1::10"
       ]
     },
     {
@@ -26817,7 +25735,8 @@
       "stream": true,
       "port_forward": true,
       "ips": [
-        "217.138.10.130"
+        "217.138.10.130",
+        "2a0d:5600:165:1::10"
       ]
     },
     {
@@ -26936,7 +25855,8 @@
       "udp": true,
       "port_forward": true,
       "ips": [
-        "188.214.152.226"
+        "188.214.152.226",
+        "2001:ac8:93:3::10"
       ]
     },
     {
@@ -26948,7 +25868,8 @@
       "wgpubkey": "NfKOMtk2fuDycbQXv36yk5mfdgDA8/8SN6amCdFrKxQ=",
       "port_forward": true,
       "ips": [
-        "188.214.152.226"
+        "188.214.152.226",
+        "2001:ac8:93:3::10"
       ]
     },
     {
