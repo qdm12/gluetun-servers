@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1785990766,
+  "timestamp": 1788251606,
   "servers": [
     {
       "vpn": "wireguard",
@@ -6999,158 +6999,6 @@
       "country": "Netherlands",
       "region": "Europe",
       "city": "Alblasserdam",
-      "server_name": "Andromeda",
-      "hostname": "nl.ipv6.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "2a00:1678:2470:46:bace:c512:7a73:fdc8"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Netherlands",
-      "region": "Europe",
-      "city": "Alblasserdam",
-      "server_name": "Andromeda",
-      "hostname": "nl.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "213.152.161.228"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Netherlands",
-      "region": "Europe",
-      "city": "Alblasserdam",
-      "server_name": "Andromeda",
-      "hostname": "nl3.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1678:2470:46:7ed0:3ba6:ba90:6c6b"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Netherlands",
-      "region": "Europe",
-      "city": "Alblasserdam",
-      "server_name": "Andromeda",
-      "hostname": "nl3.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "213.152.161.231"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Netherlands",
-      "region": "Europe",
-      "city": "Alblasserdam",
-      "server_name": "Andromeda",
-      "hostname": "nl4.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1678:2470:46:c942:50ff:977e:5a61"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Netherlands",
-      "region": "Europe",
-      "city": "Alblasserdam",
-      "server_name": "Andromeda",
-      "hostname": "nl4.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "213.152.161.232"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Netherlands",
-      "region": "Europe",
-      "city": "Alblasserdam",
-      "server_name": "Anser",
-      "hostname": "nl.ipv6.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "2a00:1678:1337:1911:dfe8:8ae6:5ae7:bf7e"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Netherlands",
-      "region": "Europe",
-      "city": "Alblasserdam",
-      "server_name": "Anser",
-      "hostname": "nl.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "213.152.186.18"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Netherlands",
-      "region": "Europe",
-      "city": "Alblasserdam",
-      "server_name": "Anser",
-      "hostname": "nl3.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1678:1337:1911:97d2:d489:5267:5e6e"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Netherlands",
-      "region": "Europe",
-      "city": "Alblasserdam",
-      "server_name": "Anser",
-      "hostname": "nl3.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "213.152.186.21"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Netherlands",
-      "region": "Europe",
-      "city": "Alblasserdam",
-      "server_name": "Anser",
-      "hostname": "nl4.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1678:1337:1911:a8c0:6dba:ff3a:71f4"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Netherlands",
-      "region": "Europe",
-      "city": "Alblasserdam",
-      "server_name": "Anser",
-      "hostname": "nl4.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "213.152.186.22"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Netherlands",
-      "region": "Europe",
-      "city": "Alblasserdam",
       "server_name": "Asellus",
       "hostname": "nl.ipv6.vpn.airdns.org",
       "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
@@ -12547,82 +12395,6 @@
       "country": "Romania",
       "region": "Europe",
       "city": "Bucharest",
-      "server_name": "Alamak",
-      "hostname": "ro.ipv6.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "2a04:9dc0:c1:53:cff3:6078:912d:4031"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Romania",
-      "region": "Europe",
-      "city": "Bucharest",
-      "server_name": "Alamak",
-      "hostname": "ro.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "91.207.102.162"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Romania",
-      "region": "Europe",
-      "city": "Bucharest",
-      "server_name": "Alamak",
-      "hostname": "ro3.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a04:9dc0:c1:53:d4f2:d93:d52d:8627"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Romania",
-      "region": "Europe",
-      "city": "Bucharest",
-      "server_name": "Alamak",
-      "hostname": "ro3.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "91.207.102.165"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Romania",
-      "region": "Europe",
-      "city": "Bucharest",
-      "server_name": "Alamak",
-      "hostname": "ro4.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a04:9dc0:c1:53:fd97:f6a8:9606:1356"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Romania",
-      "region": "Europe",
-      "city": "Bucharest",
-      "server_name": "Alamak",
-      "hostname": "ro4.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "91.207.102.166"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Romania",
-      "region": "Europe",
-      "city": "Bucharest",
       "server_name": "Canes",
       "hostname": "ro.ipv6.vpn.airdns.org",
       "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
@@ -17784,6 +17556,82 @@
       "udp": true,
       "ips": [
         "23.130.104.133"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "region": "America",
+      "city": "Los Angeles",
+      "server_name": "Flegetonte",
+      "hostname": "us.ipv6.vpn.airdns.org",
+      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
+      "ips": [
+        "2607:9000:300:40:4a26:2ee9:d391:97dc"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "region": "America",
+      "city": "Los Angeles",
+      "server_name": "Flegetonte",
+      "hostname": "us.vpn.airdns.org",
+      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
+      "ips": [
+        "198.54.129.115"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "region": "America",
+      "city": "Los Angeles",
+      "server_name": "Flegetonte",
+      "hostname": "us3.ipv6.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "2607:9000:300:40:15b8:eede:d932:4512"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "region": "America",
+      "city": "Los Angeles",
+      "server_name": "Flegetonte",
+      "hostname": "us3.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "198.54.129.117"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "region": "America",
+      "city": "Los Angeles",
+      "server_name": "Flegetonte",
+      "hostname": "us4.ipv6.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "2607:9000:300:40:54ae:ebbc:797c:3529"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "region": "America",
+      "city": "Los Angeles",
+      "server_name": "Flegetonte",
+      "hostname": "us4.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "198.54.129.118"
       ]
     },
     {
