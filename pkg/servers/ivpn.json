@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "timestamp": 1785990786,
+  "timestamp": 1790848882,
   "servers": [
     {
       "vpn": "openvpn",
@@ -883,29 +883,6 @@
       "country": "Netherlands",
       "city": "Amsterdam",
       "isp": "Leaseweb",
-      "hostname": "nl4.gw.ivpn.net",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "95.211.172.95"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Netherlands",
-      "city": "Amsterdam",
-      "isp": "Leaseweb",
-      "hostname": "nl4.wg.ivpn.net",
-      "wgpubkey": "cVB66gPq5cZ9dfXY+e2pbsCyih5o1zk04l5c5VCsV1g=",
-      "ips": [
-        "95.211.95.19"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Netherlands",
-      "city": "Amsterdam",
-      "isp": "Leaseweb",
       "hostname": "nl5.gw.ivpn.net",
       "tcp": true,
       "udp": true,
@@ -991,6 +968,29 @@
       "wgpubkey": "/nY1/OhVhdHtbnU/s31zYUuPBH0pizv4DemW5KDOUkg=",
       "ips": [
         "95.211.198.167"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "New Zealand",
+      "city": "Auckland",
+      "isp": "Hostuniversal",
+      "hostname": "nz-akl1.gw.ivpn.net",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "103.75.11.218"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "New Zealand",
+      "city": "Auckland",
+      "isp": "Hostuniversal",
+      "hostname": "nz-akl1.wg.ivpn.net",
+      "wgpubkey": "56rMNvwqGfz7c5KH7sKs6TLglh/g00vQncDLtGtRvRs=",
+      "ips": [
+        "103.75.11.219"
       ]
     },
     {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1785990766,
+  "timestamp": 1790848862,
   "servers": [
     {
       "vpn": "wireguard",
@@ -12547,82 +12547,6 @@
       "country": "Romania",
       "region": "Europe",
       "city": "Bucharest",
-      "server_name": "Alamak",
-      "hostname": "ro.ipv6.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "2a04:9dc0:c1:53:cff3:6078:912d:4031"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Romania",
-      "region": "Europe",
-      "city": "Bucharest",
-      "server_name": "Alamak",
-      "hostname": "ro.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "91.207.102.162"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Romania",
-      "region": "Europe",
-      "city": "Bucharest",
-      "server_name": "Alamak",
-      "hostname": "ro3.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a04:9dc0:c1:53:d4f2:d93:d52d:8627"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Romania",
-      "region": "Europe",
-      "city": "Bucharest",
-      "server_name": "Alamak",
-      "hostname": "ro3.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "91.207.102.165"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Romania",
-      "region": "Europe",
-      "city": "Bucharest",
-      "server_name": "Alamak",
-      "hostname": "ro4.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a04:9dc0:c1:53:fd97:f6a8:9606:1356"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Romania",
-      "region": "Europe",
-      "city": "Bucharest",
-      "server_name": "Alamak",
-      "hostname": "ro4.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "91.207.102.166"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Romania",
-      "region": "Europe",
-      "city": "Bucharest",
       "server_name": "Canes",
       "hostname": "ro.ipv6.vpn.airdns.org",
       "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
@@ -13839,6 +13763,82 @@
       "country": "Sweden",
       "region": "Europe",
       "city": "Stockholm",
+      "server_name": "Formosa",
+      "hostname": "se.ipv6.vpn.airdns.org",
+      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
+      "ips": [
+        "2a00:7142:2:10:9233:30cf:31bc:c031"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Sweden",
+      "region": "Europe",
+      "city": "Stockholm",
+      "server_name": "Formosa",
+      "hostname": "se.vpn.airdns.org",
+      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
+      "ips": [
+        "79.142.77.187"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Sweden",
+      "region": "Europe",
+      "city": "Stockholm",
+      "server_name": "Formosa",
+      "hostname": "se3.ipv6.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "2a00:7142:2:10:4ea2:92d6:92eb:f7ab"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Sweden",
+      "region": "Europe",
+      "city": "Stockholm",
+      "server_name": "Formosa",
+      "hostname": "se3.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "79.142.77.189"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Sweden",
+      "region": "Europe",
+      "city": "Stockholm",
+      "server_name": "Formosa",
+      "hostname": "se4.ipv6.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "2a00:7142:2:10:5ed4:3ea2:fe9:5c01"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Sweden",
+      "region": "Europe",
+      "city": "Stockholm",
+      "server_name": "Formosa",
+      "hostname": "se4.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "79.142.77.190"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Sweden",
+      "region": "Europe",
+      "city": "Stockholm",
       "server_name": "Lupus",
       "hostname": "se.ipv6.vpn.airdns.org",
       "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
@@ -14060,690 +14060,6 @@
       "udp": true,
       "ips": [
         "94.185.80.229"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Albali",
-      "hostname": "se.ipv6.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "2a00:1520:27:1:5266:e057:4741:4eab"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Albali",
-      "hostname": "se.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "62.102.148.149"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Albali",
-      "hostname": "se3.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1520:27:1:8355:c8c2:abff:9973"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Albali",
-      "hostname": "se3.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "62.102.148.170"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Albali",
-      "hostname": "se4.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1520:27:1:f784:2492:bf71:d0f5"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Albali",
-      "hostname": "se4.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "62.102.148.177"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Algorab",
-      "hostname": "se.ipv6.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "2a00:1520:27:1:17a0:9901:1c49:77f5"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Algorab",
-      "hostname": "se.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "62.102.148.147"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Algorab",
-      "hostname": "se3.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1520:27:1:e98c:b04d:f4e1:5b01"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Algorab",
-      "hostname": "se3.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "62.102.148.198"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Algorab",
-      "hostname": "se4.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1520:27:1:19f8:48ea:38de:93a6"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Algorab",
-      "hostname": "se4.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "62.102.148.199"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Alrami",
-      "hostname": "se.ipv6.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "2a00:1520:27:1:b58b:4bda:3aaf:1123"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Alrami",
-      "hostname": "se.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "62.102.148.145"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Alrami",
-      "hostname": "se3.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1520:27:1:8817:f0a4:5aab:51d6"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Alrami",
-      "hostname": "se3.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "62.102.148.200"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Alrami",
-      "hostname": "se4.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1520:27:1:dc6d:7671:ed8c:5a14"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Alrami",
-      "hostname": "se4.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "62.102.148.201"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Alula",
-      "hostname": "se.ipv6.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "2a00:1520:27:1:dd7a:6003:4fa8:9a5e"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Alula",
-      "hostname": "se.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "62.102.148.151"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Alula",
-      "hostname": "se3.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1520:27:1:8e72:2642:bcd:b100"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Alula",
-      "hostname": "se3.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "62.102.148.204"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Alula",
-      "hostname": "se4.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1520:27:1:c7af:33b5:8a3b:53f"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Alula",
-      "hostname": "se4.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "62.102.148.205"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Atria",
-      "hostname": "se.ipv6.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "2a00:1520:27:1:c838:5fba:2b90:8c7b"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Atria",
-      "hostname": "se.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "62.102.148.150"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Atria",
-      "hostname": "se3.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1520:27:1:e175:6c2c:5236:a378"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Atria",
-      "hostname": "se3.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "62.102.148.206"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Atria",
-      "hostname": "se4.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1520:27:1:5fad:8a1a:8862:fd4b"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Atria",
-      "hostname": "se4.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "62.102.148.207"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Azmidiske",
-      "hostname": "se.ipv6.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "2a00:1520:27:1:1b34:9d9f:3b6a:4266"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Azmidiske",
-      "hostname": "se.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "62.102.148.141"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Azmidiske",
-      "hostname": "se3.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1520:27:1:f169:6e02:3df:26cd"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Azmidiske",
-      "hostname": "se3.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "62.102.148.208"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Azmidiske",
-      "hostname": "se4.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1520:27:1:dc9e:4d3c:634d:a337"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Azmidiske",
-      "hostname": "se4.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "62.102.148.209"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Benetnasch",
-      "hostname": "se.ipv6.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "2a00:1520:27:1:1c53:8df6:8f3:1c63"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Benetnasch",
-      "hostname": "se.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "62.102.148.148"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Benetnasch",
-      "hostname": "se3.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1520:27:1:8886:2a70:30c6:fdff"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Benetnasch",
-      "hostname": "se3.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "62.102.148.210"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Benetnasch",
-      "hostname": "se4.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1520:27:1:e244:b5b7:570f:897c"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Benetnasch",
-      "hostname": "se4.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "62.102.148.211"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Menkab",
-      "hostname": "se.ipv6.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "2a00:1520:27:1:e93c:6680:a365:6f8f"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Menkab",
-      "hostname": "se.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "62.102.148.143"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Menkab",
-      "hostname": "se3.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1520:27:1:8944:b880:48e1:e02d"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Menkab",
-      "hostname": "se3.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "62.102.148.216"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Menkab",
-      "hostname": "se4.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1520:27:1:c16:50a2:5680:6014"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Menkab",
-      "hostname": "se4.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "62.102.148.217"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Muphrid",
-      "hostname": "se.ipv6.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "2a00:1520:27:1:3b4e:42bd:578c:b761"
-      ]
-    },
-    {
-      "vpn": "wireguard",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Muphrid",
-      "hostname": "se.vpn.airdns.org",
-      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
-      "ips": [
-        "62.102.148.146"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Muphrid",
-      "hostname": "se3.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1520:27:1:7f63:7281:489d:9cef"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Muphrid",
-      "hostname": "se3.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "62.102.148.218"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Muphrid",
-      "hostname": "se4.ipv6.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "2a00:1520:27:1:f631:b5ea:d6e5:3b5d"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "Sweden",
-      "region": "Europe",
-      "city": "Uppsala",
-      "server_name": "Muphrid",
-      "hostname": "se4.vpn.airdns.org",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "62.102.148.219"
       ]
     },
     {
@@ -17784,6 +17100,82 @@
       "udp": true,
       "ips": [
         "23.130.104.133"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "region": "America",
+      "city": "Los Angeles",
+      "server_name": "Flegetonte",
+      "hostname": "us.ipv6.vpn.airdns.org",
+      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
+      "ips": [
+        "2607:9000:300:40:4a26:2ee9:d391:97dc"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "region": "America",
+      "city": "Los Angeles",
+      "server_name": "Flegetonte",
+      "hostname": "us.vpn.airdns.org",
+      "wgpubkey": "PyLCXAQT8KkM4T+dUsOQfn+Ub3pGxfGlxkIApuig+hk=",
+      "ips": [
+        "198.54.129.115"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "region": "America",
+      "city": "Los Angeles",
+      "server_name": "Flegetonte",
+      "hostname": "us3.ipv6.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "2607:9000:300:40:15b8:eede:d932:4512"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "region": "America",
+      "city": "Los Angeles",
+      "server_name": "Flegetonte",
+      "hostname": "us3.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "198.54.129.117"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "region": "America",
+      "city": "Los Angeles",
+      "server_name": "Flegetonte",
+      "hostname": "us4.ipv6.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "2607:9000:300:40:54ae:ebbc:797c:3529"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "region": "America",
+      "city": "Los Angeles",
+      "server_name": "Flegetonte",
+      "hostname": "us4.vpn.airdns.org",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "198.54.129.118"
       ]
     },
     {
