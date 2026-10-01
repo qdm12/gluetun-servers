@@ -1,6 +1,6 @@
 {
   "version": 6,
-  "timestamp": 1785990789,
+  "timestamp": 1790848883,
   "servers": [
     {
       "vpn": "openvpn",
@@ -726,6 +726,16 @@
       "vpn": "openvpn",
       "country": "Netherlands",
       "city": "Amsterdam",
+      "hostname": "vie-007.vpn.privado.io",
+      "udp": true,
+      "ips": [
+        "91.148.246.201"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "city": "Amsterdam",
       "hostname": "webdev01.heyjcd.com",
       "udp": true,
       "ips": [
@@ -1140,16 +1150,6 @@
       "udp": true,
       "ips": [
         "45.38.16.176"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "USA",
-      "city": "Dallas",
-      "hostname": "dfw-055.vpn.privado.io",
-      "udp": true,
-      "ips": [
-        "81.171.60.10"
       ]
     },
     {

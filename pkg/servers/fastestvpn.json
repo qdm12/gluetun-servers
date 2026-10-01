@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "timestamp": 1785990781,
+  "timestamp": 1790848877,
   "servers": [
     {
       "vpn": "openvpn",
@@ -52,7 +52,7 @@
       "tcp": true,
       "udp": true,
       "ips": [
-        "146.70.146.50"
+        "185.126.236.73"
       ]
     },
     {
@@ -62,7 +62,7 @@
       "hostname": "at-01.jumptoserver.com",
       "wgpubkey": "658QxufMbjOTmB61Z7f+c7Rjg7oqWLnepTalqBERjF0=",
       "ips": [
-        "146.70.146.50"
+        "185.126.236.73"
       ]
     },
     {
@@ -537,7 +537,7 @@
       "tcp": true,
       "udp": true,
       "ips": [
-        "193.239.86.3"
+        "27.0.232.63"
       ]
     },
     {
@@ -547,7 +547,7 @@
       "hostname": "hk.jumptoserver.com",
       "wgpubkey": "658QxufMbjOTmB61Z7f+c7Rjg7oqWLnepTalqBERjF0=",
       "ips": [
-        "193.239.86.3"
+        "27.0.232.63"
       ]
     },
     {
@@ -684,7 +684,7 @@
       "tcp": true,
       "udp": true,
       "ips": [
-        "95.174.64.122"
+        "176.126.83.71"
       ]
     },
     {
@@ -694,7 +694,7 @@
       "hostname": "it-01.jumptoserver.com",
       "wgpubkey": "658QxufMbjOTmB61Z7f+c7Rjg7oqWLnepTalqBERjF0=",
       "ips": [
-        "95.174.64.122"
+        "176.126.83.71"
       ]
     },
     {
@@ -847,7 +847,7 @@
       "tcp": true,
       "udp": true,
       "ips": [
-        "37.120.211.234"
+        "92.118.205.141"
       ]
     },
     {
@@ -857,7 +857,7 @@
       "hostname": "pl.jumptoserver.com",
       "wgpubkey": "658QxufMbjOTmB61Z7f+c7Rjg7oqWLnepTalqBERjF0=",
       "ips": [
-        "37.120.211.234"
+        "92.118.205.141"
       ]
     },
     {
@@ -994,7 +994,7 @@
       "tcp": true,
       "udp": true,
       "ips": [
-        "45.128.39.115"
+        "45.154.206.101"
       ]
     },
     {
@@ -1004,7 +1004,7 @@
       "hostname": "es-01.jumptoserver.com",
       "wgpubkey": "658QxufMbjOTmB61Z7f+c7Rjg7oqWLnepTalqBERjF0=",
       "ips": [
-        "45.128.39.115"
+        "45.154.206.101"
       ]
     },
     {
