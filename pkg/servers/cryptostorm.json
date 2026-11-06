@@ -1,0 +1,771 @@
+{
+  "version": 1,
+  "timestamp": 1746499200,
+  "servers": [
+    {
+      "vpn": "wireguard",
+      "country": "Australia",
+      "city": "Sydney",
+      "hostname": "sydney.cstorm.is",
+      "wgpubkey": "sSlPK/5wKMmNn4EnZBvr3at+UZJo0N+DtfePMdMMYRA=",
+      "port_forward": true,
+      "ips": ["37.120.234.252"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "city": "Sydney",
+      "hostname": "sydney.cstorm.is",
+      "x509": "cryptostorm sydney server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["37.120.234.252"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Austria",
+      "hostname": "austria.cstorm.is",
+      "wgpubkey": "S5ymECx1eYP9g3CH9SSRKWC40TnfccBqjNjkC2Y6ljo=",
+      "port_forward": true,
+      "ips": ["94.198.41.237"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Austria",
+      "hostname": "austria.cstorm.is",
+      "x509": "cryptostorm austria server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["94.198.41.237"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Belgium",
+      "hostname": "belgium.cstorm.is",
+      "wgpubkey": "qdG2OTZYTcgUfvk96NYGy2q137AF6tlOsf1C7HHR6xo=",
+      "port_forward": true,
+      "ips": ["37.120.236.13"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Belgium",
+      "hostname": "belgium.cstorm.is",
+      "x509": "cryptostorm belgium server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["37.120.236.13"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Brazil",
+      "hostname": "brazil.cstorm.is",
+      "wgpubkey": "Z+UMUQdQKUIXOtTwd2aF59mu2ZLk+Xsrh93Xu37Vhgc=",
+      "port_forward": true,
+      "ips": ["177.54.145.132"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Brazil",
+      "hostname": "brazil.cstorm.is",
+      "x509": "cryptostorm brazil server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["177.54.145.132"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Canada",
+      "city": "Montreal",
+      "hostname": "montreal.cstorm.is",
+      "wgpubkey": "w8+i77Jy0/rVVXe3jGa93Yu1nbAEZiysTJb9T4QsCiw=",
+      "port_forward": true,
+      "ips": ["176.113.74.20"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "city": "Montreal",
+      "hostname": "montreal.cstorm.is",
+      "x509": "cryptostorm montreal server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["176.113.74.20"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Canada",
+      "city": "Vancouver",
+      "hostname": "vancouver.cstorm.is",
+      "wgpubkey": "oRDFg9PmkpiukA99BM0yewysFHJpDHdVcIhsqZLCTUk=",
+      "port_forward": true,
+      "ips": ["196.240.79.164"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "city": "Vancouver",
+      "hostname": "vancouver.cstorm.is",
+      "x509": "cryptostorm vancouver server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["196.240.79.164"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Czech Republic",
+      "hostname": "czech.cstorm.is",
+      "wgpubkey": "FB/YP7iTtOL4F1SyqpPlmLOqq53UgtCMxvvkwL3ikgs=",
+      "port_forward": true,
+      "ips": ["217.138.220.245"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Czech Republic",
+      "hostname": "czech.cstorm.is",
+      "x509": "cryptostorm czech server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["217.138.220.245"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "England",
+      "city": "London",
+      "hostname": "london.cstorm.is",
+      "wgpubkey": "6QhRDWSN8rXW9xOdWLZdEa6LexOrkAQ6fsIcQ8/1CgA=",
+      "port_forward": true,
+      "ips": ["78.129.248.68"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "England",
+      "city": "London",
+      "hostname": "london.cstorm.is",
+      "x509": "cryptostorm london server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["78.129.248.68"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "England",
+      "city": "Manchester",
+      "hostname": "manchester.cstorm.is",
+      "wgpubkey": "iOcQr4Ekh78MSJ4EHQ2FKWI07KIeiGGToKYU7YvtegU=",
+      "port_forward": true,
+      "ips": ["195.12.48.173"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "England",
+      "city": "Manchester",
+      "hostname": "manchester.cstorm.is",
+      "x509": "cryptostorm manchester server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["195.12.48.173"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Finland",
+      "hostname": "finland.cstorm.is",
+      "wgpubkey": "CsDyFuVn2/C5WMQgIdG6Eahns8LK7TAJ+QW8IWS+P0A=",
+      "port_forward": true,
+      "ips": ["83.143.242.44"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Finland",
+      "hostname": "finland.cstorm.is",
+      "x509": "cryptostorm finland server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["83.143.242.44"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "France",
+      "city": "Paris",
+      "hostname": "paris.cstorm.is",
+      "wgpubkey": "8yHSuRSwQo9cV16WeoXs70nHD+ContK1R/Hw9a1N5Fc=",
+      "port_forward": true,
+      "ips": ["212.83.166.61"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "France",
+      "city": "Paris",
+      "hostname": "paris.cstorm.is",
+      "x509": "cryptostorm paris server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["212.83.166.61"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Germany",
+      "city": "Berlin",
+      "hostname": "berlin.cstorm.is",
+      "wgpubkey": "qXuD0iXh3WK0maEkseBXwDbD2R5cya4zdXN3DfXCtxk=",
+      "port_forward": true,
+      "ips": ["37.120.217.76"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Germany",
+      "city": "Berlin",
+      "hostname": "berlin.cstorm.is",
+      "x509": "cryptostorm berlin server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["37.120.217.76"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Germany",
+      "city": "Dusseldorf",
+      "hostname": "dusseldorf.cstorm.is",
+      "wgpubkey": "YRmPp4zG+2+T+WEOdTGw2W8qVSRZjXmHUW8XEuufGUg=",
+      "port_forward": true,
+      "ips": ["89.163.221.235"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Germany",
+      "city": "Dusseldorf",
+      "hostname": "dusseldorf.cstorm.is",
+      "x509": "cryptostorm dusseldorf server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["89.163.221.235"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "hostname": "frankfurt.cstorm.is",
+      "wgpubkey": "e4eYphS0h806X85fzrUHHuD9Jl4dJqYhkyl4lYnuFwI=",
+      "port_forward": true,
+      "ips": ["146.70.82.4"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "hostname": "frankfurt.cstorm.is",
+      "x509": "cryptostorm frankfurt server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["146.70.82.4"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Hungary",
+      "hostname": "hungary.cstorm.is",
+      "wgpubkey": "D7wwy7vCFMMoqRYz0UaIgpun4uurmvIrAgLTFRnXDFU=",
+      "port_forward": true,
+      "ips": ["86.106.74.221"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Hungary",
+      "hostname": "hungary.cstorm.is",
+      "x509": "cryptostorm hungary server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["86.106.74.221"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "India",
+      "hostname": "india.cstorm.is",
+      "wgpubkey": "7B0FmpKxXbj4P2iuAYIO/jAYCRqIDkhoYPbe6KgcYTc=",
+      "port_forward": true,
+      "ips": ["165.231.253.164"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "India",
+      "hostname": "india.cstorm.is",
+      "x509": "cryptostorm india server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["165.231.253.164"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Italy",
+      "city": "Milan",
+      "hostname": "milan.cstorm.is",
+      "wgpubkey": "za7b6xUpnMKHJWQSIgwkKH0fnyysP7Kuk+5/thWjj1A=",
+      "port_forward": true,
+      "ips": ["217.138.219.220"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Italy",
+      "city": "Milan",
+      "hostname": "milan.cstorm.is",
+      "x509": "cryptostorm milan server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["217.138.219.220"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Japan",
+      "city": "Tokyo",
+      "hostname": "tokyo.cstorm.is",
+      "wgpubkey": "dIn4t7lKnPqtmj+Dl6UmreBQXJou99zJ8BPiai8djQc=",
+      "port_forward": true,
+      "ips": ["146.70.31.44"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Japan",
+      "city": "Tokyo",
+      "hostname": "tokyo.cstorm.is",
+      "x509": "cryptostorm tokyo server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["146.70.31.44"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Moldova",
+      "hostname": "moldova.cstorm.is",
+      "wgpubkey": "1Oo4+CgZKKNsWOVm5ZSyxUGg67Ro5RLZU5Jg2NUWnAg=",
+      "port_forward": true,
+      "ips": ["176.123.4.232"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Moldova",
+      "hostname": "moldova.cstorm.is",
+      "x509": "cryptostorm moldova server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["176.123.4.232"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Netherlands",
+      "hostname": "netherlands.cstorm.is",
+      "wgpubkey": "Nmcl36PHFmDDLyJP/AJtw6vUxIx4zMav/EiJ+TPeelQ=",
+      "port_forward": true,
+      "ips": ["185.107.80.86"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "hostname": "netherlands.cstorm.is",
+      "x509": "cryptostorm netherlands server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["185.107.80.86"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Norway",
+      "hostname": "norway.cstorm.is",
+      "wgpubkey": "aH1lVBSm0VvAt5OPc2YIWZaG5m8vvlonuu6dUxiNhCk=",
+      "port_forward": true,
+      "ips": ["91.219.215.229"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Norway",
+      "hostname": "norway.cstorm.is",
+      "x509": "cryptostorm norway server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["91.219.215.229"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Poland",
+      "hostname": "poland.cstorm.is",
+      "wgpubkey": "aSwlPgmRUnq6SfG8ksdzRv/lVlQ4O12rQ9pheVTNCQU=",
+      "port_forward": true,
+      "ips": ["37.120.211.93"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Poland",
+      "hostname": "poland.cstorm.is",
+      "x509": "cryptostorm poland server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["37.120.211.93"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Portugal",
+      "hostname": "portugal.cstorm.is",
+      "wgpubkey": "9/12+NNjr78h+wNEmJHGagW27DOG4ayKSymYE+ZcUlU=",
+      "port_forward": true,
+      "ips": ["91.205.230.226"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Portugal",
+      "hostname": "portugal.cstorm.is",
+      "x509": "cryptostorm portugal server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["91.205.230.226"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Romania",
+      "hostname": "romania.cstorm.is",
+      "wgpubkey": "6JjesN/UEaJdyBSkp1oJzqmsTPqB5Dwmv+iMRkKbsRM=",
+      "port_forward": true,
+      "ips": ["146.70.66.228"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Romania",
+      "hostname": "romania.cstorm.is",
+      "x509": "cryptostorm romania server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["146.70.66.228"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Serbia",
+      "hostname": "serbia.cstorm.is",
+      "wgpubkey": "1VbRfEKdVdgH52ZTy3PHofCZMlyPhGFsyIdegf/BO1I=",
+      "port_forward": true,
+      "ips": ["37.120.193.221"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Serbia",
+      "hostname": "serbia.cstorm.is",
+      "x509": "cryptostorm serbia server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["37.120.193.221"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Singapore",
+      "hostname": "singapore.cstorm.is",
+      "wgpubkey": "Hb3Pn2+Q/frHZPiyoonsHOiYzzWSwtFighFIER6T8jQ=",
+      "port_forward": true,
+      "ips": ["37.120.151.12"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Singapore",
+      "hostname": "singapore.cstorm.is",
+      "x509": "cryptostorm singapore server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["37.120.151.12"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "South Korea",
+      "hostname": "sk.cstorm.is",
+      "wgpubkey": "443XPAL0fYNtD9zFI7S8XcoB3diY68jKIbh6oB9T3Rk=",
+      "port_forward": true,
+      "ips": ["108.181.50.219"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "South Korea",
+      "hostname": "sk.cstorm.is",
+      "x509": "cryptostorm sk server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["108.181.50.219"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Spain",
+      "city": "Barcelona",
+      "hostname": "barcelona.cstorm.is",
+      "wgpubkey": "bdTlu8Dd+KdOGr8huExOjDUbXfPsdeCWtQPSfSIOPCE=",
+      "port_forward": true,
+      "ips": ["37.120.142.117"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Spain",
+      "city": "Barcelona",
+      "hostname": "barcelona.cstorm.is",
+      "x509": "cryptostorm barcelona server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["37.120.142.117"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Sweden",
+      "hostname": "sweden.cstorm.is",
+      "wgpubkey": "OKnEZSODUaUWL81+r/l5cbHJbfvwJAX0SgTqXQXL60E=",
+      "port_forward": true,
+      "ips": ["128.127.104.138"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Sweden",
+      "hostname": "sweden.cstorm.is",
+      "x509": "cryptostorm sweden server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["128.127.104.138"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Switzerland",
+      "hostname": "switzerland.cstorm.is",
+      "wgpubkey": "H/XmmJYiSKSkEcCkhhB3pDfRlm9tfHOYkjFI+crjrGQ=",
+      "port_forward": true,
+      "ips": ["190.211.255.228"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Switzerland",
+      "hostname": "switzerland.cstorm.is",
+      "x509": "cryptostorm switzerland server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["190.211.255.228"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Atlanta",
+      "hostname": "atlanta.cstorm.is",
+      "wgpubkey": "EZZUsR5l+Oe47s5900Q1JamvMYF6HB2Dbs6+ZAhXAzU=",
+      "port_forward": true,
+      "ips": ["130.195.212.212"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Atlanta",
+      "hostname": "atlanta.cstorm.is",
+      "x509": "cryptostorm atlanta server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["130.195.212.212"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Chicago",
+      "hostname": "chicago.cstorm.is",
+      "wgpubkey": "ZQlqH2OjXnI7vhrc4HwSv9l1i8riD78p2hhmz+7bCj4=",
+      "port_forward": true,
+      "ips": ["195.242.212.132"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Chicago",
+      "hostname": "chicago.cstorm.is",
+      "x509": "cryptostorm chicago server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["195.242.212.132"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Dallas",
+      "hostname": "dallas.cstorm.is",
+      "wgpubkey": "qrZ3+Jp0y2+eYlOE0heVBfFzcHhuWJ31Y5UF/mHQLRA=",
+      "port_forward": true,
+      "ips": ["209.58.150.202"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Dallas",
+      "hostname": "dallas.cstorm.is",
+      "x509": "cryptostorm dallas server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["209.58.150.202"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Florida",
+      "hostname": "florida.cstorm.is",
+      "wgpubkey": "XYIg/q1hGyZ/8rRHgt2wKO4WtObzCyA4f8C8nMZWIA8=",
+      "port_forward": true,
+      "ips": ["146.70.240.204"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Florida",
+      "hostname": "florida.cstorm.is",
+      "x509": "cryptostorm florida server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["146.70.240.204"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Las Vegas",
+      "hostname": "vegas.cstorm.is",
+      "wgpubkey": "wwQ63AoaSxBm1K9zCwl2XSmvwI8ADIx3Qponm1+AbWQ=",
+      "port_forward": true,
+      "ips": ["79.110.53.52"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Las Vegas",
+      "hostname": "vegas.cstorm.is",
+      "x509": "cryptostorm vegas server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["79.110.53.52"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Los Angeles",
+      "hostname": "la.cstorm.is",
+      "wgpubkey": "O3XwQl4+/ZIrqXJgKiXWWK+26+z+KHYL1GaCTX6/TSg=",
+      "port_forward": true,
+      "ips": ["195.206.104.204"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Los Angeles",
+      "hostname": "la.cstorm.is",
+      "x509": "cryptostorm la server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["195.206.104.204"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "New York",
+      "hostname": "newyork.cstorm.is",
+      "wgpubkey": "IfiYOThU72ivKQncq1+jhQXYs6F2wBtZsUPHaeCccyA=",
+      "port_forward": true,
+      "ips": ["146.70.154.68"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "New York",
+      "hostname": "newyork.cstorm.is",
+      "x509": "cryptostorm newyork server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["146.70.154.68"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Roseburg",
+      "hostname": "oregon.cstorm.is",
+      "wgpubkey": "lUN2Vqs+CswowhSS81X0cdkfMZe3hLnr0HznBegvilc=",
+      "port_forward": true,
+      "ips": ["179.61.223.48"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Roseburg",
+      "hostname": "oregon.cstorm.is",
+      "x509": "cryptostorm oregon server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["179.61.223.48"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Seattle",
+      "hostname": "seattle.cstorm.is",
+      "wgpubkey": "3bHLNdTY/9AETg9OKgTsab+SjRitGqB+o4BH4gkzux8=",
+      "port_forward": true,
+      "ips": ["108.62.5.174"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Seattle",
+      "hostname": "seattle.cstorm.is",
+      "x509": "cryptostorm seattle server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["108.62.5.174"]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Washington DC",
+      "hostname": "dc.cstorm.is",
+      "wgpubkey": "Vspvv1C5C/JAAcoysAdGzHUz98V0vYXLl8a5Yv3Xa3g=",
+      "port_forward": true,
+      "ips": ["162.210.192.215"]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Washington DC",
+      "hostname": "dc.cstorm.is",
+      "x509": "cryptostorm dc server",
+      "tcp": true,
+      "udp": true,
+      "port_forward": true,
+      "ips": ["162.210.192.215"]
+    }
+  ]
+}
+
