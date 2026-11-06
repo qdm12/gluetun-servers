@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1785990881,
+  "timestamp": 1793528539,
   "servers": [
     {
       "vpn": "openvpn",
@@ -460,6 +460,28 @@
     {
       "vpn": "openvpn",
       "country": "United States",
+      "city": "Florida",
+      "hostname": "us4.isponeder.com",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "23.95.79.18"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Los Angeles",
+      "hostname": "us17.isponeder.com",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "23.95.72.31"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
       "city": "Missouri",
       "hostname": "us5.isponeder.com",
       "tcp": true,
@@ -482,24 +504,13 @@
     {
       "vpn": "openvpn",
       "country": "United States",
-      "city": "New York",
-      "hostname": "us4.isponeder.com",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "23.95.79.18"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
       "city": "Oregon",
       "hostname": "us10.isponeder.com",
       "tcp": true,
       "udp": true,
       "premium": true,
       "ips": [
-        "51.81.194.247"
+        "147.135.108.27"
       ]
     },
     {
@@ -523,7 +534,7 @@
       "udp": true,
       "premium": true,
       "ips": [
-        "51.81.194.244"
+        "147.135.108.24"
       ]
     },
     {
@@ -535,7 +546,7 @@
       "udp": true,
       "premium": true,
       "ips": [
-        "51.81.194.245"
+        "147.135.108.25"
       ]
     },
     {
@@ -547,18 +558,7 @@
       "udp": true,
       "premium": true,
       "ips": [
-        "51.81.194.246"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "United States",
-      "city": "Texas",
-      "hostname": "us2.isponeder.com",
-      "tcp": true,
-      "udp": true,
-      "ips": [
-        "172.245.235.56"
+        "147.135.108.26"
       ]
     },
     {
@@ -570,6 +570,17 @@
       "udp": true,
       "ips": [
         "172.245.237.100"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Utah",
+      "hostname": "us2.isponeder.com",
+      "tcp": true,
+      "udp": true,
+      "ips": [
+        "172.245.235.56"
       ]
     },
     {
@@ -593,7 +604,7 @@
       "udp": true,
       "premium": true,
       "ips": [
-        "15.204.178.212"
+        "135.148.70.186"
       ]
     },
     {
@@ -605,7 +616,7 @@
       "udp": true,
       "premium": true,
       "ips": [
-        "15.204.178.213"
+        "135.148.70.187"
       ]
     },
     {
@@ -617,7 +628,7 @@
       "udp": true,
       "premium": true,
       "ips": [
-        "15.204.178.214"
+        "135.148.70.188"
       ]
     },
     {
@@ -629,7 +640,7 @@
       "udp": true,
       "premium": true,
       "ips": [
-        "15.204.178.215"
+        "135.148.70.189"
       ]
     },
     {
@@ -641,7 +652,7 @@
       "udp": true,
       "premium": true,
       "ips": [
-        "15.204.178.216"
+        "135.148.70.190"
       ]
     }
   ]

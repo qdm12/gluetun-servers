@@ -1,6 +1,6 @@
 {
   "version": 6,
-  "timestamp": 1785990789,
+  "timestamp": 1793528443,
   "servers": [
     {
       "vpn": "openvpn",
@@ -50,6 +50,16 @@
       "udp": true,
       "ips": [
         "91.148.246.192"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Austria",
+      "city": "Vienna",
+      "hostname": "vie-007.vpn.privado.io",
+      "udp": true,
+      "ips": [
+        "91.148.246.201"
       ]
     },
     {
@@ -1146,16 +1156,6 @@
       "vpn": "openvpn",
       "country": "USA",
       "city": "Dallas",
-      "hostname": "dfw-055.vpn.privado.io",
-      "udp": true,
-      "ips": [
-        "81.171.60.10"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "USA",
-      "city": "Dallas",
       "hostname": "dfw-056.vpn.privado.io",
       "udp": true,
       "ips": [
@@ -1256,40 +1256,10 @@
       "vpn": "openvpn",
       "country": "USA",
       "city": "Los Angeles",
-      "hostname": "devbuild07.philosphyhq.com",
-      "udp": true,
-      "ips": [
-        "69.161.145.3"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "USA",
-      "city": "Los Angeles",
       "hostname": "gw12.mechanicalmen.org",
       "udp": true,
       "ips": [
         "45.38.18.233"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "USA",
-      "city": "Los Angeles",
-      "hostname": "gw67.mechanicalmen.org",
-      "udp": true,
-      "ips": [
-        "69.161.145.11"
-      ]
-    },
-    {
-      "vpn": "openvpn",
-      "country": "USA",
-      "city": "Los Angeles",
-      "hostname": "gw7.heyjcd.com",
-      "udp": true,
-      "ips": [
-        "69.161.145.7"
       ]
     },
     {
