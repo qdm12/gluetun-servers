@@ -1,0 +1,814 @@
+{
+  "version": 1,
+  "timestamp": 1773222660,
+  "servers": [
+    {
+      "vpn": "wireguard",
+      "country": "Argentina",
+      "city": "Buenos Aires",
+      "owned": true,
+      "server_name": "ar-bue",
+      "hostname": "ar-bue.azirevpn.net",
+      "wgpubkey": "HjziGvLqDPeFpsmU6aOT6DIEUleQ2bkppPmWeAy8fT0=",
+      "port_forward": true,
+      "ips": [
+        "200.110.149.179"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Australia",
+      "city": "Melbourne",
+      "owned": true,
+      "server_name": "au-mel",
+      "hostname": "au-mel.azirevpn.net",
+      "wgpubkey": "MR8prbpIXU8KpklTxc2juQMW1N9I8QiPn6D7en34Glg=",
+      "port_forward": true,
+      "ips": [
+        "79.127.130.98"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Australia",
+      "city": "Sydney",
+      "owned": true,
+      "server_name": "au-syd",
+      "hostname": "au-syd.azirevpn.net",
+      "wgpubkey": "Jnu3XyoVB8n0PaigX52fCK30edkspjVkJ/HLJgd33lQ=",
+      "port_forward": true,
+      "ips": [
+        "85.155.188.248"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Austria",
+      "city": "Vienna",
+      "owned": true,
+      "server_name": "at-vie",
+      "hostname": "at-vie.azirevpn.net",
+      "wgpubkey": "injPJkQmhbKJgf2oQAoBHreAZ9syp7g8ceGEob/vKRI=",
+      "port_forward": true,
+      "ips": [
+        "45.91.94.86"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Belgium",
+      "city": "Brussels",
+      "owned": true,
+      "server_name": "be-bru",
+      "hostname": "be-bru.azirevpn.net",
+      "wgpubkey": "3Qd5oS67n2RYKQjsK6cIGmsqx2BcH5NMsFNQlvPqjBM=",
+      "port_forward": true,
+      "ips": [
+        "79.127.224.85"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Canada",
+      "city": "Calgary",
+      "owned": true,
+      "server_name": "ca-cal",
+      "hostname": "ca-cal.azirevpn.net",
+      "wgpubkey": "91uevrsKeJaxcM6QJmQK2qHBcI/o3T3vwVa9uM5qsQY=",
+      "port_forward": true,
+      "ips": [
+        "38.240.225.120"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Canada",
+      "city": "Montréal",
+      "owned": true,
+      "server_name": "ca-mtr",
+      "hostname": "ca-mtr.azirevpn.net",
+      "wgpubkey": "wJHosLYPDdrjUUdwPksdghn5cF664sQq7oaeUxJ24Xk=",
+      "port_forward": true,
+      "ips": [
+        "167.160.95.118"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Canada",
+      "city": "Toronto",
+      "owned": true,
+      "server_name": "ca-tor",
+      "hostname": "ca-tor.azirevpn.net",
+      "wgpubkey": "p2NGYP6/RzLq8zfWjRaRFIIFywLGcK8lRWkdrXRE+Ho=",
+      "port_forward": true,
+      "ips": [
+        "208.68.93.231"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Canada",
+      "city": "Vancouver",
+      "owned": true,
+      "server_name": "ca-van",
+      "hostname": "ca-van.azirevpn.net",
+      "wgpubkey": "rif6whh0lHjgLGLUjq94hEPbHSOar5Oqxlo5WCV7wFM=",
+      "port_forward": true,
+      "ips": [
+        "79.127.254.133"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Chile",
+      "city": "Santiago",
+      "owned": true,
+      "server_name": "cl-scl",
+      "hostname": "cl-scl.azirevpn.net",
+      "wgpubkey": "FrbABNOtzufV0neCby9KUulcGO6ZemrHLJWfFT5kb0k=",
+      "port_forward": true,
+      "ips": [
+        "79.127.152.69"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Colombia",
+      "city": "Bogota",
+      "owned": true,
+      "server_name": "co-bog",
+      "hostname": "co-bog.azirevpn.net",
+      "wgpubkey": "nk9yPvG9c8xFxmHggbOeVmt20RlDQ89ulAqhylgJdFA=",
+      "port_forward": true,
+      "ips": [
+        "79.127.214.130"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Czech Republic",
+      "city": "Prague",
+      "owned": true,
+      "server_name": "cz-prg",
+      "hostname": "cz-prg.azirevpn.net",
+      "wgpubkey": "qALNAZS05jxlg8Co4nKzBabM01qci9+7Ryfworbip1g=",
+      "port_forward": true,
+      "ips": [
+        "109.61.87.101"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Denmark",
+      "city": "Copenhagen",
+      "owned": true,
+      "server_name": "dk-cph",
+      "hostname": "dk-cph.azirevpn.net",
+      "wgpubkey": "bp0LA6FyzOq7VPUQyaRigPq2ZZRrjgoIJ7/fsxs1L3I=",
+      "port_forward": true,
+      "ips": [
+        "45.148.18.136"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Estonia",
+      "city": "Tallinn",
+      "owned": true,
+      "server_name": "ee-tll",
+      "hostname": "ee-tll.azirevpn.net",
+      "wgpubkey": "hNa5hb5diL5wut9QxYtcvw3fzkykbtTqZ145bF9LulM=",
+      "port_forward": true,
+      "ips": [
+        "176.113.69.6"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Finland",
+      "city": "Helsinki",
+      "owned": true,
+      "server_name": "fi-hel",
+      "hostname": "fi-hel.azirevpn.net",
+      "wgpubkey": "7HmWjplnRB+Ho/3xJWHVHACpDx3KjYztpqoOhEpilEo=",
+      "port_forward": true,
+      "ips": [
+        "193.138.7.104"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "France",
+      "city": "Paris",
+      "owned": true,
+      "server_name": "fr-par",
+      "hostname": "fr-par.azirevpn.net",
+      "wgpubkey": "s+vJxWBIZqSN6980ha0Nfk2EoMJa2j3FQ1NrSQERlE8=",
+      "port_forward": true,
+      "ips": [
+        "62.115.229.56"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Germany",
+      "city": "Berlin",
+      "owned": true,
+      "server_name": "de-ber",
+      "hostname": "de-ber.azirevpn.net",
+      "wgpubkey": "+KvNvDDtjCSFUegJAbnYntBmJb936GjzMu3zGddCfSE=",
+      "port_forward": true,
+      "ips": [
+        "45.15.18.88"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Germany",
+      "city": "Düsseldorf",
+      "owned": true,
+      "server_name": "de-dus",
+      "hostname": "de-dus.azirevpn.net",
+      "wgpubkey": "EyBJUawu49A1d9e03Fa0xSMzw2NBEF+8y0DuFu9SF1M=",
+      "port_forward": true,
+      "ips": [
+        "176.113.68.6"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Germany",
+      "city": "Frankfurt am Main",
+      "owned": true,
+      "server_name": "de-fra",
+      "hostname": "de-fra.azirevpn.net",
+      "wgpubkey": "6KGlJBayBxwavWaCsQgfrGZBEdNf0/0vNvHoWMyXXwA=",
+      "port_forward": true,
+      "ips": [
+        "37.46.199.152"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Greece",
+      "city": "Athens",
+      "owned": true,
+      "server_name": "gr-ath",
+      "hostname": "gr-ath.azirevpn.net",
+      "wgpubkey": "dyzLMM5cxozi4XhKSkT9s+a7DUhO8akNQlFkU7XFWyo=",
+      "port_forward": true,
+      "ips": [
+        "79.127.218.5"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Hong Kong",
+      "city": "Hong Kong",
+      "owned": true,
+      "server_name": "hk-hkg",
+      "hostname": "hk-hkg.azirevpn.net",
+      "wgpubkey": "xNBQ9U6Xk1YsWw0QirhaaXX15Df8OKLKRv605sk9YGw=",
+      "port_forward": true,
+      "ips": [
+        "103.101.0.196"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Indonesia",
+      "city": "Jakarta",
+      "owned": true,
+      "server_name": "id-jkt",
+      "hostname": "id-jkt.azirevpn.net",
+      "wgpubkey": "boSoG8SMuBzLLuA0C/y4Z5j8nxsKiMWG95+zhJjeCi4=",
+      "port_forward": true,
+      "ips": [
+        "103.120.66.67"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Ireland",
+      "city": "Dublin",
+      "owned": true,
+      "server_name": "ie-dub",
+      "hostname": "ie-dub.azirevpn.net",
+      "wgpubkey": "6wc98mKi8HI1s47OsLlEBhnlWd13989C6srtOc+VKGc=",
+      "port_forward": true,
+      "ips": [
+        "79.127.161.197"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Israel",
+      "city": "Tel Aviv",
+      "owned": true,
+      "server_name": "il-tlv",
+      "hostname": "il-tlv.azirevpn.net",
+      "wgpubkey": "L9Dlkilhp1LS5gSapoaCteUTmzRnH3v4So2W37Cv0Q4=",
+      "port_forward": true,
+      "ips": [
+        "169.150.235.21"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Italy",
+      "city": "Milan",
+      "owned": true,
+      "server_name": "it-mil",
+      "hostname": "it-mil.azirevpn.net",
+      "wgpubkey": "jdf4cwBO6aJYyWoqM5WbF1oyOZbieHow5K3hjHp03Tg=",
+      "port_forward": true,
+      "ips": [
+        "45.15.18.56"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Italy",
+      "city": "Palermo",
+      "owned": true,
+      "server_name": "it-pmo",
+      "hostname": "it-pmo.azirevpn.net",
+      "wgpubkey": "m/msi90h0fuOdTuyj2SKshOzd0OHtetP2xStdx20WBo=",
+      "port_forward": true,
+      "ips": [
+        "79.127.246.101"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Japan",
+      "city": "Osaka",
+      "owned": true,
+      "server_name": "jp-osa",
+      "hostname": "jp-osa.azirevpn.net",
+      "wgpubkey": "14E5pfWIzLPlxlIwl2c/mMQaPWtToUOWc8qnrNPHzQM=",
+      "port_forward": true,
+      "ips": [
+        "194.114.136.198"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Japan",
+      "city": "Tokyo",
+      "owned": true,
+      "server_name": "jp-tyo",
+      "hostname": "jp-tyo.azirevpn.net",
+      "wgpubkey": "Hg26jJfKHr8hy8Y15weM7Ucro8C+HSaOovP0sHAmeV8=",
+      "port_forward": true,
+      "ips": [
+        "31.57.218.72"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Mexico",
+      "city": "Queretaro",
+      "owned": true,
+      "server_name": "mx-qro",
+      "hostname": "mx-qro.azirevpn.net",
+      "wgpubkey": "JKo9YvEv1cREhUUBJ/zaw7qvMy88nzI4XD+QO+t7xEY=",
+      "port_forward": true,
+      "ips": [
+        "79.127.229.245"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "owned": true,
+      "server_name": "nl-ams",
+      "hostname": "nl-ams.azirevpn.net",
+      "wgpubkey": "W+LE+uFRyMRdYFCf7Jw0OPERNd1bcIm0gTKf/traIUk=",
+      "port_forward": true,
+      "ips": [
+        "46.227.71.35"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "New Zealand",
+      "city": "Auckland",
+      "owned": true,
+      "server_name": "nz-akl",
+      "hostname": "nz-akl.azirevpn.net",
+      "wgpubkey": "SDWxGJXSsY7zsI0KkhknL/F/afMviWjwM4+BkwDFkkI=",
+      "port_forward": true,
+      "ips": [
+        "103.75.11.198"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Norway",
+      "city": "Oslo",
+      "owned": true,
+      "server_name": "no-osl",
+      "hostname": "no-osl.azirevpn.net",
+      "wgpubkey": "tjLpPmmJEpI4/urRi6cMCewLBcJWjabxmOh8+UH5nRY=",
+      "port_forward": true,
+      "ips": [
+        "45.148.18.72"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Poland",
+      "city": "Warsaw",
+      "owned": true,
+      "server_name": "pl-waw",
+      "hostname": "pl-waw.azirevpn.net",
+      "wgpubkey": "90cD2Oi9csf3RAXuASfORsyKR1IGv0ZlFUmkegTteEc=",
+      "port_forward": true,
+      "ips": [
+        "84.17.54.197"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Portugal",
+      "city": "Lisbon",
+      "owned": true,
+      "server_name": "pt-lis",
+      "hostname": "pt-lis.azirevpn.net",
+      "wgpubkey": "UXbhNFz463gRyh+UlFfo/GmfareJVEus/y+K87uU+zc=",
+      "port_forward": true,
+      "ips": [
+        "79.127.168.21"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Romania",
+      "city": "Bucharest",
+      "owned": true,
+      "server_name": "ro-buh",
+      "hostname": "ro-buh.azirevpn.net",
+      "wgpubkey": "PGhtux4Oq/zZOtRylPY6DyMYuoqTkLB5mqpOH6qBdUw=",
+      "port_forward": true,
+      "ips": [
+        "91.199.50.184"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Singapore",
+      "city": "Singapore",
+      "owned": true,
+      "server_name": "sg-sin",
+      "hostname": "sg-sin.azirevpn.net",
+      "wgpubkey": "/bHUZH87m0qtxF5etabQdxQ+aIFXMo91xFcPLts4x3E=",
+      "port_forward": true,
+      "ips": [
+        "185.152.34.83"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "South Africa",
+      "city": "Johannesburg",
+      "owned": true,
+      "server_name": "za-jnb",
+      "hostname": "za-jnb.azirevpn.net",
+      "wgpubkey": "utqhm2KmU6xnDlkuRToEvZEz0YiRQ2RWm31/aD6ySEk=",
+      "port_forward": true,
+      "ips": [
+        "102.218.204.211"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Spain",
+      "city": "Madrid",
+      "owned": true,
+      "server_name": "es-mad",
+      "hostname": "es-mad.azirevpn.net",
+      "wgpubkey": "KWHTarn7MvRayoRm5Bv1RkBi7fh6Oj7qGGaia1sl4Qw=",
+      "port_forward": true,
+      "ips": [
+        "45.15.18.24"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Spain",
+      "city": "Málaga",
+      "owned": true,
+      "server_name": "es-mal",
+      "hostname": "es-mal.azirevpn.net",
+      "wgpubkey": "vfeEsNMxM8OM3lk/0eTAjBv3MrxbLPFoSXVtANnFeSc=",
+      "port_forward": true,
+      "ips": [
+        "45.159.14.248"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Sweden",
+      "city": "Gothenburg",
+      "owned": true,
+      "server_name": "se-got",
+      "hostname": "se-got.azirevpn.net",
+      "wgpubkey": "6gCTdzDn9vxG+0ixPvHsHjLnC5bY0RmsT+niIzNPpxo=",
+      "port_forward": true,
+      "ips": [
+        "193.187.90.227"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Sweden",
+      "city": "Malmö",
+      "owned": true,
+      "server_name": "se-mma",
+      "hostname": "se-mma.azirevpn.net",
+      "wgpubkey": "kVQ/x2vyHPqs0vLJp+/d9oGEtSYcP9CtnDgkaZqRgjY=",
+      "port_forward": true,
+      "ips": [
+        "193.187.90.195"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Sweden",
+      "city": "Stockholm",
+      "owned": true,
+      "server_name": "se-sto",
+      "hostname": "se-sto.azirevpn.net",
+      "wgpubkey": "VYRJwI6n2Rpvh/gmYnUoyMJQDrUSdxls0JX9/6JlOEw=",
+      "port_forward": true,
+      "ips": [
+        "46.227.68.35"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Switzerland",
+      "city": "Zürich",
+      "owned": true,
+      "server_name": "ch-zrh",
+      "hostname": "ch-zrh.azirevpn.net",
+      "wgpubkey": "9wmuJNFKOH1wvPFW6CS/f3lwY7YnZ4ol37rkjIvuxX8=",
+      "port_forward": true,
+      "ips": [
+        "85.155.182.247"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Thailand",
+      "city": "Bangkok",
+      "owned": true,
+      "server_name": "th-bkk",
+      "hostname": "th-bkk.azirevpn.net",
+      "wgpubkey": "/zzpoWKbjgY6BAlQ99z5501SnKFJOR/5QQRJG7YHvhM=",
+      "port_forward": true,
+      "ips": [
+        "103.249.212.8"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "Ukraine",
+      "city": "Kyiv",
+      "owned": true,
+      "server_name": "ua-iev",
+      "hostname": "ua-iev.azirevpn.net",
+      "wgpubkey": "PnO60hl6Ah8/vS4GV8MIfTmP96LBsfHxDJwavSYqsQo=",
+      "port_forward": true,
+      "ips": [
+        "91.232.30.67"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United Kingdom",
+      "city": "London",
+      "owned": true,
+      "server_name": "gb-lon",
+      "hostname": "gb-lon.azirevpn.net",
+      "wgpubkey": "vNFZiDinSYNotCVZC3lzHDxSwFQ1XsmdF/tKt1+aK0w=",
+      "port_forward": true,
+      "ips": [
+        "185.41.242.227"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United Kingdom",
+      "city": "Manchester",
+      "owned": true,
+      "server_name": "gb-mnc",
+      "hostname": "gb-mnc.azirevpn.net",
+      "wgpubkey": "XxGZ9Se/TloUgHNWavxQj3XmbS4kTqDbuPMp8OKxJXs=",
+      "port_forward": true,
+      "ips": [
+        "83.97.16.35",
+        "83.97.16.38"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Ashburn",
+      "owned": true,
+      "server_name": "us-qas",
+      "hostname": "us-qas.azirevpn.net",
+      "wgpubkey": "wfNBDpaltyJgHPduK1a9jn2G/YIiCljRExVHlYDUDVQ=",
+      "port_forward": true,
+      "ips": [
+        "121.127.42.69"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Atlanta",
+      "owned": true,
+      "server_name": "us-atl",
+      "hostname": "us-atl.azirevpn.net",
+      "wgpubkey": "1qe9RYIuQJFBX0i//55+UkiHRRTEcSm+SsBuWJUF5gY=",
+      "port_forward": true,
+      "ips": [
+        "79.127.199.53"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Boston",
+      "owned": true,
+      "server_name": "us-bos",
+      "hostname": "us-bos.azirevpn.net",
+      "wgpubkey": "WYlEnWfqR6ikJZR36aIcpI/R2mzRTIeVZV15J79zXnA=",
+      "port_forward": true,
+      "ips": [
+        "79.127.248.2"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Chicago",
+      "owned": true,
+      "server_name": "us-chi",
+      "hostname": "us-chi.azirevpn.net",
+      "wgpubkey": "vCuwEP5vK7sjcMiyRVFDs7QFavAvvLi9jpV7xUSsSgc=",
+      "port_forward": true,
+      "ips": [
+        "121.127.34.204"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Dallas",
+      "owned": true,
+      "server_name": "us-dal",
+      "hostname": "us-dal.azirevpn.net",
+      "wgpubkey": "dNG/OKKUpyz0Z5vMFOmxzqjfb47PTpllqmahgXAGGUU=",
+      "port_forward": true,
+      "ips": [
+        "198.44.137.54",
+        "2607:9000:b00:6:198:44:137:54"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Denver",
+      "owned": true,
+      "server_name": "us-den",
+      "hostname": "us-den.azirevpn.net",
+      "wgpubkey": "BfwzNCi5VwZB/zS8DlhEewOfmnd9NZ7VoP47fB3rQ1A=",
+      "port_forward": true,
+      "ips": [
+        "95.173.220.89"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Houston",
+      "owned": true,
+      "server_name": "us-hou",
+      "hostname": "us-hou.azirevpn.net",
+      "wgpubkey": "OVZl4vfIFyN9Epzzg5x3Q0PlEM5gO8JvDIhagrULb3E=",
+      "port_forward": true,
+      "ips": [
+        "37.19.216.146"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Los Angeles",
+      "owned": true,
+      "server_name": "us-lax",
+      "hostname": "us-lax.azirevpn.net",
+      "wgpubkey": "vF5RA6zcvik3JsdxcSROBnJLPuU8JiI+t2zxd4txQiE=",
+      "port_forward": true,
+      "ips": [
+        "69.166.236.89"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Miami",
+      "owned": true,
+      "server_name": "us-mia",
+      "hostname": "us-mia.azirevpn.net",
+      "wgpubkey": "7U3kXuo8v1OgwRTpDArh4eOB3bl2G165eQq8uvFr118=",
+      "port_forward": true,
+      "ips": [
+        "45.92.19.139"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "New York",
+      "owned": true,
+      "server_name": "us-nyc",
+      "hostname": "us-nyc.azirevpn.net",
+      "wgpubkey": "HkIMh8QUhIbHte7X0pLWkfn7a1psF5+kngq23ZpPDQU=",
+      "port_forward": true,
+      "ips": [
+        "185.126.82.201"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Phoenix",
+      "owned": true,
+      "server_name": "us-phx",
+      "hostname": "us-phx.azirevpn.net",
+      "wgpubkey": "NOmOGusRp+ZRrSEKHbCrUeCqFjZ/+rUqVvgxTpEJfjo=",
+      "port_forward": true,
+      "ips": [
+        "198.44.133.150"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Raleigh",
+      "owned": true,
+      "server_name": "us-rag",
+      "hostname": "us-rag.azirevpn.net",
+      "wgpubkey": "NExfVpLVxI3nqgNNJBlA70aPFK7ehGDZi23J7eXvzk8=",
+      "port_forward": true,
+      "ips": [
+        "198.44.130.102"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Salt Lake City",
+      "owned": true,
+      "server_name": "us-slc",
+      "hostname": "us-slc.azirevpn.net",
+      "wgpubkey": "PEk2X2d+/6GsHL1vLtxUu1gmn7SuDdgH2Mj2nyL1gkA=",
+      "port_forward": true,
+      "ips": [
+        "198.44.139.22"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "San Francisco",
+      "owned": true,
+      "server_name": "us-sfo",
+      "hostname": "us-sfo.azirevpn.net",
+      "wgpubkey": "2/hyw6fg7PJlczUDvQxx7EvBwkT2tqO19mncQjQ+M1U=",
+      "port_forward": true,
+      "ips": [
+        "192.197.201.114"
+      ]
+    },
+    {
+      "vpn": "wireguard",
+      "country": "United States",
+      "city": "Seattle",
+      "owned": true,
+      "server_name": "us-sea",
+      "hostname": "us-sea.azirevpn.net",
+      "wgpubkey": "taFuUQVlzNMrw+5macMd0O+w9rS3snsc26Bd199bbXI=",
+      "port_forward": true,
+      "ips": [
+        "79.127.221.66"
+      ]
+    }
+  ]
+}
