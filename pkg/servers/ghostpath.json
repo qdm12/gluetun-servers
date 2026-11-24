@@ -1,0 +1,1286 @@
+{
+  "version": 1,
+  "timestamp": 1795517498,
+  "servers": [
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "city": "Brisbane",
+      "hostname": "bne1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "43.245.160.142"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "city": "Melbourne",
+      "hostname": "mel3.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "113.52.144.50"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "city": "Perth",
+      "hostname": "per6.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "103.231.89.206"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "city": "Sydney",
+      "hostname": "syd1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "163.47.126.10"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "city": "Sydney",
+      "hostname": "syd3.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "172.105.168.12"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Australia",
+      "city": "Sydney",
+      "hostname": "syd4.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "172.105.173.66"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Austria",
+      "city": "Graz",
+      "hostname": "grz1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "158.255.212.60"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Belgium",
+      "city": "Ostend",
+      "hostname": "ost2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "192.71.249.22"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Belgium",
+      "city": "Ostend",
+      "hostname": "ost3.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "192.71.249.81"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Brazil",
+      "city": "Sao Paulo",
+      "hostname": "gru2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "177.54.158.153"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "city": "Montreal",
+      "hostname": "yul1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "205.204.85.246"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "city": "Montreal",
+      "hostname": "yul2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "173.209.62.178"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "city": "Montreal",
+      "hostname": "yul3.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "67.215.7.10"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "city": "Toronto",
+      "hostname": "yyz1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "172.105.14.142"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "city": "Toronto",
+      "hostname": "yyz2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "172.105.9.120"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Canada",
+      "city": "Vancouver, BC",
+      "hostname": "yvr1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "192.111.132.46"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Chile",
+      "city": "Vina del Mar",
+      "hostname": "kna1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "37.235.52.26"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Czech Republic",
+      "city": "Prague",
+      "hostname": "prg1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "46.36.36.51"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Czech Republic",
+      "city": "Prague",
+      "hostname": "prg2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "46.36.36.98"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Czech Republic",
+      "city": "Prague",
+      "hostname": "prg3.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "193.235.207.24"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Denmark",
+      "city": "Copenhagen",
+      "hostname": "cph1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "93.90.116.25"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Estonia",
+      "city": "Tallinn",
+      "hostname": "tll1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "185.155.96.107"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "France",
+      "city": "Lillie",
+      "hostname": "lil1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "5.135.81.27"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "France",
+      "city": "Paris",
+      "hostname": "cdg1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "109.123.66.4"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "France",
+      "city": "Paris",
+      "hostname": "cdg2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "185.26.239.97"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "hostname": "fra1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "139.162.159.184"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "hostname": "fra2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "109.123.80.62"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "hostname": "fra4.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "139.162.175.126"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Germany",
+      "city": "Nurnberg",
+      "hostname": "nue1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "31.7.187.233"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Greece",
+      "city": "Athens",
+      "hostname": "ath1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "185.226.65.178"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Greece",
+      "city": "Thessaloniki",
+      "hostname": "skg1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "192.71.166.19"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Hong Kong",
+      "city": "Hong Kong",
+      "hostname": "hkg2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "158.255.208.240"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Hungary",
+      "city": "Budapest",
+      "hostname": "bud1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "91.219.239.203"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Iceland",
+      "city": "Reykjavik",
+      "hostname": "rkv1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "37.235.49.172"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "India",
+      "city": "Bangalore",
+      "hostname": "blr1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "139.59.42.121"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "India",
+      "city": "Mumbai",
+      "hostname": "bom1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "172.105.63.74"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Indonesia",
+      "city": "Jakarta",
+      "hostname": "cgk1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "119.235.252.142"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Ireland",
+      "city": "Dublin",
+      "hostname": "dub1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "92.51.242.25"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Israel",
+      "city": "Tel Aviv Yafo",
+      "hostname": "tlv2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "193.182.144.37"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Italy",
+      "city": "Milan",
+      "hostname": "mxp2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "149.154.157.221"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Italy",
+      "city": "Milan",
+      "hostname": "mxp3.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "149.154.157.112"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Japan",
+      "city": "Tokyo",
+      "hostname": "nrt1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "172.105.235.210"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Luxembourg",
+      "city": "Luxembourg",
+      "hostname": "lux1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "94.242.253.64"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "hostname": "kul1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "117.53.155.94"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Moldova",
+      "city": "Chisinau",
+      "hostname": "kiv1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "192.121.87.27"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "hostname": "ams1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "81.4.102.9"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "hostname": "ams2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "185.80.222.63"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "hostname": "ams4.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "151.236.14.29"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "hostname": "ams5.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "185.34.136.13"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "hostname": "ams6.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "151.236.14.57"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Norway",
+      "city": "Torp",
+      "hostname": "trf1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "185.125.169.11"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Panama",
+      "city": "Panama City",
+      "hostname": "pty2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "181.174.164.64"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Poland",
+      "city": "Gdansk",
+      "hostname": "gdn1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "212.7.220.28"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Poland",
+      "city": "Warsaw",
+      "hostname": "waw1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "212.7.220.28"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Portugal",
+      "city": "Lisbon",
+      "hostname": "lis1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "185.31.159.24"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Romania",
+      "city": "Bucharest",
+      "hostname": "buh2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "89.46.100.116"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Russian Federation",
+      "city": "Moscow",
+      "hostname": "svo1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "46.38.62.29"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Russian Federation",
+      "city": "Moscow",
+      "hostname": "svo2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "213.183.56.34"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Russian Federation",
+      "city": "St Petersburg",
+      "hostname": "led1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "213.183.54.28"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Serbia",
+      "city": "Belgrade",
+      "hostname": "beg1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "194.71.126.18"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Singapore",
+      "city": "Singapore",
+      "hostname": "sin1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "199.195.193.181"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Singapore",
+      "city": "Singapore",
+      "hostname": "sin2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "139.162.23.150"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Singapore",
+      "city": "Singapore",
+      "hostname": "sin3.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "139.162.55.80"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Slovenia",
+      "city": "Ljubljana",
+      "hostname": "lju1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "192.71.244.13"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Spain",
+      "city": "Barcelona",
+      "hostname": "bcn3.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "5.134.119.168"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Spain",
+      "city": "Madrid",
+      "hostname": "mad1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "37.235.53.46"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Sweden",
+      "city": "Halmstad",
+      "hostname": "had2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "109.74.11.69"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Sweden",
+      "city": "Stockholm",
+      "hostname": "arn1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "178.73.210.224"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Sweden",
+      "city": "Stockholm",
+      "hostname": "arn3.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "159.253.26.130"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Switzerland",
+      "city": "Zurich",
+      "hostname": "zrh1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "178.209.51.203"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Thailand",
+      "city": "Bangkok",
+      "hostname": "bkk1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "124.109.1.191"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Turkey",
+      "city": "Bursa",
+      "hostname": "yei1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "45.123.119.43"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "Ukraine",
+      "city": "Kiev",
+      "hostname": "iev1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "176.107.177.226"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "city": "Coventry",
+      "hostname": "cvt1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "77.74.195.22"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "city": "Eastleigh near Southampton",
+      "hostname": "sou1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "78.143.255.174"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "city": "Eastleigh near Southampton",
+      "hostname": "sou5.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "78.143.255.175"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "city": "Isle of Man",
+      "hostname": "iom1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "37.235.55.43"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "city": "London",
+      "hostname": "lhr1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "109.123.122.214"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "city": "London",
+      "hostname": "lhr2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "176.58.120.179"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "city": "London",
+      "hostname": "lhr4.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "37.123.117.149"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "city": "London",
+      "hostname": "lhr7.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "178.79.164.214"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "city": "London",
+      "hostname": "lhr8.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "139.162.220.234"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "city": "London",
+      "hostname": "lhr9.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "146.185.17.165"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "city": "Manchester",
+      "hostname": "man3.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "91.109.246.6"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United Kingdom",
+      "city": "Rochester",
+      "hostname": "rcs1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "91.227.223.185"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Atlanta",
+      "hostname": "atl1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "216.119.148.130"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Atlanta",
+      "hostname": "atl4.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "23.239.17.108"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Boston, MA",
+      "hostname": "bos1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "192.34.83.144"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Buffalo, NY",
+      "hostname": "buf1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "23.94.191.122"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Charlotte, NC",
+      "hostname": "clt2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "192.154.255.210"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Chicago",
+      "hostname": "ord3.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "174.127.124.132"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Chicago",
+      "hostname": "ord4.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "64.187.232.74"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Chicago",
+      "hostname": "ord5.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "206.217.136.90"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Columbus, OH",
+      "hostname": "cmh1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "207.182.134.3"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Dallas",
+      "hostname": "dfw2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "174.127.75.120"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Dallas",
+      "hostname": "dfw3.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "96.126.113.159"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Dallas",
+      "hostname": "dfw4.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "198.58.117.6"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Dallas",
+      "hostname": "dfw5.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "104.237.128.245"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Denver",
+      "hostname": "den1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "23.237.26.56"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Dubuque, IA",
+      "hostname": "dbq1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "199.102.44.15"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Houston",
+      "hostname": "hou2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "162.218.229.130"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Kansas City",
+      "hostname": "mci3.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "192.187.101.186"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Las Vegas",
+      "hostname": "las1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "104.143.10.8"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Los Angeles",
+      "hostname": "lax1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "172.245.220.35"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Los Angeles",
+      "hostname": "lax2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "104.247.220.10"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Miami",
+      "hostname": "mia6.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "192.171.19.130"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Miami",
+      "hostname": "mia7.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "199.127.62.98"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Morganton, NC",
+      "hostname": "mrn1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "199.241.190.29"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "New York",
+      "hostname": "lga1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "206.217.128.67"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "New York",
+      "hostname": "lga3.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "206.221.178.210"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Newark, NJ",
+      "hostname": "ewr1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "45.33.81.117"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Newark, NJ",
+      "hostname": "ewr2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "162.216.19.236"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Newark, NJ",
+      "hostname": "ewr3.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "50.116.54.120"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Palo Alto, CA",
+      "hostname": "pao1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "192.81.128.78"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Palo Alto, CA",
+      "hostname": "pao2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "45.79.88.135"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Palo Alto, CA",
+      "hostname": "pao3.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "173.255.243.165"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Phoenix",
+      "hostname": "phx2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "198.15.66.67"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Roseburg, OR",
+      "hostname": "rbg2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "154.16.113.68"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Salt Lake City",
+      "hostname": "slc3.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "209.95.48.179"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "San Diego",
+      "hostname": "san1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "108.161.151.123"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "San Jose",
+      "hostname": "sjc2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "199.195.192.104"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Seattle",
+      "hostname": "sea1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "107.181.191.68"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Seattle",
+      "hostname": "sea2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "167.88.112.78"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "St Louis",
+      "hostname": "stl1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "209.135.132.136"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Tampa",
+      "hostname": "tpa1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "104.156.54.182"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Washington, DC",
+      "hostname": "iad1.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "185.151.12.218"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Washington, DC",
+      "hostname": "iad2.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "185.151.12.226"
+      ]
+    },
+    {
+      "vpn": "openvpn",
+      "country": "United States",
+      "city": "Washington, DC",
+      "hostname": "iad4.gpvpn.com",
+      "udp": true,
+      "ips": [
+        "185.151.12.242"
+      ]
+    }
+  ]
+}

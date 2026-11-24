@@ -11,6 +11,9 @@
   "fastestvpn": {
     "filepath": "/gluetun/servers/fastestvpn.json"
   },
+  "ghostpath": {
+    "filepath": "/gluetun/servers/ghostpath.json"
+  },
   "giganews": {
     "filepath": "/gluetun/servers/giganews.json"
   },
